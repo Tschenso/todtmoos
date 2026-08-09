@@ -1,7 +1,7 @@
 {
     "schema_version":  2,
-    "catalog_version":  "2026-08-09.4",
-    "note":  "Öffentlicher Katalog des Ausflugsfinders Todtmoos (Südschwarzwald), live auf tschenso.github.io/todtmoos. Redaktionell belegte Ziele in und um Todtmoos plus die ortsunabhängigen Aktivitätsvorlagen. Das Feld distance_from_wuerzburg_km meint hier die Straßenkilometer ab Todtmoos (Feldname aus der Schwesterseite übernommen). Änderungen bitte per Pull-Request, siehe README.",
+    "catalog_version":  "2026-08-09.5",
+    "note":  "Öffentlicher Katalog des Ausflugsfinders Südschwarzwald mit Basis Todtmoos, live auf tschenso.github.io/todtmoos. Redaktionell belegte Ziele von Todtmoos bis ins Dreiländereck plus ortsunabhängige Aktivitätsvorlagen. Das Feld distance_from_wuerzburg_km meint hier die Straßenkilometer ab Todtmoos (Feldname aus der Schwesterseite übernommen). Änderungen bitte per Pull-Request, siehe README.",
     "activities":  [
                        {
                            "seed_key":  "wallfahrtskirche-todtmoos",
@@ -2187,6 +2187,852 @@
                                            {
                                                "url":  "https://www.krunkelbach.de/",
                                                "publisher":  "Krunkelbachhütte",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "triberger-wasserfaelle",
+                           "tags":  [
+                                        "wald-natur",
+                                        "aussicht"
+                                    ],
+                           "title":  "Triberger Wasserfälle",
+                           "summary":  "Deutschlands höchste Wasserfälle: die Gutach stürzt über sieben Stufen 163 Meter in die Tiefe.",
+                           "activity_type":  "Wasserfall",
+                           "locality":  "Triberg",
+                           "distance_from_wuerzburg_km":  90,
+                           "cost_status":  "known",
+                           "cost_per_person_cents":  800,
+                           "additional_costs":  "Preisstand 2025 (Sommer, Erwachsene); Kinder- und Familientarife vor Ort. Eintritt schließt das Museum Triberg-Fantasy ein.",
+                           "cost_valid_until":  "2026-11-07",
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Täglich geöffnet: Mai–Sept 9–19 Uhr, Winter verkürzt 10–16 Uhr; abends bis 22 Uhr beleuchtet.",
+                           "environment":  "outdoor",
+                           "duration_min":  90,
+                           "duration_max":  180,
+                           "booking_required":  false,
+                           "step_free":  false,
+                           "accessibility_text":  "Wege mit Treppen und Steigungen entlang der Kaskaden; im Winter nur bis zur ersten Plattform. Nicht barrierefrei.",
+                           "preparation_text":  "Rund 90 km Anfahrt – als Tagesausflug planen. Festes Schuhwerk, bei Nässe rutschig.",
+                           "plan_b":  "Todtnauer Wasserfall (deutlich näher).",
+                           "pre_departure_checks":  [
+                                                        "Lange Anfahrt einplanen",
+                                                        "Festes Schuhwerk",
+                                                        "Eintritt einplanen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.triberg.de/tourismus-freizeit/tourismus-freizeit/natur-erlebnis/deutschlands-hoechste-wasserfaelle",
+                                               "publisher":  "Stadt Triberg",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "europa-park-rust",
+                           "tags":  [
+                                        "bewegung"
+                                    ],
+                           "title":  "Europa-Park Rust",
+                           "summary":  "Größter Freizeitpark Deutschlands mit europäischen Themenbereichen – ein ganzer Tag, kein Halbtagsausflug.",
+                           "activity_type":  "Freizeitpark",
+                           "locality":  "Rust",
+                           "distance_from_wuerzburg_km":  95,
+                           "cost_status":  "known",
+                           "cost_per_person_cents":  6700,
+                           "additional_costs":  "Kinder 4–11 J. ab 56,50 €, Senioren und Gäste mit Behinderung ab 56,50 €; Preise saisonal gestaffelt. Online buchen empfohlen.",
+                           "cost_valid_until":  "2026-11-07",
+                           "sunday_status":  "seasonal",
+                           "sunday_text":  "Sommersaison 28.03.–25.09.2026 täglich ab 9 Uhr; Halloween bis 01.11., Wintersaison ab 02.11. täglich ab 11 Uhr.",
+                           "environment":  "outdoor",
+                           "duration_min":  480,
+                           "duration_max":  660,
+                           "booking_required":  true,
+                           "step_free":  null,
+                           "accessibility_text":  "Weitläufiges Parkgelände; viele Attraktionen mit Mindestgröße. Barrierefreiheit über den Park erfragen.",
+                           "preparation_text":  "Rund 95 km Anfahrt und ein voller Tag. Tickets online kaufen (deutlich günstiger als an der Kasse); früh anreisen wegen der Parkplätze.",
+                           "plan_b":  "Steinwasen-Park (kleiner, näher).",
+                           "pre_departure_checks":  [
+                                                        "Tickets vorab online kaufen",
+                                                        "Ganzen Tag und Anfahrt einplanen",
+                                                        "Mindestgrößen für Attraktionen prüfen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  "https://www.europapark.de/",
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.europapark.de/",
+                                               "publisher":  "Europa-Park",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "basel-altstadt-muenster",
+                           "tags":  [
+                                        "museum-kultur",
+                                        "aussicht"
+                                    ],
+                           "title":  "Basel: Altstadt, Münster und Pfalz",
+                           "summary":  "Schweizer Kulturstadt am Rhein: rotes Münster aus Sandstein, die Aussichtsterrasse Pfalz und die Rheinfähren.",
+                           "activity_type":  "Altstadt und Kirche",
+                           "locality":  "Basel (Schweiz)",
+                           "distance_from_wuerzburg_km":  60,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "Altstadt, Münster-Kreuzgang und Pfalz frei; Fähren und Museen kostenpflichtig (Schweizer Franken).",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Kreuzgang täglich 8 Uhr bis zur Dämmerung (längstens 20 Uhr); Altstadt und Pfalz jederzeit zugänglich.",
+                           "environment":  "mixed",
+                           "duration_min":  180,
+                           "duration_max":  360,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Altstadt mit Kopfsteinpflaster und Steigungen; von der Pfalz führen Treppen zur Fähre hinunter.",
+                           "preparation_text":  "Personalausweis mitnehmen (Grenze). In der Schweiz gilt der Franken – Karte oder Bargeld klären. Mit dem Zug ab Basel Bad Bf gut erreichbar.",
+                           "plan_b":  "Freiburg (Deutschland, ohne Grenze).",
+                           "pre_departure_checks":  [
+                                                        "Ausweis für die Grenze mitnehmen",
+                                                        "Schweizer Franken oder Karte klären",
+                                                        "Gottesdienstzeiten im Münster beachten"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2027-02-05",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.basel.com/en/places-of-interest/old-town",
+                                               "publisher":  "Basel Tourismus",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "zoo-basel",
+                           "tags":  [
+                                        "tiere"
+                                    ],
+                           "title":  "Zoo Basel (Zolli)",
+                           "summary":  "Traditionsreicher Zoo mitten in Basel, 365 Tage im Jahr geöffnet.",
+                           "activity_type":  "Zoo",
+                           "locality":  "Basel (Schweiz)",
+                           "distance_from_wuerzburg_km":  60,
+                           "cost_status":  "known",
+                           "cost_per_person_cents":  2200,
+                           "additional_costs":  "Preis in Schweizer Franken (CHF 22 Erwachsene, inkl. freiwilligem Naturschutzfranken); Jugendliche CHF 16, Senioren CHF 20. Der Euro-Betrag ist nur ein Näherungswert.",
+                           "cost_valid_until":  "2026-11-07",
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "365 Tage im Jahr geöffnet; Saisonzeiten auf der Zoo-Website prüfen.",
+                           "environment":  "outdoor",
+                           "duration_min":  180,
+                           "duration_max":  300,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Zoogelände in der Stadt; überwiegend gut begehbar, Details beim Zoo erfragen.",
+                           "preparation_text":  "Ausweis für die Grenze; Bezahlung in Schweizer Franken. Mit Tram vom Bahnhof Basel SBB gut erreichbar.",
+                           "plan_b":  "Wildgehege St. Blasien (frei, näher).",
+                           "pre_departure_checks":  [
+                                                        "Ausweis für die Grenze",
+                                                        "Franken oder Karte klären",
+                                                        "Preis in CHF beachten"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.zoobasel.ch/de/zoobesuch/r/2/eintrittspreise/",
+                                               "publisher":  "Zoo Basel",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "vitra-campus-weil",
+                           "tags":  [
+                                        "museum-kultur",
+                                        "regenfest",
+                                        "bewegung"
+                                    ],
+                           "title":  "Vitra Campus Weil am Rhein",
+                           "summary":  "Architektur-Campus mit Design-Museum, Schaudepot und einem 30 m hohen Rutschturm mit 44 m Röhrenrutsche.",
+                           "activity_type":  "Design und Architektur",
+                           "locality":  "Weil am Rhein",
+                           "distance_from_wuerzburg_km":  58,
+                           "cost_status":  "known",
+                           "cost_per_person_cents":  1600,
+                           "additional_costs":  "Design-Museum 16 € (ermäßigt 13 €), Kombi mit Schaudepot 26 €; Campus-Gelände und Rutschturm frei zugänglich.",
+                           "cost_valid_until":  "2026-11-07",
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Campus täglich 10–18 Uhr; Rutschturm zu denselben Zeiten.",
+                           "environment":  "mixed",
+                           "duration_min":  120,
+                           "duration_max":  300,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Campus überwiegend eben; der Rutschturm erfordert einen Aufstieg über Treppen.",
+                           "preparation_text":  "Bauten von Zaha Hadid, Frank Gehry und Herzog & de Meuron. Museumstickets online kaufen; der Rutschturm ist kostenlos.",
+                           "plan_b":  "Basel Altstadt (in der Nähe).",
+                           "pre_departure_checks":  [
+                                                        "Museumstickets online kaufen",
+                                                        "Für den Rutschturm feste Schuhe",
+                                                        "Anreise über Weil am Rhein planen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.design-museum.de/de/informationen/ihr-besuch.html",
+                                               "publisher":  "Vitra Design Museum",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "ravennaschlucht",
+                           "tags":  [
+                                        "wald-natur",
+                                        "aussicht"
+                                    ],
+                           "title":  "Ravennaschlucht im Höllental",
+                           "summary":  "Wildromantische Schlucht unter dem 37 m hohen Viadukt der Höllentalbahn, mit zwei Wasserfällen und historischen Mühlen.",
+                           "activity_type":  "Schlucht und Wanderung",
+                           "locality":  "Breitnau / Hinterzarten",
+                           "distance_from_wuerzburg_km":  40,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "Schlucht frei zugänglich; Parken am Hofgut Sternen kostenpflichtig (Tagesticket rund 3,50 €).",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Ganzjährig rund um die Uhr frei zugänglich; Start auch ab Bahnhof Hinterzarten möglich.",
+                           "environment":  "outdoor",
+                           "duration_min":  120,
+                           "duration_max":  300,
+                           "booking_required":  false,
+                           "step_free":  false,
+                           "accessibility_text":  "Schluchtweg mit Treppen und Stegen; nicht barrierefrei.",
+                           "preparation_text":  "Mit der Höllentalbahn gut erreichbar. Im Advent findet in der Schlucht ein bekannter Weihnachtsmarkt statt – dann sehr voll.",
+                           "plan_b":  "Wehraschlucht (näher an Todtmoos).",
+                           "pre_departure_checks":  [
+                                                        "Festes Schuhwerk",
+                                                        "Parken oder Bahn planen",
+                                                        "Im Advent mit Andrang rechnen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2027-02-05",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.hochschwarzwald.de/erleben/ausflugsziele/ausflugsziele-schwarzwald/ravennaschlucht",
+                                               "publisher":  "Hochschwarzwald Tourismus",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "schauinslandbahn",
+                           "tags":  [
+                                        "aussicht",
+                                        "bewegung"
+                                    ],
+                           "title":  "Schauinslandbahn und Gipfel",
+                           "summary":  "Längste Umlaufseilbahn Deutschlands auf Freiburgs Hausberg – oben Panoramablick und der 31 m hohe Eugen-Keidel-Turm.",
+                           "activity_type":  "Seilbahn und Aussichtsberg",
+                           "locality":  "Freiburg-Horben",
+                           "distance_from_wuerzburg_km":  50,
+                           "cost_status":  "known",
+                           "cost_per_person_cents":  1300,
+                           "additional_costs":  "Berg- und Talfahrt ab 13 € (ermäßigte Tarife u. a. mit Deutschland-Ticket); Turm und Wanderwege frei.",
+                           "cost_valid_until":  "2026-11-07",
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Ganzjährig täglich 9–17 Uhr, im Sommer teils bis 18 Uhr.",
+                           "environment":  "mixed",
+                           "duration_min":  150,
+                           "duration_max":  300,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Seilbahn barrierearm; der Aussichtsturm hat Treppen. Gipfelwege teils uneben.",
+                           "preparation_text":  "Oben mehrere Wanderwege und Einkehr. Wetter und Fernsicht vorab prüfen; warme Kleidung, oben deutlich kühler.",
+                           "plan_b":  "Belchen (frei, kein Bahnticket nötig).",
+                           "pre_departure_checks":  [
+                                                        "Wetter und Fernsicht prüfen",
+                                                        "Warme Kleidung mitnehmen",
+                                                        "Bergbahn-Tarif prüfen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.schauinslandbahn.de/de/informationen/tarife",
+                                               "publisher":  "Schauinslandbahn",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "museums-bergwerk-schauinsland",
+                           "tags":  [
+                                        "wissenschaft",
+                                        "museum-kultur",
+                                        "regenfest"
+                                    ],
+                           "title":  "Museums-Bergwerk Schauinsland",
+                           "summary":  "Größtes Bergwerk des Schwarzwalds mit über 100 km Grubengebäude – zu besichtigen in 45-minütigen Führungen.",
+                           "activity_type":  "Besucherbergwerk",
+                           "locality":  "Freiburg-Schauinsland",
+                           "distance_from_wuerzburg_km":  50,
+                           "cost_status":  "known",
+                           "cost_per_person_cents":  800,
+                           "additional_costs":  "Kinder 4–12 J. 6 €. Nur mit Führung.",
+                           "cost_valid_until":  "2026-11-07",
+                           "sunday_status":  "seasonal",
+                           "sunday_text":  "Führungen Ostern bis Anfang November stündlich 11:30–15:30 Uhr an Mi, Sa, So und Feiertagen; Juli bis Mitte September täglich außer Montag.",
+                           "environment":  "indoor",
+                           "duration_min":  60,
+                           "duration_max":  120,
+                           "booking_required":  true,
+                           "step_free":  false,
+                           "accessibility_text":  "Bergwerksstollen mit Stufen und engen Passagen; nicht barrierefrei.",
+                           "preparation_text":  "Unter Tage konstant kühl – warme Kleidung und festes Schuhwerk. Gut mit der Schauinslandbahn kombinierbar.",
+                           "plan_b":  "Besucherbergwerk Hoffnungsstollen Todtmoos (näher).",
+                           "pre_departure_checks":  [
+                                                        "Warme Kleidung mitnehmen",
+                                                        "Führungszeiten prüfen",
+                                                        "Mit Schauinslandbahn kombinieren"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.schauinsland.de/museums-bergwerk/fuehrungen/",
+                                               "publisher":  "Museums-Bergwerk Schauinsland",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "erdmannshoehle-hasel",
+                           "tags":  [
+                                        "wissenschaft",
+                                        "regenfest"
+                                    ],
+                           "title":  "Erdmannshöhle Hasel",
+                           "summary":  "Eine der ältesten Tropfsteinhöhlen Deutschlands; ihr größter Stalagmit steht im Guinness-Buch und ist rund 135.000 Jahre alt.",
+                           "activity_type":  "Tropfsteinhöhle",
+                           "locality":  "Hasel",
+                           "distance_from_wuerzburg_km":  22,
+                           "cost_status":  "unknown",
+                           "cost_per_person_cents":  null,
+                           "additional_costs":  "Eintrittspreise über die Gemeinde Hasel – vorab prüfen.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "seasonal",
+                           "sunday_text":  "Saison 29.03.–01.11.2026 an allen Sa, So und Feiertagen 10–16 Uhr (letzter Einlass 15:30); in den Schulferien auch werktags.",
+                           "environment":  "indoor",
+                           "duration_min":  60,
+                           "duration_max":  90,
+                           "booking_required":  false,
+                           "step_free":  false,
+                           "accessibility_text":  "Schauteil rund 360 m mit Stufen; nicht barrierefrei.",
+                           "preparation_text":  "In der Höhle konstant kühl – Jacke mitnehmen. Führungen; Anmeldung für Gruppen empfohlen.",
+                           "plan_b":  "Besucherbergwerk Hoffnungsstollen Todtmoos.",
+                           "pre_departure_checks":  [
+                                                        "Jacke für die Höhle mitnehmen",
+                                                        "Saison und Öffnungstage prüfen",
+                                                        "Eintritt vor Ort erfragen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.gemeinde-hasel.de/startseite/freizeit+_+tourismus/oeffnungszeiten+_+eintrittspreise.html",
+                                               "publisher":  "Gemeinde Hasel",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "burg-roetteln",
+                           "tags":  [
+                                        "museum-kultur",
+                                        "aussicht"
+                                    ],
+                           "title":  "Burg Rötteln Lörrach",
+                           "summary":  "Eine der größten Burgruinen Südbadens mit weitem Blick ins Dreiländereck.",
+                           "activity_type":  "Burgruine",
+                           "locality":  "Lörrach-Haagen",
+                           "distance_from_wuerzburg_km":  45,
+                           "cost_status":  "unknown",
+                           "cost_per_person_cents":  null,
+                           "additional_costs":  "Unterburg laut Quellen ohne Eintritt; für Museum und Oberburg Preise vor Ort erfragen.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Mitte März bis Mitte November täglich 10–18 Uhr; Mitte November bis Mitte März an Wochenenden und Feiertagen 11–16 Uhr.",
+                           "environment":  "mixed",
+                           "duration_min":  90,
+                           "duration_max":  180,
+                           "booking_required":  false,
+                           "step_free":  false,
+                           "accessibility_text":  "Burgruine mit Treppen, Türmen und unebenem Gelände; nicht barrierefrei.",
+                           "preparation_text":  "Festes Schuhwerk für den Aufstieg und die Türme. Bei klarer Sicht Blick bis in die Schweiz und ins Elsass.",
+                           "plan_b":  "Laufenburg (Altstadt am Rhein).",
+                           "pre_departure_checks":  [
+                                                        "Festes Schuhwerk",
+                                                        "Saisonzeiten prüfen",
+                                                        "Eintritt für Museum erfragen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.burgruine-roetteln.de/oeffnungszeiten.htm",
+                                               "publisher":  "Burgruine Rötteln",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "badeparadies-titisee",
+                           "tags":  [
+                                        "hallenbad",
+                                        "regenfest"
+                                    ],
+                           "title":  "Badeparadies Schwarzwald Titisee",
+                           "summary":  "Großes Erlebnisbad mit Palmenoase, Rutschenwelt und Saunabereich – das Schlechtwetterziel im Hochschwarzwald.",
+                           "activity_type":  "Erlebnisbad",
+                           "locality":  "Titisee-Neustadt",
+                           "distance_from_wuerzburg_km":  40,
+                           "cost_status":  "known",
+                           "cost_per_person_cents":  2600,
+                           "additional_costs":  "Dynamische Preise ab rund 26 € je nach Tag und Bereich; Galaxy, Palmenoase und Sauna getrennt buchbar.",
+                           "cost_valid_until":  "2026-11-07",
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Palmenoase und Palais Vital täglich 9–22 Uhr; Galaxy Mi–Fr 14–22, Sa/So 9–22 Uhr.",
+                           "environment":  "indoor",
+                           "duration_min":  180,
+                           "duration_max":  300,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Großes Bad mit mehreren Ebenen; Barrierefreiheit vorab erfragen. Altersbeschränkung in der Palmenoase (am Wochenende aufgehoben).",
+                           "preparation_text":  "Badesachen mitnehmen. Preise sind tagesabhängig – vorab online prüfen und buchen.",
+                           "plan_b":  "Aqualon Therme Bad Säckingen (näher).",
+                           "pre_departure_checks":  [
+                                                        "Tagespreis vorab online prüfen",
+                                                        "Badesachen mitnehmen",
+                                                        "Bereich (Galaxy/Palmenoase) wählen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  "https://www.badeparadies-schwarzwald.de/",
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.badeparadies-schwarzwald.de/de/informationen/oeffnungszeiten-tarife.php",
+                                               "publisher":  "Badeparadies Schwarzwald",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "kaiserstuhl-totenkopf",
+                           "tags":  [
+                                        "wald-natur",
+                                        "aussicht"
+                                    ],
+                           "title":  "Kaiserstuhl: Totenkopf und Badberg",
+                           "summary":  "Vulkanisches Weinbaugebiet mit Terrassenlandschaft; vom Totenkopf (557 m) Blick über Rheinebene, Schwarzwald und Vogesen.",
+                           "activity_type":  "Wanderung und Aussicht",
+                           "locality":  "Kaiserstuhl (Vogtsburg)",
+                           "distance_from_wuerzburg_km":  90,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Frei zugängliche Wanderwege; das Naturschutzgebiet Badberg ist ganzjährig begehbar – auf den Wegen bleiben.",
+                           "environment":  "outdoor",
+                           "duration_min":  180,
+                           "duration_max":  300,
+                           "booking_required":  false,
+                           "step_free":  false,
+                           "accessibility_text":  "Wanderwege durch Weinterrassen und Trockenrasen, teils steil; nicht barrierefrei.",
+                           "preparation_text":  "Rund 90 km Anfahrt. Im Frühjahr blüht der Badberg besonders artenreich; im Sommer sehr heiß – Sonnenschutz und Wasser mitnehmen.",
+                           "plan_b":  "Belchen (näher, ebenfalls Weitblick).",
+                           "pre_departure_checks":  [
+                                                        "Lange Anfahrt einplanen",
+                                                        "Sonnenschutz und Wasser",
+                                                        "Im Naturschutzgebiet auf den Wegen bleiben"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2027-02-05",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.schwarzwald-tourismus.info/touren/kaiserstuhlpfad-158dd7a44d",
+                                               "publisher":  "Schwarzwald Tourismus",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "mundenhof-freiburg",
+                           "tags":  [
+                                        "tiere",
+                                        "ohne-auto"
+                                    ],
+                           "title":  "Tier-Natur-Erlebnispark Mundenhof",
+                           "summary":  "Mit 38 Hektar das größte Tiergehege Baden-Württembergs – Eintritt frei, Gelände ganzjährig zugänglich.",
+                           "activity_type":  "Tiergehege",
+                           "locality":  "Freiburg",
+                           "distance_from_wuerzburg_km":  55,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "Eintritt frei; Parkgebühr rund 10 € pro Pkw (September–März werktags günstiger).",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Gelände ganzjährig und rund um die Uhr zugänglich; Eintritt kostenlos.",
+                           "environment":  "outdoor",
+                           "duration_min":  120,
+                           "duration_max":  240,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Weitläufiges, überwiegend ebenes Gelände; gut mit Kinderwagen begehbar.",
+                           "preparation_text":  "Haus- und Nutztierrassen aus aller Welt auf großen Koppeln. Mit Bus/Straßenbahn ab Freiburg erreichbar – spart die Parkgebühr.",
+                           "plan_b":  "Wildgehege St. Blasien (näher, ebenfalls frei).",
+                           "pre_departure_checks":  [
+                                                        "Parkgebühr oder ÖPNV einplanen",
+                                                        "Wetterfeste Kleidung",
+                                                        "Verpflegung mitnehmen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2027-02-05",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.mundenhof.de/",
+                                               "publisher":  "Mundenhof Freiburg",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "rheinfall-schaffhausen",
+                           "tags":  [
+                                        "wald-natur",
+                                        "aussicht"
+                                    ],
+                           "title":  "Rheinfall bei Schaffhausen",
+                           "summary":  "Größter Wasserfall Europas: 150 m breit, gewaltige Wassermassen – die öffentlichen Bereiche sind kostenlos zugänglich.",
+                           "activity_type":  "Wasserfall",
+                           "locality":  "Neuhausen am Rheinfall (Schweiz)",
+                           "distance_from_wuerzburg_km":  85,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "Nordseite und öffentliche Bereiche frei; Schloss Laufen auf der Südseite CHF 5 (Kinder CHF 3).",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "365 Tage rund um die Uhr frei zugänglich; Ticketing und Shop täglich 8–19 Uhr.",
+                           "environment":  "outdoor",
+                           "duration_min":  120,
+                           "duration_max":  240,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Aussichtsplattformen über Treppen; die Nordseite ist leichter zugänglich als die Kanzeln am Schloss Laufen.",
+                           "preparation_text":  "Rund 85 km und Grenzübertritt – Ausweis mitnehmen, Bezahlung in Franken. Bootsfahrten zum Felsen saisonal und kostenpflichtig.",
+                           "plan_b":  "Todtnauer Wasserfall (deutlich näher).",
+                           "pre_departure_checks":  [
+                                                        "Ausweis für die Grenze",
+                                                        "Franken oder Karte klären",
+                                                        "Lange Anfahrt einplanen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2027-02-05",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://rheinfall.ch/de/informieren/oeffnungszeiten-preise.html",
+                                               "publisher":  "Rheinfall",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "skimuseum-hinterzarten",
+                           "tags":  [
+                                        "museum-kultur",
+                                        "regenfest"
+                                    ],
+                           "title":  "Schwarzwälder Skimuseum Hinterzarten",
+                           "summary":  "Skigeschichte des Schwarzwalds im historischen Hugenhof – von den ersten Brettern bis zu den Olympiasiegern.",
+                           "activity_type":  "Museum",
+                           "locality":  "Hinterzarten",
+                           "distance_from_wuerzburg_km":  42,
+                           "cost_status":  "unknown",
+                           "cost_per_person_cents":  null,
+                           "additional_costs":  "Eintrittspreise nicht online belegt – vor Ort oder telefonisch erfragen.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Sa, So und Feiertage 12–17 Uhr (Di, Mi, Fr 14–17 Uhr); jeden 2. und 4. Samstag offene Führung um 15 Uhr.",
+                           "environment":  "indoor",
+                           "duration_min":  45,
+                           "duration_max":  90,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Museum im historischen Hugenhof; Barrierefreiheit vorab erfragen.",
+                           "preparation_text":  "Gut mit der Ravennaschlucht oder dem Titisee zu einem Tagesausflug zu verbinden.",
+                           "plan_b":  "Heimatmuseum Hüsli Grafenhausen.",
+                           "pre_departure_checks":  [
+                                                        "Öffnungstage prüfen",
+                                                        "Eintritt vor Ort erfragen",
+                                                        "Mit Ravennaschlucht kombinieren"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.schwarzwaelder-skimuseum.de/seite/291028/",
+                                               "publisher":  "Schwarzwälder Skimuseum",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "staufen-breisgau",
+                           "tags":  [
+                                        "museum-kultur",
+                                        "aussicht"
+                                    ],
+                           "title":  "Staufen im Breisgau mit Burgruine",
+                           "summary":  "Fachwerkstädtchen am Rand des Münstertals mit frei zugänglicher Burgruine über den Weinbergen – die Faust-Stadt.",
+                           "activity_type":  "Altstadt und Burgruine",
+                           "locality":  "Staufen im Breisgau",
+                           "distance_from_wuerzburg_km":  55,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "Altstadt und Burgruine frei; kein Kiosk an der Ruine.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Burgruine Tag und Nacht frei zugänglich; Altstadt jederzeit.",
+                           "environment":  "outdoor",
+                           "duration_min":  120,
+                           "duration_max":  240,
+                           "booking_required":  false,
+                           "step_free":  false,
+                           "accessibility_text":  "Fußweg zur Ruine ab der Altstadt rund 15 Minuten, ansteigend; Ruine ohne Geländer an allen Stellen.",
+                           "preparation_text":  "Der Alchemist Johann Georg Faust starb hier 1539 – Vorbild für Goethes Faust. Festes Schuhwerk für den Aufstieg.",
+                           "plan_b":  "Kloster St. Trudpert im Münstertal (nebenan).",
+                           "pre_departure_checks":  [
+                                                        "Festes Schuhwerk für den Aufstieg",
+                                                        "Verpflegung mitnehmen",
+                                                        "Mit Münstertal kombinieren"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2027-02-05",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://de.wikivoyage.org/wiki/Staufen_im_Breisgau",
+                                               "publisher":  "Wikivoyage",
+                                               "status":  "derived",
+                                               "checked_on":  "2026-08-09"
+                                           },
+                                           {
+                                               "url":  "https://www.breisgau-burgen.de/de/index.php/breisgau-burgen/burgen-q-z/staufen-burg-staufen",
+                                               "publisher":  "Breisgau-Burgen",
+                                               "status":  "derived",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "kloster-st-trudpert",
+                           "tags":  [
+                                        "museum-kultur",
+                                        "garten-park"
+                                    ],
+                           "title":  "Kloster St. Trudpert Münstertal",
+                           "summary":  "Barocke Klosteranlage in einem der schönsten Täler des Schwarzwalds – die Kirche ist täglich zur Besichtigung offen.",
+                           "activity_type":  "Kloster und Kirche",
+                           "locality":  "Münstertal",
+                           "distance_from_wuerzburg_km":  50,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "Kirche und Klostergarten frei; Führungen teils kostenpflichtig.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Barocke Pfarrkirche täglich außerhalb der Gottesdienste bis zur Dämmerung geöffnet; Mai–Okt freitags 16 Uhr offene Kirchenführung ohne Anmeldung.",
+                           "environment":  "mixed",
+                           "duration_min":  60,
+                           "duration_max":  150,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Kirche und Klostergarten überwiegend ebenerdig; Details vor Ort.",
+                           "preparation_text":  "Um 800 als erstes rechtsrheinisches Benediktinerkloster gegründet. Gottesdienstzeiten respektieren; gut mit Staufen kombinierbar.",
+                           "plan_b":  "Dom St. Blasien (näher).",
+                           "pre_departure_checks":  [
+                                                        "Gottesdienstzeiten beachten",
+                                                        "Führungstermin optional prüfen",
+                                                        "Mit Staufen kombinieren"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2027-02-05",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.schwarzwald-tourismus.info/attraktionen/muenstertal-barocke-klosteranlage-st.-trudpert-8078c8f378",
+                                               "publisher":  "Schwarzwald Tourismus",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "feldsee",
+                           "tags":  [
+                                        "wald-natur",
+                                        "aussicht"
+                                    ],
+                           "title":  "Feldsee",
+                           "summary":  "Größter Karsee des Schwarzwalds unter dem Seebuck – ein eiszeitliches Bergsee-Kleinod im ältesten Naturschutzgebiet Baden-Württembergs.",
+                           "activity_type":  "Bergsee und Wanderung",
+                           "locality":  "Feldberg",
+                           "distance_from_wuerzburg_km":  26,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Frei zugänglich, nur zu Fuß oder mit dem Rad erreichbar. Badeverbot zum Schutz der seltenen Uferpflanzen.",
+                           "environment":  "outdoor",
+                           "duration_min":  90,
+                           "duration_max":  180,
+                           "booking_required":  false,
+                           "step_free":  false,
+                           "accessibility_text":  "Abstieg rund 30 Minuten vom Haus der Natur oder ab Wanderparkplatz Kunzenmoos; Umrundung etwa 10 Minuten. Nicht barrierefrei.",
+                           "preparation_text":  "Der See liegt im Naturschutzgebiet Feldberg – auf den Wegen bleiben, Badeverbot beachten. Gut mit dem Feldberg-Gipfel zu verbinden.",
+                           "plan_b":  "Schluchsee (Baden erlaubt).",
+                           "pre_departure_checks":  [
+                                                        "Badeverbot beachten",
+                                                        "Auf den Wegen bleiben",
+                                                        "Mit Feldberg-Gipfel kombinieren"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2027-02-05",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.schwarzwald-tourismus.info/attraktionen/feldsee-1997ec1855",
+                                               "publisher":  "Schwarzwald Tourismus",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "badenweiler-roemische-badruine",
+                           "tags":  [
+                                        "museum-kultur",
+                                        "garten-park"
+                                    ],
+                           "title":  "Badenweiler: Römische Badruine und Kurpark",
+                           "summary":  "Größte und besterhaltene römische Thermenruine nördlich der Alpen, umgeben von einem über 200 Jahre alten Kurpark mit mediterranen Pflanzen.",
+                           "activity_type":  "Römische Ruine und Kurpark",
+                           "locality":  "Badenweiler",
+                           "distance_from_wuerzburg_km":  55,
+                           "cost_status":  "unknown",
+                           "cost_per_person_cents":  null,
+                           "additional_costs":  "Eintritt für die überdachte Badruine vor Ort erfragen; Kurpark frei zugänglich.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "derived",
+                           "sunday_text":  "Kurpark frei und ganzjährig; Öffnungszeiten der Badruine saisonal – vorab prüfen.",
+                           "environment":  "mixed",
+                           "duration_min":  90,
+                           "duration_max":  180,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Kurpark mit befestigten Wegen und Steigungen; die Ruine ist überdacht und über Stege begehbar.",
+                           "preparation_text":  "Um 75 n. Chr. von den Römern errichtet. Gut mit einem Besuch der Cassiopeia Therme (täglich 9–22 Uhr) zu verbinden.",
+                           "plan_b":  "Kurgarten St. Blasien (näher, frei).",
+                           "pre_departure_checks":  [
+                                                        "Öffnungszeiten der Ruine prüfen",
+                                                        "Eintritt vor Ort erfragen",
+                                                        "Kurpark und Therme kombinieren"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.schwarzwald-tourismus.info/attraktionen/cassiopeia-therme-thermalbaeder-8b456395ea",
+                                               "publisher":  "Schwarzwald Tourismus",
+                                               "status":  "derived",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "cassiopeia-therme-badenweiler",
+                           "tags":  [
+                                        "hallenbad",
+                                        "regenfest"
+                                    ],
+                           "title":  "Cassiopeia Therme Badenweiler",
+                           "summary":  "Thermalbad im Markgräflerland mit Saunalandschaft und Römisch-Irischem Bad.",
+                           "activity_type":  "Therme",
+                           "locality":  "Badenweiler",
+                           "distance_from_wuerzburg_km":  55,
+                           "cost_status":  "unknown",
+                           "cost_per_person_cents":  null,
+                           "additional_costs":  "Eintrittspreise nicht durchgängig online belegt – vorab auf der Betreiberseite prüfen.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Thermalbäder täglich 9–22 Uhr, Sauna 10–22 Uhr, Römisch-Irisches Bad (textilfrei) 13–21 Uhr.",
+                           "environment":  "indoor",
+                           "duration_min":  180,
+                           "duration_max":  300,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Therme mit mehreren Bereichen; Barrierefreiheit vorab erfragen.",
+                           "preparation_text":  "Badesachen mitnehmen. Das Römisch-Irische Bad ist textilfrei – vorher mit der Gruppe klären.",
+                           "plan_b":  "Aqualon Therme Bad Säckingen (näher).",
+                           "pre_departure_checks":  [
+                                                        "Preise vorab prüfen",
+                                                        "Badesachen mitnehmen",
+                                                        "Textilfreien Bereich vorher klären"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.schwarzwald-tourismus.info/attraktionen/cassiopeia-therme-thermalbaeder-8b456395ea",
+                                               "publisher":  "Schwarzwald Tourismus",
                                                "status":  "official",
                                                "checked_on":  "2026-08-09"
                                            }

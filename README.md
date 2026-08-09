@@ -1,13 +1,13 @@
-# Ausflugsfinder Todtmoos
+# Ausflugsfinder Südschwarzwald – Basis Todtmoos
 
-Offene, redaktionell gepflegte Bibliothek kostengünstiger Ausflüge in und um Todtmoos
-im Südschwarzwald – als rein statische Website ohne Konten, ohne Tracking und
-ohne Backend. Schwesterprojekt des Sonntagsfinders Würzburg; dieselbe Engine, eigener
-Katalog mit Todtmoos als Bezugspunkt.
+Offene, redaktionell gepflegte Bibliothek kostengünstiger Ausflüge im Südschwarzwald,
+am Hochrhein und im Dreiländereck – **alle Entfernungen gemessen ab Todtmoos**. Rein
+statische Website ohne Konten, ohne Tracking und ohne Backend. Schwesterprojekt des
+Sonntagsfinders Würzburg; dieselbe Engine, eigener Katalog.
 
 **Live: https://tschenso.github.io/todtmoos/**
 
-> **Stand: 2026-08-09.** 50 redaktionell belegte Ziele plus die 15 ortsunabhängigen
+> **Stand: 2026-08-09.** 70 redaktionell belegte Ziele plus die 15 ortsunabhängigen
 > Aktivitätsvorlagen. Wächst über die Kandidaten-Pipeline (`KANDIDATEN.md`) weiter.
 > Hinweis: Das JSON-Feld `distance_from_wuerzburg_km` meint hier die Straßenkilometer
 > **ab Todtmoos** (Feldname aus der Schwesterseite übernommen, Umbenennung ist ein

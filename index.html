@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ausflugsfinder Todtmoos</title>
-<meta name="description" content="Kuratierte, kostengünstige Ausflüge in und um Todtmoos im Südschwarzwald – mit Quellen, Prüfdatum und ehrlicher Ampel.">
+<title>Ausflugsfinder Südschwarzwald – Basis Todtmoos</title>
+<meta name="description" content="Kuratierte, kostengünstige Ausflüge im Südschwarzwald und Dreiländereck, gemessen ab Todtmoos – mit Quellen, Prüfdatum und ehrlicher Ampel.">
 
 <style>
   :root {
@@ -215,12 +215,12 @@
     <div class="site-top">
       <div class="logo">
         <div class="sun" aria-hidden="true"></div>
-        <div><b>Ausflugsfinder Todtmoos</b><span>Kuratierte Ausflüge im Südschwarzwald</span></div>
+        <div><b>Ausflugsfinder Südschwarzwald</b><span>Kuratierte Ausflüge · Basis Todtmoos</span></div>
       </div>
       <button class="theme-btn" id="theme" aria-label="Hell/Dunkel umschalten" title="Hell/Dunkel">◐</button>
     </div>
     <div class="hero">
-      <h1>Was geht rund um Todtmoos?</h1>
+      <h1>Was geht im Südschwarzwald?</h1>
       <div class="trust">
         <span>🔗 <b id="cntS">–</b> verlinkte Quellen</span>
         <span>🕒 Datenstand <b id="cntV">–</b></span>
@@ -266,9 +266,9 @@
         <select id="tier">
           <option value="">Alle Stufen</option>
           <option value="stadt">Todtmoos &amp; Ortsteile (bis 3 km)</option>
-          <option value="umkreis">Nahbereich (bis 15 km)</option>
-          <option value="tagesausflug">Tagesausflug (bis 45 km)</option>
-          <option value="fern">Fernziel (über 45 km)</option>
+          <option value="umkreis">Nahbereich (bis 20 km)</option>
+          <option value="tagesausflug">Tagesausflug (bis 60 km)</option>
+          <option value="fern">Fernziel (über 60 km)</option>
         </select>
       </div>
       <div class="field">
@@ -378,7 +378,7 @@
 <footer class="site">
   <div class="wrap inner">
     <h2>Über diese Seite</h2>
-    <p>Der Ausflugsfinder Todtmoos ist eine offene, redaktionell gepflegte Sammlung. Er entscheidet <b>nicht</b>, ob ein Ausflug für eine bestimmte Person oder Gruppe pädagogisch, gesundheitlich oder aufsichtlich geeignet ist – das bleibt eure Verantwortung. Es werden keine Konten, keine Standort- und keine Personendaten erhoben.</p>
+    <p>Der Ausflugsfinder Südschwarzwald ist eine offene, redaktionell gepflegte Sammlung. Alle Entfernungen sind Straßenkilometer ab Todtmoos. Er entscheidet <b>nicht</b>, ob ein Ausflug für eine bestimmte Person oder Gruppe pädagogisch, gesundheitlich oder aufsichtlich geeignet ist – das bleibt eure Verantwortung. Es werden keine Konten, keine Standort- und keine Personendaten erhoben.</p>
     <p class="disclaimer"><b>Immer vor der Abfahrt prüfen:</b> Öffnung, Preis, Zugang und Rückfahrt können sich kurzfristig ändern. Die verlinkte Quelle und das Prüfdatum sind maßgeblich – die Ampel ist nur eine schnelle Vorabhilfe.</p>
     <p>Kartendaten &amp; Entfernungen basieren u. a. auf © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap-Mitwirkende (ODbL)</a>. Fehlt etwas oder ist eine Angabe veraltet? <a id="contactLink" href="#">Info melden</a>.</p>
     <p>Kein Ausflug geplant? Die <a href="vorlagen.html">Aktivitätsvorlagen ohne festes Ziel</a> funktionieren im Gemeinschaftsraum oder im Park nebenan.</p>
@@ -413,7 +413,7 @@ const SUN = {confirmed:"bestätigt",derived:"abgeleitet",seasonal:"saisonal",unk
 const ENV = {indoor:"Drinnen",outdoor:"Draußen",mixed:"Gemischt"};
 const SRC = {official:"Offizielle Quelle",derived:"Redaktionell abgeleitet",conflict:"Quellenkonflikt",stale:"Quelle überfällig",internal:"Interne Vorlage"};
 const AMP = {ok:"Passt", check:"Vorher prüfen", no:"Passt nicht"};
-function tierKey(d){ return d <= 3 ? "stadt" : d <= 15 ? "umkreis" : d <= 45 ? "tagesausflug" : "fern"; }
+function tierKey(d){ return d <= 3 ? "stadt" : d <= 20 ? "umkreis" : d <= 60 ? "tagesausflug" : "fern"; }
 const TIER = {stadt:"Todtmoos", umkreis:"Nahbereich", tagesausflug:"Tagesausflug", fern:"Fernziel"};
 
 /* Suche: klein, ohne Diakritika, ß→ss – "kappele" findet "Käppele" */

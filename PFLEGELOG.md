@@ -17,6 +17,26 @@ Zeitleiste festgehalten.
 
 ## Pflegeläufe (neueste zuerst)
 
+### 2026-08-09 · Ausbau auf 70 Ziele + Umbenennung
+- **Ausbau:** 50 → **70 Ziele** (Version `2026-08-09.5`), 102 Quellenbelege. Der Radius reicht
+  jetzt bis rund 95 km: Triberger Wasserfälle, Europa-Park Rust, Basel (Altstadt/Münster, Zolli),
+  Vitra Campus Weil, Ravennaschlucht, Schauinslandbahn + Museums-Bergwerk, Erdmannshöhle Hasel,
+  Burg Rötteln, Badeparadies Titisee, Kaiserstuhl, Mundenhof, Rheinfall Schaffhausen,
+  Skimuseum Hinterzarten, Staufen, Kloster St. Trudpert, Feldsee, Badenweiler (Römerbadruine
+  und Cassiopeia Therme).
+- **Umbenennung:** Der Katalog deckt nun den ganzen Südschwarzwald bis ins Dreiländereck ab.
+  Titel, Logo und Hero heißen deshalb **„Ausflugsfinder Südschwarzwald – Basis Todtmoos"**;
+  die Entfernungen bleiben ab Todtmoos gemessen.
+- **Stufen angepasst:** Nahbereich bis 20 km (vorher 15), Tagesausflug bis 60 km (vorher 45),
+  darüber Fernziel – sonst wären Basel, Freiburg und Rust alle in einem Topf gelandet.
+  Verteilung jetzt: 9 Todtmoos / 23 Nahbereich / 33 Tagesausflug / 5 Fernziel.
+- **Nicht aufgenommen:** Deutsches Uhrenmuseum Furtwangen – wegen Generalsanierung **bis 2027
+  geschlossen** (analog zum Museum am Dom bei der Schwesterseite).
+- **Grenzhinweise:** Bei den Schweizer Zielen (Basel, Zolli, Rheinfall) stehen Ausweis- und
+  Franken-Hinweise in der Checkliste; Preise sind als CHF gekennzeichnet.
+- Ampel danach: 38 Passt / 25 Vorher prüfen / 7 Passt nicht (die „no" sind hochpreisige Ziele
+  wie Europa-Park und Thermen über dem Standardbudget – budgetabhängig, kein Fehler).
+
 ### 2026-08-09 · Großer Ausbau auf 50 Ziele + Link-Check
 - **Ausbau:** 32 → **50 Ziele** (Version `2026-08-09.4`), 81 Quellenbelege. Der Radius wurde
   bewusst ausgeschöpft (bis rund 95 km), damit die Bibliothek über den Nahbereich hinaus trägt:
