@@ -1,6 +1,6 @@
 {
     "schema_version":  2,
-    "catalog_version":  "2026-08-09.2",
+    "catalog_version":  "2026-08-09.4",
     "note":  "Öffentlicher Katalog des Ausflugsfinders Todtmoos (Südschwarzwald), live auf tschenso.github.io/todtmoos. Redaktionell belegte Ziele in und um Todtmoos plus die ortsunabhängigen Aktivitätsvorlagen. Das Feld distance_from_wuerzburg_km meint hier die Straßenkilometer ab Todtmoos (Feldname aus der Schwesterseite übernommen). Änderungen bitte per Pull-Request, siehe README.",
     "activities":  [
                        {
@@ -1402,6 +1402,791 @@
                                            {
                                                "url":  "https://www.belchen-seilbahn.de/belchen_belchen.html",
                                                "publisher":  "Belchen-Seilbahn",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "titisee",
+                           "tags":  [
+                                        "freibad-see",
+                                        "ohne-auto",
+                                        "aussicht"
+                                    ],
+                           "title":  "Titisee",
+                           "summary":  "Bekanntester See des Hochschwarzwalds mit rund 6 km barrierefreiem Seerundweg, Bootsverleih und Seerundfahrten – direkt am Bahnhof.",
+                           "activity_type":  "See und Rundweg",
+                           "locality":  "Titisee-Neustadt",
+                           "distance_from_wuerzburg_km":  40,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "Seerundweg frei; Bootsverleih und Seerundfahrten kostenpflichtig.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Seerundweg ganzjährig frei zugänglich; Bahnhof Titisee direkt am Ort. Bootsbetrieb saisonal.",
+                           "environment":  "outdoor",
+                           "duration_min":  90,
+                           "duration_max":  240,
+                           "booking_required":  false,
+                           "step_free":  true,
+                           "accessibility_text":  "Der rund 6 km lange Seerundweg ist als barrierefrei ausgewiesen; vom Bahnhof nur wenige Gehminuten zum See.",
+                           "preparation_text":  "Mit der Bahn gut erreichbar (Höllentalbahn). Im Sommer sehr besucht – früh kommen. Seerundfahrten mit MS Ingrid/Carola.",
+                           "plan_b":  "Schluchsee (ruhiger).",
+                           "pre_departure_checks":  [
+                                                        "Bahnverbindung prüfen",
+                                                        "Andrang im Sommer einplanen",
+                                                        "Bootszeiten optional prüfen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2027-02-05",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.hochschwarzwald.de/erleben/ausflugsziele/sehenswuerdigkeiten-und-ausflugsziele-am-titisee/seerundfahrten-am-titisee",
+                                               "publisher":  "Hochschwarzwald Tourismus",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "wutachschlucht",
+                           "tags":  [
+                                        "wald-natur"
+                                    ],
+                           "title":  "Wutachschlucht",
+                           "summary":  "Der Grand Canyon des Schwarzwalds: 60 bis 170 m tiefe Schlucht über 28 km im größten Naturpark Deutschlands.",
+                           "activity_type":  "Schlucht und Wanderung",
+                           "locality":  "Bonndorf / Wutach",
+                           "distance_from_wuerzburg_km":  42,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "Zugang frei; Wanderbus zu den Einstiegen saisonal kostenpflichtig.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Ganzjährig frei begehbar; ein Wanderbus erschließt saisonal die Einstiege. Achtung: die Lotenbachklamm ist bis zur Wandersaison 2027 komplett gesperrt.",
+                           "environment":  "outdoor",
+                           "duration_min":  240,
+                           "duration_max":  360,
+                           "booking_required":  false,
+                           "step_free":  false,
+                           "accessibility_text":  "Naturbelassene Schluchtwege mit Stegen und Treppen; nicht barrierefrei, Trittsicherheit nötig.",
+                           "preparation_text":  "Beliebte Route Schattenmühle–Wutachmühle rund 12 km / 5 Std. Feste Schuhe, Verpflegung; Rückfahrt mit dem Wanderbus planen. Sperrung der Lotenbachklamm bis 2027 beachten.",
+                           "plan_b":  "Wehraschlucht (näher an Todtmoos).",
+                           "pre_departure_checks":  [
+                                                        "Sperrung Lotenbachklamm beachten",
+                                                        "Wanderbus und Rückfahrt planen",
+                                                        "Feste Schuhe und Verpflegung"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2027-02-05",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.hochschwarzwald.de/erleben/wutachschlucht",
+                                               "publisher":  "Hochschwarzwald Tourismus",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           },
+                                           {
+                                               "url":  "https://www.wutachschlucht.de/wandern",
+                                               "publisher":  "Ferienregion Wutachschlucht",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "huesli-grafenhausen",
+                           "tags":  [
+                                        "museum-kultur",
+                                        "regenfest"
+                                    ],
+                           "title":  "Heimatmuseum Hüsli Grafenhausen",
+                           "summary":  "Schwarzwaldhaus von 1911, bekannt als Wohnhaus von Professor Brinkmann aus der Schwarzwaldklinik – innen ein volkskundliches Museum.",
+                           "activity_type":  "Heimatmuseum",
+                           "locality":  "Grafenhausen",
+                           "distance_from_wuerzburg_km":  20,
+                           "cost_status":  "known",
+                           "cost_per_person_cents":  160,
+                           "additional_costs":  "Kinder 0,50 €; Ermäßigung möglich.",
+                           "cost_valid_until":  "2026-11-07",
+                           "sunday_status":  "seasonal",
+                           "sunday_text":  "Sonntagsöffnung nicht durchgehend garantiert – Öffnungstage (u. a. Di–Do) und Saison vorab prüfen.",
+                           "environment":  "indoor",
+                           "duration_min":  45,
+                           "duration_max":  90,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Historisches Schwarzwaldhaus Am Hüsli 1; alte Bausubstanz, Barrierefreiheit vorab erfragen.",
+                           "preparation_text":  "Durch die TV-Serie Die Schwarzwaldklinik bekannt geworden. Öffnungstage variieren saisonal – vor der Anfahrt bei der Gemeinde oder dem Landkreis prüfen.",
+                           "plan_b":  "Schwarzwaldhaus der Sinne (im selben Ort).",
+                           "pre_departure_checks":  [
+                                                        "Öffnungstage vorab prüfen",
+                                                        "Bargeld mitnehmen",
+                                                        "Mit Schwarzwaldhaus der Sinne kombinieren"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.landkreis-waldshut.de/organisationseinheitendetails/organisationseinheit/6051551-heimatmuseum-huesli/",
+                                               "publisher":  "Landkreis Waldshut",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "schwarzwaldhaus-der-sinne",
+                           "tags":  [
+                                        "wissenschaft",
+                                        "regenfest",
+                                        "bewegung"
+                                    ],
+                           "title":  "Schwarzwaldhaus der Sinne Grafenhausen",
+                           "summary":  "Mitmach-Erlebniswelt auf drei Etagen: optische Täuschungen, Klangexperimente, Barfußpfad und Dunkelgang.",
+                           "activity_type":  "Mitmach-Museum",
+                           "locality":  "Grafenhausen",
+                           "distance_from_wuerzburg_km":  20,
+                           "cost_status":  "known",
+                           "cost_per_person_cents":  850,
+                           "additional_costs":  "Kinder und Jugendliche 4–15 J. 4,50 €, Familienticket 17 €; frei mit Hochschwarzwald-, Schwarzwald- und Drei-Welten-Card.",
+                           "cost_valid_until":  "2026-11-07",
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Sonntags geöffnet: Mitte Dez–Juni und Sept–Okt Do–Mo 11–17 Uhr, Juli/Aug Mi–Mo 10–17 Uhr (Di zu).",
+                           "environment":  "indoor",
+                           "duration_min":  90,
+                           "duration_max":  180,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Erlebniswelt Schulstraße 1 auf drei Etagen; Barfußpfad und Dunkelgang, Barrierefreiheit vorab erfragen.",
+                           "preparation_text":  "Ideal bei Regen und für gemischte Altersgruppen. Socken für den Barfußpfad mitnehmen; gut mit dem Hüsli kombinierbar.",
+                           "plan_b":  "Heimatmuseum Hüsli (im selben Ort).",
+                           "pre_departure_checks":  [
+                                                        "Öffnungstage je Saison prüfen",
+                                                        "Socken für den Barfußpfad",
+                                                        "Familienticket prüfen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://schwarzwaldhausdersinne.de/",
+                                               "publisher":  "Schwarzwaldhaus der Sinne",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           },
+                                           {
+                                               "url":  "https://www.grafenhausen.de/freizeit-erlebnis/aktiv-in-grafenhausen/schwarzwaldhaus-der-sinne",
+                                               "publisher":  "Gemeinde Grafenhausen",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "rothaus-genusswelt",
+                           "tags":  [
+                                        "museum-kultur",
+                                        "regenfest"
+                                    ],
+                           "title":  "Rothaus GenussWelt Grafenhausen",
+                           "summary":  "Besucherwelt der Staatsbrauerei Rothaus mit Brauereiführungen und der Ausstellung ZÄPFLE Heimat.",
+                           "activity_type":  "Brauerei-Erlebniswelt",
+                           "locality":  "Grafenhausen (Rothaus)",
+                           "distance_from_wuerzburg_km":  20,
+                           "cost_status":  "unknown",
+                           "cost_per_person_cents":  null,
+                           "additional_costs":  "Preise für Führungen und ZÄPFLE Heimat nicht durchgängig online – vorab prüfen. Führungen mit Alkoholausschank nur für Erwachsene.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Führungen sonntags und feiertags 12, 14 und 16 Uhr (Mo–Fr 12 und 16 Uhr); ZÄPFLE Heimat täglich 12–18 Uhr, ZÄPFLE Markt/Bar täglich 10–18 Uhr.",
+                           "environment":  "indoor",
+                           "duration_min":  90,
+                           "duration_max":  180,
+                           "booking_required":  true,
+                           "step_free":  null,
+                           "accessibility_text":  "Brauereigelände mit Ausstellung und Gastronomie; Barrierefreiheit vorab erfragen.",
+                           "preparation_text":  "Für Brauereiführungen vorab anmelden. Die Ausstellung ZÄPFLE Heimat ist auch ohne Führung zugänglich; Brauereigasthof täglich 11:30–21 Uhr.",
+                           "plan_b":  "Schwarzwaldhaus der Sinne oder Hüsli.",
+                           "pre_departure_checks":  [
+                                                        "Führung vorab anmelden",
+                                                        "Altersgrenze bei Verkostung beachten",
+                                                        "Preise vorab erfragen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.rothaus.de/genusswelt",
+                                               "publisher":  "Staatsbrauerei Rothaus",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "steinwasen-park",
+                           "tags":  [
+                                        "tiere",
+                                        "bewegung"
+                                    ],
+                           "title":  "Steinwasen-Park Oberried",
+                           "summary":  "Familien- und Wildpark auf 35 ha mit heimischem Wild, Sommerrodelbahn und einer 218 m langen Hängebrücke in 30 m Höhe.",
+                           "activity_type":  "Wild- und Freizeitpark",
+                           "locality":  "Oberried (bei Freiburg)",
+                           "distance_from_wuerzburg_km":  45,
+                           "cost_status":  "unknown",
+                           "cost_per_person_cents":  null,
+                           "additional_costs":  "Eintrittspreise nicht durchgängig online belegt – vorab auf steinwasen-park.de prüfen.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "seasonal",
+                           "sunday_text":  "Saisonal geöffnet, in der Hauptsaison täglich 10–18 Uhr, in der Nebensaison (März–Juni, Sept–Nov) 10–17 Uhr. Zeiten vorab prüfen.",
+                           "environment":  "outdoor",
+                           "duration_min":  180,
+                           "duration_max":  360,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Weitläufiges Berggelände mit Steigungen; Hängebrücke und Bahnen nicht barrierefrei.",
+                           "preparation_text":  "Tiere: Steinwild, Gams, Luchs, Murmeltiere, Rotwild und mehr. Wetterfeste Kleidung; für die Bahnen Mindestgrößen beachten.",
+                           "plan_b":  "Wildgehege St. Blasien (frei, näher).",
+                           "pre_departure_checks":  [
+                                                        "Öffnungszeiten und Saison prüfen",
+                                                        "Preise vorab prüfen",
+                                                        "Wetterfeste Kleidung"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.steinwasen-park.de/",
+                                               "publisher":  "Steinwasen-Park",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "sauschwaenzlebahn",
+                           "tags":  [
+                                        "museum-kultur",
+                                        "aussicht"
+                                    ],
+                           "title":  "Sauschwänzlebahn Blumberg",
+                           "summary":  "Historische Museumsbahn durchs Wutachtal: 25 km mit Tunneln, Viadukten und Kehrschleife, gezogen von Dampf- oder Diesellok.",
+                           "activity_type":  "Museumsbahn",
+                           "locality":  "Blumberg",
+                           "distance_from_wuerzburg_km":  45,
+                           "cost_status":  "known",
+                           "cost_per_person_cents":  3900,
+                           "additional_costs":  "Kinder 4–15 J. 19,50 € (Gesamtstrecke, Dampf); Diesel und Teilstrecken günstiger. Preisstand Anfang 2025 – vor der Fahrt prüfen.",
+                           "cost_valid_until":  "2026-11-07",
+                           "sunday_status":  "seasonal",
+                           "sunday_text":  "Fahrbetrieb saisonal April/Mai bis Oktober, meist zweimal täglich; November–März kein Betrieb (Fledermausschutz in den Tunneln).",
+                           "environment":  "outdoor",
+                           "duration_min":  240,
+                           "duration_max":  360,
+                           "booking_required":  true,
+                           "step_free":  null,
+                           "accessibility_text":  "Historische Waggons; Barrierefreiheit vorab erfragen.",
+                           "preparation_text":  "Fahrplan und Lokart (Dampf oder Diesel) vorab prüfen und Tickets buchen. Rund 45 km Anfahrt ab Todtmoos.",
+                           "plan_b":  "Wutachschlucht (in derselben Region).",
+                           "pre_departure_checks":  [
+                                                        "Fahrplan und Tickets vorab buchen",
+                                                        "Saison beachten (kein Winterbetrieb)",
+                                                        "Preis je nach Lokart prüfen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  "https://www.sauschwaenzlebahn.de/",
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.schwarzwald-tourismus.info/attraktionen/sauschwaenzlebahn-8a666da135",
+                                               "publisher":  "Schwarzwald Tourismus",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "waldshut-altstadt",
+                           "tags":  [
+                                        "museum-kultur",
+                                        "ohne-auto"
+                                    ],
+                           "title":  "Altstadt Waldshut",
+                           "summary":  "Mittelalterliche Kaiserstraße mit Stadtbach, Brunnen und Stadttoren – eine der schönsten Straßen des Schwarzwalds, jederzeit frei zugänglich.",
+                           "activity_type":  "Altstadtrundgang",
+                           "locality":  "Waldshut-Tiengen",
+                           "distance_from_wuerzburg_km":  26,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Altstadt jederzeit frei zugänglich und kostenlos; Bahnhof Waldshut fußläufig.",
+                           "environment":  "outdoor",
+                           "duration_min":  60,
+                           "duration_max":  120,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Fußgängerzone Kaiserstraße, überwiegend eben; Rundgang ab dem Oberen Tor (Schaffhauser Tor).",
+                           "preparation_text":  "Im 13. Jahrhundert als Marktstraße angelegt; Infotafeln entlang des Rundgangs. Gut mit einem Abstecher in die Schweiz kombinierbar.",
+                           "plan_b":  "Laufenburg (Altstadt am Rhein).",
+                           "pre_departure_checks":  [
+                                                        "Bahnverbindung prüfen",
+                                                        "Rundgang ab Oberem Tor starten",
+                                                        "Einkehr einplanen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2027-02-05",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.waldshut-tiengen.de/freizeit/erleben/stadtrundgang-und-sehenswuerdigkeiten/sehenswuerdigkeiten/waldshut",
+                                               "publisher":  "Stadt Waldshut-Tiengen",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "laufenburg-altstadt",
+                           "tags":  [
+                                        "museum-kultur",
+                                        "aussicht"
+                                    ],
+                           "title":  "Laufenburg – Altstadt und Rheinbrücke",
+                           "summary":  "Doppelstadt am Rhein: verwinkelte Gassen auf beiden Ufern, verbunden durch die Laufenbrücke – ein Grenzübergang zu Fuß nach der Schweiz.",
+                           "activity_type":  "Altstadt und Grenzort",
+                           "locality":  "Laufenburg (Baden)",
+                           "distance_from_wuerzburg_km":  24,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "Ortsbesichtigung frei; für die Schweizer Seite Personalausweis mitnehmen.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Altstädte und Brücke jederzeit frei zugänglich; die Laufenbrücke ist seit 2004 reine Fußgängerzone.",
+                           "environment":  "outdoor",
+                           "duration_min":  60,
+                           "duration_max":  150,
+                           "booking_required":  false,
+                           "step_free":  false,
+                           "accessibility_text":  "Historische Altstadt mit Gassen, Treppen und Steigungen; die Burgruine auf der Schweizer Seite ist ein kurzer Aufstieg.",
+                           "preparation_text":  "Napoleon teilte die Stadt in einen deutschen und einen Schweizer Teil. Ausweis für den Grenzübergang mitnehmen; von der Burgruine schöner Blick über beide Altstädte.",
+                           "plan_b":  "Altstadt Waldshut.",
+                           "pre_departure_checks":  [
+                                                        "Personalausweis für die Schweiz",
+                                                        "Festes Schuhwerk für die Gassen",
+                                                        "Öffnungszeiten der Gastronomie prüfen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2027-02-05",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.laufenburg.de/freizeit-erlebnis/sehenswertes-ausflugsziele/sehenswertes",
+                                               "publisher":  "Stadt Laufenburg",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "windbergwasserfall",
+                           "tags":  [
+                                        "wald-natur"
+                                    ],
+                           "title":  "Windbergwasserfall St. Blasien",
+                           "summary":  "Sechs Meter hoher Wasserfall in der Windbergschlucht am Rand von St. Blasien – in rund 20 Gehminuten erreichbar.",
+                           "activity_type":  "Wasserfall",
+                           "locality":  "St. Blasien",
+                           "distance_from_wuerzburg_km":  11,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Frei zugänglicher Waldweg; ganzjährig begehbar.",
+                           "environment":  "outdoor",
+                           "duration_min":  45,
+                           "duration_max":  90,
+                           "booking_required":  false,
+                           "step_free":  false,
+                           "accessibility_text":  "Zugang über den Blasiwaldweg, rund 20 Minuten zu Fuß; naturbelassener Weg im Bannwald, nicht barrierefrei.",
+                           "preparation_text":  "Liegt in einem Bannwald – der Wald bleibt unbewirtschaftet, bitte auf den Wegen bleiben. Gut mit Dom und Kurgarten St. Blasien kombinierbar.",
+                           "plan_b":  "Menzenschwander Wasserfälle.",
+                           "pre_departure_checks":  [
+                                                        "Auf den Wegen bleiben (Bannwald)",
+                                                        "Festes Schuhwerk",
+                                                        "Mit Dombesuch kombinieren"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2027-02-05",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.schwarzwald-tourismus.info/attraktionen/windbergwasserfall-b75eb7729d",
+                                               "publisher":  "Schwarzwald Tourismus",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "albsteig-schwarzwald",
+                           "tags":  [
+                                        "wald-natur",
+                                        "aussicht"
+                                    ],
+                           "title":  "Albsteig Schwarzwald (Etappen)",
+                           "summary":  "Premium-Fernwanderweg über 83 km entlang der Alb – von Albbruck am Hochrhein bis zur Quelle am Feldberg, gut in Tagesetappen zu gehen.",
+                           "activity_type":  "Fernwanderweg (Etappen)",
+                           "locality":  "Albtal (Albbruck – St. Blasien – Feldberg)",
+                           "distance_from_wuerzburg_km":  12,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "Wegnutzung frei; Rückfahrt mit Bus/Bahn einplanen.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Frei begehbarer, durchgehend markierter Premiumweg; Genießeretappen zwischen 9,6 und 15,9 km.",
+                           "environment":  "outdoor",
+                           "duration_min":  180,
+                           "duration_max":  360,
+                           "booking_required":  false,
+                           "step_free":  false,
+                           "accessibility_text":  "Insgesamt über 2700 Höhenmeter; Etappen mit Schluchten und Steigungen, nicht barrierefrei.",
+                           "preparation_text":  "Für einen Tagesausflug eine Genießeretappe wählen (z. B. rund um St. Blasien). Rückfahrt vorab klären, feste Schuhe und Verpflegung.",
+                           "plan_b":  "Genießerpfad Domsteig (Rundweg, keine Rückfahrt nötig).",
+                           "pre_departure_checks":  [
+                                                        "Etappe und Rückfahrt vorab planen",
+                                                        "Feste Schuhe und Verpflegung",
+                                                        "Wetter prüfen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2027-02-05",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.albsteig.de/uebersicht/",
+                                               "publisher":  "Albsteig Schwarzwald",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           },
+                                           {
+                                               "url":  "https://www.schwarzwald-tourismus.info/erleben/wandern/fernwandern/albsteig",
+                                               "publisher":  "Schwarzwald Tourismus",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "skigebiet-feldberg",
+                           "tags":  [
+                                        "bewegung"
+                                    ],
+                           "title":  "Skigebiet Feldberg",
+                           "summary":  "Größtes Skigebiet des Schwarzwalds: Liftverbund mit über 60 Pistenkilometern rund um den Feldberg.",
+                           "activity_type":  "Skigebiet",
+                           "locality":  "Feldberg",
+                           "distance_from_wuerzburg_km":  25,
+                           "cost_status":  "unknown",
+                           "cost_per_person_cents":  null,
+                           "additional_costs":  "Skipässe über das Ticketportal des Liftverbunds; Preise saisonal – vorab prüfen. Ausrüstung nicht gestellt.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "seasonal",
+                           "sunday_text":  "Winterbetrieb je nach Schneelage, üblicherweise Mitte Dezember bis Anfang April, täglich 9–16:30 Uhr. Schneelage vorab prüfen.",
+                           "environment":  "outdoor",
+                           "duration_min":  240,
+                           "duration_max":  480,
+                           "booking_required":  false,
+                           "step_free":  false,
+                           "accessibility_text":  "Alpine Pisten und Lifte; nicht barrierefrei. Ausrüstung vor Ort leihbar.",
+                           "preparation_text":  "Warme Winterkleidung und Skiausrüstung. Am Wochenende früh anreisen (Parkplätze). Bei schlechter Schneelage Alternativen prüfen.",
+                           "plan_b":  "Loipen und Winterwanderwege Todtmoos.",
+                           "pre_departure_checks":  [
+                                                        "Schneelage und Betrieb prüfen",
+                                                        "Skipass vorab online kaufen",
+                                                        "Warme Kleidung und Ausrüstung"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.feldberg-erlebnis.de/en/winter/ski-resort-feldberg",
+                                               "publisher":  "Feldberg Erlebnis",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           },
+                                           {
+                                               "url":  "https://www.schwarzwald-tourismus.info/attraktionen/wintersportgebiet-feldberg-0f5f688d60",
+                                               "publisher":  "Schwarzwald Tourismus",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "schloss-bonndorf",
+                           "tags":  [
+                                        "museum-kultur",
+                                        "regenfest"
+                                    ],
+                           "title":  "Kulturzentrum Schloss Bonndorf",
+                           "summary":  "Barockschloss von 1592 mit wechselnden Kunstausstellungen und dem Fasnachtsmuseum Schloss-Narrenstuben (über 400 Miniaturfiguren, 300 handgeschnitzte Larven).",
+                           "activity_type":  "Schloss und Museum",
+                           "locality":  "Bonndorf im Schwarzwald",
+                           "distance_from_wuerzburg_km":  35,
+                           "cost_status":  "unknown",
+                           "cost_per_person_cents":  null,
+                           "additional_costs":  "Eintritt je Ausstellung; Narrenstuben laut Stadt eintrittsfrei. Frei mit Museums-PASS Musées oder Drei-Welten-Card.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Narrenstuben Jan–Okt sonntags 14–17 Uhr (Fr und Sa auch vormittags); 15.11.–15.12. nur sonntags 14–17 Uhr. Die Kunstausstellungen im Kulturzentrum haben eigene Zeiten – vorab prüfen.",
+                           "environment":  "indoor",
+                           "duration_min":  60,
+                           "duration_max":  120,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Historisches Schloss; Barrierefreiheit vorab erfragen.",
+                           "preparation_text":  "Zwei Angebote im selben Schloss: Fasnachtsmuseum Narrenstuben (15 Räume, eigener Zeitplan) und wechselnde Kunstausstellungen des Kulturzentrums. Zwischen zwei Ausstellungen kann der Ausstellungsteil geschlossen sein – Kalender vor der Anfahrt prüfen.",
+                           "plan_b":  "Wutachschlucht (in der Nähe).",
+                           "pre_departure_checks":  [
+                                                        "Ausstellungskalender vorab prüfen",
+                                                        "Eintritt je Ausstellung erfragen",
+                                                        "Narrenstuben mitnehmen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.landkreis-waldshut.de/kommunikation-und-kultur/kultur/kreismuseen/kulturzentrum-schloss-bonndorf/",
+                                               "publisher":  "Landkreis Waldshut",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           },
+                                           {
+                                               "url":  "https://www.tourismus-bw.de/attraktionen/schloss-narrenstuben-bonndorf-94d478bc0c",
+                                               "publisher":  "Tourismus Baden-Württemberg",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "vogtsbauernhof-gutach",
+                           "tags":  [
+                                        "museum-kultur"
+                                    ],
+                           "title":  "Schwarzwälder Freilichtmuseum Vogtsbauernhof",
+                           "summary":  "Über 20 originale Schwarzwaldhöfe aus 600 Jahren auf einem Gelände – rund um den namensgebenden Vogtsbauernhof von 1612.",
+                           "activity_type":  "Freilichtmuseum",
+                           "locality":  "Gutach (Schwarzwaldbahn)",
+                           "distance_from_wuerzburg_km":  95,
+                           "cost_status":  "unknown",
+                           "cost_per_person_cents":  null,
+                           "additional_costs":  "Eintrittspreise auf vogtsbauernhof.de – vorab prüfen.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "seasonal",
+                           "sunday_text":  "Saison 22.03.–01.11.2026 täglich 9–18 Uhr (letzter Einlass 17 Uhr); im August bis 19 Uhr. Außerhalb der Saison geschlossen.",
+                           "environment":  "mixed",
+                           "duration_min":  240,
+                           "duration_max":  360,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Weitläufiges Freigelände mit historischen Gebäuden; Wege teils unbefestigt, Barrierefreiheit vorab erfragen.",
+                           "preparation_text":  "Rund 95 km Anfahrt – ein ganzer Tagesausflug. Direkt an der B33, Bahnhalt Hausach/Gutach an der Schwarzwaldbahn.",
+                           "plan_b":  "Heimatmuseum Hüsli oder Resenhof Bernau (näher).",
+                           "pre_departure_checks":  [
+                                                        "Lange Anfahrt einplanen",
+                                                        "Saison beachten",
+                                                        "Preise vorab prüfen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.vogtsbauernhof.de/en/visit/opening-hours-and-prices",
+                                               "publisher":  "Schwarzwälder Freilichtmuseum",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "freiburg-muenster-altstadt",
+                           "tags":  [
+                                        "museum-kultur",
+                                        "ohne-auto",
+                                        "aussicht"
+                                    ],
+                           "title":  "Freiburg: Münster und Altstadt",
+                           "summary":  "Gotisches Münster mit 116 m hohem Turm, Münstermarkt und die Altstadt mit ihren Bächle – gut mit der Bahn erreichbar.",
+                           "activity_type":  "Altstadt und Kirche",
+                           "locality":  "Freiburg im Breisgau",
+                           "distance_from_wuerzburg_km":  60,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "Münster und Altstadt frei; Turmbesteigung kostenpflichtig.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Altstadt jederzeit zugänglich; Münsterturm sonn- und feiertags 13–17 Uhr (Mo–Sa 11–16 Uhr).",
+                           "environment":  "mixed",
+                           "duration_min":  180,
+                           "duration_max":  360,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Altstadt überwiegend eben, aber mit Kopfsteinpflaster und den offenen Bächle-Rinnen; die Turmbesteigung ist nicht barrierefrei.",
+                           "preparation_text":  "Münstermarkt an Werktagen auf dem Münsterplatz. Mit der Bahn ab Basel/Waldshut oder über Titisee erreichbar; im Auto Parkhäuser nutzen.",
+                           "plan_b":  "Waldshut Altstadt (näher).",
+                           "pre_departure_checks":  [
+                                                        "Bahn- oder Parkhausanreise planen",
+                                                        "Turmzeiten prüfen",
+                                                        "Auf die Bächle achten"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2027-02-05",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://visit.freiburg.de/en/discover/sightseeing/old-town",
+                                               "publisher":  "Freiburg Tourismus",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "hotzenpfad-rickenbach",
+                           "tags":  [
+                                        "wald-natur",
+                                        "aussicht"
+                                    ],
+                           "title":  "Hotzenpfad Rickenbach",
+                           "summary":  "Premiumweg über Solfelsen, Wallmauer und Klingenfelsen zu sonnigen Höhen mit Alpenblick über dem Hotzenwald.",
+                           "activity_type":  "Premiumwanderweg",
+                           "locality":  "Rickenbach (Hotzenwald)",
+                           "distance_from_wuerzburg_km":  15,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "confirmed",
+                           "sunday_text":  "Frei begehbarer, markierter Premiumwanderweg; ganzjährig, bei Schnee eingeschränkt.",
+                           "environment":  "outdoor",
+                           "duration_min":  180,
+                           "duration_max":  300,
+                           "booking_required":  false,
+                           "step_free":  false,
+                           "accessibility_text":  "Steile Berghänge und Felspassagen; Trittsicherheit nötig, nicht barrierefrei.",
+                           "preparation_text":  "Führt vom Solfelsen durch steile Hänge zu Wallmauer und Klingenfelsen; bei klarer Sicht Alpenblick über Hütten. Feste Schuhe und Verpflegung.",
+                           "plan_b":  "Wehratal-Erlebnispfad.",
+                           "pre_departure_checks":  [
+                                                        "Feste Schuhe und Trittsicherheit",
+                                                        "Wetter und Fernsicht prüfen",
+                                                        "Verpflegung mitnehmen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2027-02-05",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.rickenbach.de/seite/398260/sehensw%C3%BCrdigkeiten.html",
+                                               "publisher":  "Gemeinde Rickenbach",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "kirche-st-gordian-rickenbach",
+                           "tags":  [
+                                        "museum-kultur",
+                                        "regenfest"
+                                    ],
+                           "title":  "Pfarrkirche St. Gordian und Epimach Rickenbach",
+                           "summary":  "Eine der bedeutendsten Kirchen Südwestdeutschlands: Glasfenster und Chorbild des Glaskünstlers Emil Wachter.",
+                           "activity_type":  "Kirche und Kunst",
+                           "locality":  "Rickenbach (Hotzenwald)",
+                           "distance_from_wuerzburg_km":  15,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "derived",
+                           "sunday_text":  "Pfarrkirche, in der Regel tagsüber zugänglich; Gottesdienstzeiten beachten. Öffnung nicht amtlich dokumentiert.",
+                           "environment":  "indoor",
+                           "duration_min":  30,
+                           "duration_max":  60,
+                           "booking_required":  false,
+                           "step_free":  null,
+                           "accessibility_text":  "Pfarrkirche im Ortskern von Rickenbach; Zugänglichkeit vor Ort prüfen.",
+                           "preparation_text":  "Moderne Glaskunst von Emil Wachter in historischem Rahmen. Ruhe wahren, Gottesdienstzeiten respektieren.",
+                           "plan_b":  "Hotzenpfad Rickenbach.",
+                           "pre_departure_checks":  [
+                                                        "Gottesdienstzeiten beachten",
+                                                        "Zugang vor Ort prüfen",
+                                                        "Ruhe wahren"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.rickenbach.de/seite/398260/sehensw%C3%BCrdigkeiten.html",
+                                               "publisher":  "Gemeinde Rickenbach",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           }
+                                       ]
+                       },
+                       {
+                           "seed_key":  "krunkelbachhuette-bernau",
+                           "tags":  [
+                                        "wald-natur",
+                                        "aussicht"
+                                    ],
+                           "title":  "Krunkelbachhütte Bernau",
+                           "summary":  "Berggasthaus über dem Bernauer Hochtal, rund 1,5 Stunden zu Fuß ab Bernau-Hof – Etappenziel am Albsteig.",
+                           "activity_type":  "Berggasthaus und Wanderziel",
+                           "locality":  "Bernau im Schwarzwald",
+                           "distance_from_wuerzburg_km":  16,
+                           "cost_status":  "free",
+                           "cost_per_person_cents":  0,
+                           "additional_costs":  "Weg frei; Einkehr kostenpflichtig.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "derived",
+                           "sunday_text":  "Wanderweg jederzeit frei; die Hütte hat eigene Öffnungs- und Ruhetage – vor der Tour prüfen.",
+                           "environment":  "outdoor",
+                           "duration_min":  180,
+                           "duration_max":  240,
+                           "booking_required":  false,
+                           "step_free":  false,
+                           "accessibility_text":  "Rund 3,5 km Aufstieg ab Bernau-Hof, etwa 1,5 Stunden; Bergweg, nicht barrierefrei.",
+                           "preparation_text":  "Liegt am Albsteig unterhalb des Spießhorns. Öffnungszeiten der Hütte vorab prüfen, Verpflegung und feste Schuhe mitnehmen.",
+                           "plan_b":  "Bernauer Hochtal-Runde ohne Einkehr.",
+                           "pre_departure_checks":  [
+                                                        "Öffnungstage der Hütte prüfen",
+                                                        "Feste Schuhe und Verpflegung",
+                                                        "Aufstieg 1,5 Std einplanen"
+                                                    ],
+                           "source_checked_on":  "2026-08-09",
+                           "next_review_on":  "2026-11-07",
+                           "booking_url":  null,
+                           "sources":  [
+                                           {
+                                               "url":  "https://www.krunkelbach.de/",
+                                               "publisher":  "Krunkelbachhütte",
                                                "status":  "official",
                                                "checked_on":  "2026-08-09"
                                            }

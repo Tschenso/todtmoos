@@ -17,6 +17,24 @@ Zeitleiste festgehalten.
 
 ## Pflegeläufe (neueste zuerst)
 
+### 2026-08-09 · Großer Ausbau auf 50 Ziele + Link-Check
+- **Ausbau:** 32 → **50 Ziele** (Version `2026-08-09.4`), 81 Quellenbelege. Der Radius wurde
+  bewusst ausgeschöpft (bis rund 95 km), damit die Bibliothek über den Nahbereich hinaus trägt:
+  Titisee, Wutachschlucht, Steinwasen-Park, Sauschwänzlebahn, Skigebiet Feldberg, Freiburger
+  Altstadt, Waldshut, Laufenburg, Grafenhausen (Hüsli, Schwarzwaldhaus der Sinne, Rothaus),
+  Schloss Bonndorf, Vogtsbauernhof Gutach, Albsteig, Windbergwasserfall, Hotzenpfad und
+  Pfarrkirche Rickenbach, Krunkelbachhütte Bernau.
+- **`check-links`:** 60 von 63 URLs erreichbar.
+  - **Schloss Bonndorf** – `bonndorf.de`-Unterseite liefert 404 (Seite umgezogen) → durch die
+    offizielle Landes-Tourismusquelle ersetzt; bei der Gelegenheit die Narrenstuben-Zeiten
+    präzisiert (So 14–17 Uhr) und der Unterschied zwischen Fasnachtsmuseum und den
+    Wechselausstellungen des Kulturzentrums im Eintrag klargestellt.
+  - **Titisee** und **Wutachschlucht** – HTTP 403 von `hochschwarzwald.de`: Bot-Block, kein toter
+    Link (beide Seiten wurden bei der Recherche erfolgreich gelesen). Keine Änderung nötig.
+- **Verteilung nach Stufen:** 9 in Todtmoos, 16 Nahbereich, 23 Tagesausflug, 2 Fernziel.
+  Ampel 30 Passt / 18 Vorher prüfen / 2 Passt nicht.
+- **Commit:** siehe Repo-Historie zum Katalog `2026-08-09.4`.
+
 ### 2026-08-09 · Datierung angeglichen
 - **Anlass:** Die `catalog_version` und die Prüfdaten trugen noch das Aufbau-Label
   `2026-07-27`, obwohl real am 8./9. August gearbeitet wurde – Label und Wirklichkeit
