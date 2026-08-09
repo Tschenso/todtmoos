@@ -17,6 +17,17 @@ Zeitleiste festgehalten.
 
 ## Pflegeläufe (neueste zuerst)
 
+### 2026-08-09 · Letzter Beleg nachgezogen – 100/100 amtlich
+- **Wiedener Eck** war das einzige Ziel ohne amtliche Einzelquelle. Jetzt belegt durch die
+  Attraktionsseite **Info-Pavillon am Wiedener Eck** und die Tourenseite „Vom Wiedener Eck auf
+  den Feldberg" (beide Schwarzwald Tourismus, erreichbar geprüft).
+- Der Eintrag wurde dabei inhaltlich aufgewertet: Passhöhe 1035 m, **Westweg-Portal** (hier endet
+  die 10. und beginnt die 11. Etappe des Westwegs Pforzheim–Basel), Wanderparkplatz, Einstieg
+  links vom Hotel; Touren zum Feldberg (rund 17 km, 6 Std, anspruchsvoll), zum Belchen und zum
+  Rollspitz (1236 m).
+- **Ergebnis: Jedes der 100 Ziele hat jetzt mindestens einen amtlichen Verweis.**
+  127 Quellenbelege insgesamt.
+
 ### 2026-08-09 · Verweis-Audit über alle 100 Ziele
 - **Anlass:** Vollprüfung, ob die Quellenverweise sauber sind – Erreichbarkeit **und** Struktur.
 - **Struktur (fehlerfrei):** 100 Ziele, alle mit mindestens einer Quelle; keine leeren URLs,
