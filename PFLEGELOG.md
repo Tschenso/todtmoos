@@ -6,13 +6,30 @@ bekommt hier einen Eintrag: Datum, Katalogversion, `check-links`-Ergebnis und di
 abgearbeiteten Reviews bzw. Befunde. Katalog-Erweiterungen sind unten als Wachstums-
 Zeitleiste festgehalten.
 
-> Hinweis zur Datierung: Die `catalog_version` trägt aus der Aufbauphase das Label
-> `2026-07-27.x`; die tatsächlichen Arbeitstage waren der 8./9. August 2026. Künftige
-> Läufe versionieren mit dem realen Datum.
+> Hinweis zur Datierung: In der Aufbauphase trug die `catalog_version` das Label
+> `2026-07-27.x`, obwohl die tatsächlichen Arbeitstage der 8./9. August 2026 waren.
+> Am 2026-08-09 wurde die Datierung angeglichen (siehe Pflegelauf unten): Version
+> `2026-08-09.2`, alle betroffenen `source_checked_on` auf das reale Datum, alle
+> `next_review_on` intervallerhaltend nachgezogen. Künftige Läufe versionieren
+> direkt mit dem realen Datum.
 
 ---
 
 ## Pflegeläufe (neueste zuerst)
+
+### 2026-08-09 · Datierung angeglichen
+- **Anlass:** Die `catalog_version` und die Prüfdaten trugen noch das Aufbau-Label
+  `2026-07-27`, obwohl real am 8./9. August gearbeitet wurde – Label und Wirklichkeit
+  gingen auseinander.
+- **Umgestellt:** Version auf `2026-08-09.2`; **28 Einträge** von `source_checked_on:
+  2026-07-27` auf `2026-08-09`, **34 Quelldaten** ebenso; alle zugehörigen
+  `next_review_on` **intervallerhaltend** um 13 Tage nachgezogen (90/180-Tage-Regel bleibt
+  exakt gewahrt). Die ortsunabhängigen Vorlagen behalten ihr eigenes Datum (2026-07-14/20).
+- **Zwei Ausreißer nachjustiert:** Der bewusst gesetzte Radon-Klärungstermin war
+  mitverschoben worden → zurück auf **2026-11-08**; Belchen lag 13 Tage unter dem
+  180-Tage-Intervall → auf **2027-02-05** angeglichen.
+- **Ergebnis:** keine Datumsreste von `2026-07-27`, keine Intervall-Ausreißer,
+  kein überfälliger Eintrag. README-Standzeile auf 2026-08-09 / 32 Ziele korrigiert.
 
 ### 2026-08 · Erster Monats-Pflegelauf
 - **Stand vor dem Lauf:** 28 Ziele, Katalog `2026-07-27.6`.
