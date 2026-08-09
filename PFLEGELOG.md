@@ -17,6 +17,29 @@ Zeitleiste festgehalten.
 
 ## Pflegeläufe (neueste zuerst)
 
+### 2026-08-09 · Verweis-Audit über alle 100 Ziele
+- **Anlass:** Vollprüfung, ob die Quellenverweise sauber sind – Erreichbarkeit **und** Struktur.
+- **Struktur (fehlerfrei):** 100 Ziele, alle mit mindestens einer Quelle; keine leeren URLs,
+  alle Links `https`, keine doppelten `seed_key` oder Titel. Vier URLs belegen jeweils zwei
+  verwandte Ziele (Gemeinde-Übersichtsseiten) – geprüft und in Ordnung.
+- **`check-links`:** 114 von 122 URLs erreichbar. Sieben Meldungen sind der bekannte Bot-Block
+  (HTTP 403 von `hochschwarzwald.de` und `basel.com`) – die Seiten laden für Besucher.
+- **Ein echter Fehler – aus dem eigenen letzten Lauf:** Die in der zweiten Qualitätsrunde
+  eingetragene Pfarrei-URL `se-todtmoos-bernau.de` ist **per DNS nicht auflösbar**. Ersetzt durch
+  die offizielle Gemeindeseite `todtmoos.de/p/wallfahrtsort-todtmoos` (Öffnungszeiten dort
+  bestätigt). **Wichtige Folge:** Die Gemeinde sagt nichts zur Barrierefreiheit – die zuvor
+  gesetzte Angabe `step_free: true` stammte allein aus der toten Quelle und wurde
+  **zurückgenommen**. Lieber keine Angabe als eine unbelegte.
+- **Schwachstellen behoben:** Einträge ganz ohne amtliche Quelle 3 → 1.
+  - **Todtmooser Wasserfall** (Kernziel!) hatte nur eine abgeleitete Quelle → zwei amtliche
+    Belege ergänzt (Schwarzwald Tourismus, Gemeinde Todtmoos) und die Beschreibung präzisiert
+    (Steg mit Geländern, Brücke, Sitzbänke; im Winter Vereisungsgefahr).
+  - **Ihringen** – `ihringen-touristik.de` ist die offizielle Tourismusseite der Gemeinde,
+    Status entsprechend korrigiert.
+  - **Wiedener Eck** bleibt als einziges Ziel ohne amtliche Einzelquelle (nur Regions-Übersicht) –
+    dokumentiert, Beleg bei Gelegenheit nachziehen.
+- **Ergebnis:** 126 Quellenbelege, davon 120 amtlich.
+
 ### 2026-08-09 · Zweite Qualitätsrunde: Öffnungszeiten amtlich belegt
 - **Anlass:** 9 Einträge trugen einen abgeleiteten Sonntagsstatus (`derived`) – Öffnung oder
   Zugänglichkeit war nur plausibel, nicht belegt.

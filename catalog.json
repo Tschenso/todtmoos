@@ -1,6 +1,6 @@
 {
     "schema_version":  2,
-    "catalog_version":  "2026-08-09.10",
+    "catalog_version":  "2026-08-09.11",
     "note":  "Öffentlicher Katalog des Ausflugsfinders Südschwarzwald mit Basis Todtmoos, live auf tschenso.github.io/todtmoos. Redaktionell belegte Ziele von Todtmoos bis ins Dreiländereck plus ortsunabhängige Aktivitätsvorlagen. Das Feld distance_from_wuerzburg_km meint hier die Straßenkilometer ab Todtmoos (Feldname aus der Schwesterseite übernommen). Änderungen bitte per Pull-Request, siehe README.",
     "activities":  [
                        {
@@ -18,14 +18,14 @@
                            "additional_costs":  "",
                            "cost_valid_until":  null,
                            "sunday_status":  "confirmed",
-                           "sunday_text":  "Täglich geöffnet: Sommerzeit 8–19 Uhr, Winterzeit 8–17 Uhr. Sonntagsgottesdienste 9:30 und 11 Uhr – dann Rücksicht nehmen.",
+                           "sunday_text":  "Täglich zugänglich: Sommerzeit 8–19 Uhr, Winterzeit 8–17 Uhr. Gottesdienste sa 18, so 9:30 und 11 Uhr – dann Rücksicht nehmen.",
                            "environment":  "mixed",
                            "duration_min":  30,
                            "duration_max":  60,
                            "booking_required":  false,
-                           "step_free":  true,
-                           "accessibility_text":  "Kirche laut Pfarrei barrierefrei zugänglich; sie steht auf dem Schönbühl über dem Ort, die Zuwegung hat Steigung.",
-                           "preparation_text":  "Barockausstattung von 1770–1778, betreut vom Paulinerorden. Gottesdienstzeiten (So 9:30 und 11 Uhr) beachten und Ruhe wahren.",
+                           "step_free":  null,
+                           "accessibility_text":  "Kirche auf dem Schönbühl über dem Ort; die Zuwegung hat Steigung. Zur Barrierefreiheit macht die Gemeinde keine Angabe – vorab erfragen.",
+                           "preparation_text":  "Barockausstattung von 1770–1778, betreut vom Paulinerorden. Die Gemeinde nennt kostenlose Führungen durch Kirche und Pfarrhaus. Gottesdienstzeiten beachten.",
                            "plan_b":  "Ortsrundgang und Kurpark Todtmoos.",
                            "pre_departure_checks":  [
                                                         "Gottesdienstzeiten beachten",
@@ -37,8 +37,8 @@
                            "booking_url":  null,
                            "sources":  [
                                            {
-                                               "url":  "https://www.se-todtmoos-bernau.de/eip/pages/wallfahrtskirche.php",
-                                               "publisher":  "Seelsorgeeinheit Todtmoos-Bernau",
+                                               "url":  "https://www.todtmoos.de/p/wallfahrtsort-todtmoos",
+                                               "publisher":  "Gemeinde Todtmoos",
                                                "status":  "official",
                                                "checked_on":  "2026-08-09"
                                            },
@@ -56,7 +56,7 @@
                                         "wald-natur"
                                     ],
                            "title":  "Todtmooser Wasserfall",
-                           "summary":  "Frei zugänglicher Wasserfall mit rund 34–40 m Fallhöhe über mehrere Stufen, erschlossen durch einen gesicherten Steg.",
+                           "summary":  "Frei zugängliche Kaskade mit rund 34–40 m Gesamtfallhöhe zwischen Rütte und Hintertodtmoos, erschlossen durch einen gesicherten Steg mit Brücke.",
                            "activity_type":  "Wasserfall und Naturdenkmal",
                            "locality":  "Todtmoos (zwischen Rütte und Hintertodtmoos)",
                            "distance_from_wuerzburg_km":  3,
@@ -71,8 +71,8 @@
                            "duration_max":  90,
                            "booking_required":  false,
                            "step_free":  null,
-                           "accessibility_text":  "Gesicherter Steg ab dem Parkplatz an der L 146; keine amtliche Barrierefreiheitsangabe.",
-                           "preparation_text":  "Seit 1986 als flächenhaftes Naturdenkmal ausgewiesen; liegt auch am Genießerpfad Lebküchlerweg. Festes Schuhwerk.",
+                           "accessibility_text":  "Gut ausgeschilderter Wanderweg mit Geländern, Brücke und zwei Sitzbänken; ab Parkplatz an der L 146. Im Winter kann der Weg vereist sein.",
+                           "preparation_text":  "Seit 1986 flächenhaftes Naturdenkmal; liegt am Genießerpfad Lebküchlerweg. Von der Brücke lässt sich der Fall aus mehreren Perspektiven sehen. Festes Schuhwerk, im Winter besondere Vorsicht.",
                            "plan_b":  "Kurpark oder Ortsrundgang Todtmoos.",
                            "pre_departure_checks":  [
                                                         "Festes Schuhwerk anziehen",
@@ -83,6 +83,18 @@
                            "next_review_on":  "2027-02-05",
                            "booking_url":  null,
                            "sources":  [
+                                           {
+                                               "url":  "https://www.schwarzwald-tourismus.info/attraktionen/todtmooser-wasserfaelle-b8e8d1dbc4",
+                                               "publisher":  "Schwarzwald Tourismus",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           },
+                                           {
+                                               "url":  "https://www.todtmoos.de/p/naturerlebnis",
+                                               "publisher":  "Gemeinde Todtmoos",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           },
                                            {
                                                "url":  "https://schwarzwaldfuehrer.de/hochschwarzwald/ferienorte/todtmoos-wasserfall.html",
                                                "publisher":  "Schwarzwaldführer",
@@ -4293,7 +4305,7 @@
                                            {
                                                "url":  "https://www.ihringen-touristik.de/de-de/entdecken-sehen/naturzentrum_kaiserstuhl",
                                                "publisher":  "Tourismus Ihringen",
-                                               "status":  "derived",
+                                               "status":  "official",
                                                "checked_on":  "2026-08-09"
                                            }
                                        ]
