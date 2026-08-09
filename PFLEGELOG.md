@@ -17,6 +17,29 @@ Zeitleiste festgehalten.
 
 ## Pflegeläufe (neueste zuerst)
 
+### 2026-08-09 · Zweite Qualitätsrunde: Öffnungszeiten amtlich belegt
+- **Anlass:** 9 Einträge trugen einen abgeleiteten Sonntagsstatus (`derived`) – Öffnung oder
+  Zugänglichkeit war nur plausibel, nicht belegt.
+- **Fünf amtlich nachbelegt:**
+  - **Wallfahrtskirche Todtmoos** – die Seelsorgeeinheit belegt täglich 8–19 Uhr (Sommer) bzw.
+    8–17 Uhr (Winter) und **Barrierefreiheit**; Quelle von `derived` auf `official`, Sonntag auf
+    `confirmed`, `step_free` auf true. → **grün**
+  - **Colmar** – Quelle auf das offizielle Office de Tourisme umgestellt; Altstadt und Petite
+    Venise jederzeit zugänglich. → **grün**
+  - **Römische Badruine Badenweiler** – Staatliche Schlösser und Gärten BW: täglich 10–18 Uhr
+    (ab 1.11. bis 17 Uhr), Erwachsene 3 €, ermäßigt 1,50 €, Familien 7,50 €. → **grün**
+  - **Krunkelbachhütte Bernau** – Betreiber belegt täglich 10:30–18 Uhr, **kein Ruhetag**
+    (Küche 11–17 Uhr). → **grün**
+  - **Vita Classica Bad Krozingen** – täglich 8:30–22 Uhr belegt, Tageskarte 21,90 € plus 3 €
+    Wochenendaufpreis (sonntags also rund 24,90 €). → **rot**, weil weit über Standardbudget –
+    aber jetzt belastbar statt unbekannt.
+- **Bewusst nicht hochgestuft:** Pfarrkirche Rickenbach – keine veröffentlichten Öffnungszeiten
+  auffindbar; bleibt `derived` mit präzisiertem Hinweis. Ebenso Radon Revital Bad (Betreiber-
+  wechsel, Prüfung im November), Schlossberg Hornberg und Naturzentrum Kaiserstuhl
+  (sonntags in der Regel geschlossen – das ist ein echter Prüfgrund).
+- **Ergebnis:** abgeleiteter Sonntagsstatus 9 → **4**, unbelegte Preise 23 → **21**,
+  Quellenbelege 124. Ampel von 57/31/12 auf **60 Passt / 27 Vorher prüfen / 13 Passt nicht**.
+
 ### 2026-08-09 · Qualitätsrunde: Preise nachbelegt
 - **Anlass:** 38 Einträge standen auf „Vorher prüfen". Analyse der Ursachen: 30× unbelegter
   Preis, 20× saisonale Öffnung, 9× abgeleiteter Sonntagsstatus, 7× abgeleitete Quelle.
