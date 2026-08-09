@@ -5,8 +5,10 @@ im Südschwarzwald – als rein statische Website ohne Konten, ohne Tracking und
 ohne Backend. Schwesterprojekt des Sonntagsfinders Würzburg; dieselbe Engine, eigener
 Katalog mit Todtmoos als Bezugspunkt.
 
-> **Stand: v0.1 (Startkatalog, 2026-07-27).** Sechs redaktionell belegte Ziele plus die
-> 15 ortsunabhängigen Aktivitätsvorlagen. Wächst über die Kandidaten-Pipeline weiter.
+**Live: https://tschenso.github.io/todtmoos/**
+
+> **Stand: 2026-07-27.** 19 redaktionell belegte Ziele plus die 15 ortsunabhängigen
+> Aktivitätsvorlagen. Wächst über die Kandidaten-Pipeline (`KANDIDATEN.md`) weiter.
 > Hinweis: Das JSON-Feld `distance_from_wuerzburg_km` meint hier die Straßenkilometer
 > **ab Todtmoos** (Feldname aus der Schwesterseite übernommen, Umbenennung ist ein
 > offener Aufräumpunkt).
