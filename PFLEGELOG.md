@@ -17,6 +17,27 @@ Zeitleiste festgehalten.
 
 ## Pflegeläufe (neueste zuerst)
 
+### 2026-08-09 · DIE 100 IST VOLL
+- **Ausbau:** 70 → **100 Ziele** (Version `2026-08-09.8`), 132 Quellenbelege. Damit deckt die
+  Bibliothek den Südschwarzwald, den Hochrhein und das Dreiländereck bis rund 95 km ab.
+- **Neu in diesem Lauf (30):** Colmar, Breisach (Stephansmünster), Klosteranlage St. Peter,
+  Kloster Museum St. Märgen, Augusta Raurica, Schlossbergturm Freiburg, Höchenschwand,
+  Bergwerk Teufelsgrund, Fondation Beyeler, Augustinermuseum Freiburg, Schwarzwaldzoo
+  Waldkirch, Kandertalbahn, Riesenbühlturm Schluchsee, Klettgau-Museum Tiengen, Vita Classica
+  Bad Krozingen, Schlossberg Hornberg, Belchen-Seilbahn, Bergwerk Finstergrund, Klösterle
+  Schönau, Segerhof Wembach, Energieerlebnispark Buchenbrändle, Hasenhornturm, Todtnauberg/
+  Stübenwasen, Schönau im Wiesental, Stadtrundgang Wehr mit Sagenpfad, Museum Tinguely,
+  Naturzentrum Kaiserstuhl, Stadtmuseum Wehr, Ihringen, Wiedener Eck.
+- **`check-links`:** 105 von 114 URLs erreichbar.
+  - **Burg Rötteln** – `/oeffnungszeiten.htm` 404 → auf die Startseite umgestellt und dabei die
+    Zeiten präzisiert (Unterburg frei, Oberburg täglich 10–18 Uhr, letzter Einlass 17:30).
+  - **Staufen** – `breisgau-burgen.de` 404 → durch Schwarzwald-Tourismus und Tourismus BW ersetzt.
+  - Sieben weitere Meldungen sind HTTP 403 von `hochschwarzwald.de` und `basel.com` – Bot-Block,
+    keine toten Links (alle Seiten wurden bei der Recherche gelesen).
+- **Verteilung:** 9 Todtmoos / 29 Nahbereich / 48 Tagesausflug / 14 Fernziel.
+  Ampel 51 Passt / 39 Vorher prüfen / 10 Passt nicht.
+- **Hero:** Meilenstein-Zeile „💯 100 Ziele seit 09.08.2026" ergänzt.
+
 ### 2026-08-09 · Ausbau auf 70 Ziele + Umbenennung
 - **Ausbau:** 50 → **70 Ziele** (Version `2026-08-09.5`), 102 Quellenbelege. Der Radius reicht
   jetzt bis rund 95 km: Triberger Wasserfälle, Europa-Park Rust, Basel (Altstadt/Münster, Zolli),
