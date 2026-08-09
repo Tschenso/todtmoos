@@ -1,6 +1,6 @@
 {
     "schema_version":  2,
-    "catalog_version":  "2026-07-27.6",
+    "catalog_version":  "2026-07-27.7",
     "note":  "Öffentlicher Katalog des Ausflugsfinders Todtmoos (Südschwarzwald), live auf tschenso.github.io/todtmoos. Redaktionell belegte Ziele in und um Todtmoos plus die ortsunabhängigen Aktivitätsvorlagen. Das Feld distance_from_wuerzburg_km meint hier die Straßenkilometer ab Todtmoos (Feldname aus der Schwesterseite übernommen). Änderungen bitte per Pull-Request, siehe README.",
     "activities":  [
                        {
@@ -522,34 +522,34 @@
                            "activity_type":  "Thermalbad",
                            "locality":  "Menzenschwand (St. Blasien)",
                            "distance_from_wuerzburg_km":  14,
-                           "cost_status":  "known",
-                           "cost_per_person_cents":  1500,
-                           "additional_costs":  "Ermäßigt 14 €, Kinder 4–12 J. 11 €; Sauna separat, Wochenend- und Feiertagszuschlag 2 €. Jeweils 4-Stunden-Tarif.",
-                           "cost_valid_until":  "2026-10-25",
-                           "sunday_status":  "confirmed",
-                           "sunday_text":  "So und Feiertage 12–21 Uhr (Mi–Fr 14–21 Uhr, Mo/Di geschlossen).",
+                           "cost_status":  "unknown",
+                           "cost_per_person_cents":  null,
+                           "additional_costs":  "Betreiberwechsel 2025/26 – aktuelle Öffnungszeiten und Preise vor dem Besuch prüfen.",
+                           "cost_valid_until":  null,
+                           "sunday_status":  "unknown",
+                           "sunday_text":  "Das Bad war Ende 2025 geschlossen; für 2026 ist eine Wiedereröffnung unter neuem Betreiber geplant. Aktuellen Betriebsstatus und Zeiten unbedingt vor dem Besuch prüfen.",
                            "environment":  "indoor",
                            "duration_min":  120,
                            "duration_max":  240,
                            "booking_required":  false,
                            "step_free":  null,
                            "accessibility_text":  "Thermalbad In der Friedrichsruhe 13; Barrierefreiheit vorab erfragen.",
-                           "preparation_text":  "Radonhaltiges Heilwasser; Badesachen mitnehmen. Die Preise gelten als 4-Stunden-Tarif, am Wochenende mit Zuschlag.",
+                           "preparation_text":  "Radonhaltiges Heilwasser; Badesachen mitnehmen. Nach der Schließung 2025 wechselte das Bad den Betreiber – vor der Anfahrt sicherstellen, dass es geöffnet ist.",
                            "plan_b":  "Menzenschwander Wasserfälle bei gutem Wetter.",
                            "pre_departure_checks":  [
-                                                        "Badesachen mitnehmen",
-                                                        "Öffnungstage beachten (Mo/Di geschlossen)",
-                                                        "Wochenendzuschlag einplanen"
+                                                        "Betriebsstatus vorab prüfen (Wiedereröffnung 2026)",
+                                                        "Öffnungszeiten und Preise erfragen",
+                                                        "Badesachen mitnehmen"
                                                     ],
                            "source_checked_on":  "2026-07-27",
-                           "next_review_on":  "2026-10-25",
+                           "next_review_on":  "2026-09-13",
                            "booking_url":  null,
                            "sources":  [
                                            {
-                                               "url":  "https://www.radonrevitalbad.de/Angebote-Preise",
-                                               "publisher":  "Radon Revital Bad",
-                                               "status":  "official",
-                                               "checked_on":  "2026-07-27"
+                                               "url":  "https://www.schwarzwald-tourismus.info/attraktionen/revitalbad-in-menzenschwand-480520a8d4",
+                                               "publisher":  "Schwarzwald Tourismus",
+                                               "status":  "derived",
+                                               "checked_on":  "2026-08-09"
                                            }
                                        ]
                        },
@@ -809,10 +809,10 @@
                                                "checked_on":  "2026-07-27"
                                            },
                                            {
-                                               "url":  "https://www.schwarzwald-tourismus.info/attraktionen/wintersportplatz-todtmoos-am-hochkopf-67bf7e3a52",
+                                               "url":  "https://www.schwarzwald-tourismus.info/attraktionen/wintersportgebiet-todtmoos-b676b3f6cc",
                                                "publisher":  "Schwarzwald Tourismus",
                                                "status":  "official",
-                                               "checked_on":  "2026-07-27"
+                                               "checked_on":  "2026-08-09"
                                            }
                                        ]
                        },
@@ -1119,12 +1119,6 @@
                            "next_review_on":  "2027-01-23",
                            "booking_url":  null,
                            "sources":  [
-                                           {
-                                               "url":  "https://www.heilbaeder-bw.de/sehenswuerdigkeiten/kneippanlage-beim-haus-des-gastes-0ce44fa668",
-                                               "publisher":  "Heilbäder Baden-Württemberg",
-                                               "status":  "official",
-                                               "checked_on":  "2026-07-27"
-                                           },
                                            {
                                                "url":  "https://www.stblasien.de/freizeit-tourismus/tourismus",
                                                "publisher":  "Stadt St. Blasien",

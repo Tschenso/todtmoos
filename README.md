@@ -28,8 +28,8 @@ Es wird nichts gespeichert und nichts übertragen.
 | `vorlagen.html` | Unterseite: ortsunabhängige Aktivitätsvorlagen, gruppiert nach Schlecht-/Schönwetter |
 | `catalog.json` | **die Datenquelle**: alle Einträge, Quellen und Prüfdaten |
 | `events.json` | kuratierte, zeitlich begrenzte Hinweise (laufen automatisch ab) |
-| `sonntagsfinder-offline.html` | **Offline-Ausgabe**: doppelklickbare Bibliothek mit eingebetteten Daten |
-| `sonntagsfinder-vorlagen-offline.html` | Offline-Ausgabe der Vorlagenseite |
+| `todtmoos-offline.html` | **Offline-Ausgabe**: doppelklickbare Bibliothek mit eingebetteten Daten |
+| `todtmoos-vorlagen-offline.html` | Offline-Ausgabe der Vorlagenseite |
 | `make-offline.ps1` | erzeugt beide Offline-Dateien neu aus den HTML- + JSON-Dateien |
 | `check-links.ps1` | Redaktionswerkzeug: prüft alle Quell-/Booking-URLs und listet fällige Reviews |
 | `KANDIDATEN.md` | redaktioneller Arbeitsvorrat auf dem Weg zu ~100 Einträgen (unverifiziert) |
@@ -52,7 +52,7 @@ Eine inhaltliche Änderung ist immer eine Änderung an `catalog.json` oder `even
 - **Kategorien**: Jeder Eintrag trägt ein redaktionell gepflegtes `tags`-Feld. Erlaubte Werte:
   `regenfest`, `tiere`, `hallenbad`, `freibad-see`, `wald-natur`, `garten-park`,
   `museum-kultur`, `wissenschaft`, `bewegung`, `aussicht`, `ohne-auto`. Bedeutung von `ohne-auto`:
-  zu Fuß oder mit Bahn/Bus ab Würzburg gut erreichbar – nur vergeben, wenn das
+  zu Fuß oder mit Bahn/Bus ab Todtmoos gut erreichbar – nur vergeben, wenn das
   plausibel belegt ist (Stadtgebiet oder Bahnhalt am Ort). Neue Kategorien zuerst
   hier dokumentieren, dann in `index.html` (Konstante `TAGS`) ergänzen.
 - **Ampel**: rechnet clientseitig gegen Budget pro Person, Budget pro Gruppe und Gruppengröße.
@@ -85,10 +85,10 @@ Veranstaltungskalender (Stadt, Landkreis, Frankentourismus) – die brauchen kei
 
 ## Offline-Version (ohne Server, ohne Internet)
 
-`sonntagsfinder-offline.html` ist die komplette Website als **eine Datei mit
+`todtmoos-offline.html` ist die komplette Website als **eine Datei mit
 eingebetteten Daten** – einfach doppelklicken, sie öffnet sich im Browser und
 funktioniert vollständig offline (Filter, Ampel, Suche, gespeicherte Einstellungen).
-`sonntagsfinder-vorlagen-offline.html` enthält dieselbe Vorlagenseite. Jede Datei
+`todtmoos-vorlagen-offline.html` enthält dieselbe Vorlagenseite. Jede Datei
 läuft für sich; der Wechsel zwischen beiden klappt nur, wenn sie im selben Ordner liegen.
 
 - **Weitergeben:** Datei per USB-Stick, internem Laufwerk oder Mailanhang verteilen –
@@ -98,7 +98,7 @@ läuft für sich; der Wechsel zwischen beiden klappt nur, wenn sie im selben Ord
 - **Aktualisieren:** Nach jeder Änderung an `catalog.json`/`events.json` neu erzeugen:
 
 ```powershell
-cd Sonntagsfinder-Public
+cd Todtmoos-Public
 powershell -ExecutionPolicy Bypass -File .\make-offline.ps1
 ```
 
@@ -108,24 +108,30 @@ powershell -ExecutionPolicy Bypass -File .\make-offline.ps1
 Zum lokalen Testen der Server-Variante einen Mini-Server starten:
 
 ```powershell
-cd Sonntagsfinder-Public
+cd Todtmoos-Public
 python -m http.server 8080
 # dann http://localhost:8080 öffnen
 ```
 
-## Auf GitHub Pages veröffentlichen
+## Auf GitHub Pages veröffentlicht
 
-1. Auf github.com ein neues **öffentliches** Repository anlegen (z. B. `sonntagsfinder`).
+Diese Seite ist bereits **live auf https://tschenso.github.io/todtmoos/** (Repo
+`github.com/Tschenso/todtmoos`, Pages von Branch `main`, Ordner `/ (root)`). Jeder
+`git push` auf `main` aktualisiert die Live-Seite nach ein bis zwei Minuten automatisch.
+
+Zur Referenz, falls die Seite einmal neu aufgesetzt werden muss:
+
+1. Auf github.com ein neues **öffentliches** Repository anlegen (z. B. `todtmoos`).
 2. Lokal verknüpfen und hochladen:
    ```powershell
-   git remote add origin https://github.com/<DEIN-NAME>/sonntagsfinder.git
+   git remote add origin https://github.com/Tschenso/todtmoos.git
    git push -u origin main
    ```
 3. Im Repo: **Settings → Pages → Source: „Deploy from a branch“ → Branch `main`, Ordner `/ (root)` → Save.**
 4. Nach ca. 1–2 Minuten ist die Seite unter
-   `https://<DEIN-NAME>.github.io/sonntagsfinder/` erreichbar.
-5. **Einmalig:** In `index.html` oben im `CONFIG`-Block `repoIssues` auf
-   `https://github.com/<DEIN-NAME>/sonntagsfinder/issues` setzen und committen.
+   `https://tschenso.github.io/todtmoos/` erreichbar.
+5. In `index.html` oben im `CONFIG`-Block ist `repoIssues` bereits auf
+   `https://github.com/Tschenso/todtmoos/issues` gesetzt.
    Ab dann führt „Info melden“ auf GitHub-Issues statt auf die E-Mail-Adresse.
    (Die E-Mail-Adresse kann dort ebenfalls angepasst oder durch eine dedizierte
    Adresse ersetzt werden – für eine öffentliche Seite empfehlenswert.)
@@ -162,7 +168,7 @@ Das Vier-Augen-Prinzip läuft über Git, nicht über Anwendungscode:
    überschritten, zeigt die Seite automatisch „⚠ Prüfung überfällig“ – veraltete
    Einträge werden also sichtbar, nicht versteckt.
 5. **Neuer Eintrag:** Einen bestehenden Block in `catalog.json` kopieren, alle Felder
-   ausfüllen (`distance_from_wuerzburg_km` = einfache Straßenkilometer ab Würzburg Hbf,
+   ausfüllen (`distance_from_wuerzburg_km` = einfache Straßenkilometer ab Todtmoos,
    ca.-Werte zulässig, `null` für ortsunabhängige Vorlagen; Beträge in Cent). Optional
    `booking_url` für einen direkten Ticket-/Buchungslink. Fernziele über 50 km sind
    ausdrücklich erlaubt und erscheinen als eigene Stufe „Fernziel“.
@@ -176,7 +182,7 @@ Immer in dieser Reihenfolge – ein Durchlauf pro Monat hält den Katalog aktuel
 
 1. **Repo öffnen und Links prüfen.** Im Projektordner starten:
    ```powershell
-   cd <Pfad>\Sonntagsfinder-Public
+   cd <Pfad>\Todtmoos-Public
    powershell -ExecutionPolicy Bypass -File .\check-links.ps1
    ```
    Der Report listet (a) nicht erreichbare URLs und (b) alle Einträge, deren
@@ -197,8 +203,8 @@ Immer in dieser Reihenfolge – ein Durchlauf pro Monat hält den Katalog aktuel
    ```
 6. **Committen & pushen** – ein Commit pro Pflegelauf mit Datum im Text.
 7. **Live gegenprüfen.** Nach ein bis zwei Minuten (GitHub-Pages-Deploy) die Seite mit
-   Cache-Buster aufrufen – z. B. `…/sonntagsfinder/?cb=pflege` oder
-   `…/sonntagsfinder/catalog.json?cb=pflege` – und die Katalogversion im Fußbereich
+   Cache-Buster aufrufen – z. B. `https://tschenso.github.io/todtmoos/?cb=pflege` oder
+   `https://tschenso.github.io/todtmoos/catalog.json?cb=pflege` – und die Katalogversion im Fußbereich
    kontrollieren. (Das GitHub-Pages-CDN cacht ein paar Minuten; ein einfaches
    Neuladen zeigt sonst noch den alten Stand.)
 
@@ -216,8 +222,9 @@ Ist `next_review_on` überschritten, zeigt die Karte automatisch „⚠ Prüfung
 
 ## Herkunft & Attribution
 
-- Datenbasis: redaktioneller Basiskatalog v1 (`2026-07-15.1`) des Sonntagsfinder-Piloten;
-  30 Einträge, 38 Quellenbelege, Stand Juli 2026.
+- Datenbasis: redaktionell recherchierte Ziele in und um Todtmoos (Südschwarzwald),
+  jeweils mit offizieller Quelle und Prüfdatum; die ortsunabhängigen Aktivitätsvorlagen
+  stammen aus der Schwesterseite Sonntagsfinder Würzburg.
 - Entfernungsangaben wurden mit OpenStreetMap-Daten erarbeitet:
   © [OpenStreetMap-Mitwirkende, ODbL](https://www.openstreetmap.org/copyright).
 - Die Seite erhebt keine personenbezogenen Daten; der Filterzustand liegt nur in der
@@ -225,7 +232,7 @@ Ist `next_review_on` überschritten, zeigt die Karte automatisch „⚠ Prüfung
 
 ## Grenzen
 
-Der Sonntagsfinder ist eine Vorabhilfe, keine Zusage: Öffnungszeiten, Preise und
+Der Ausflugsfinder Todtmoos ist eine Vorabhilfe, keine Zusage: Öffnungszeiten, Preise und
 Zugänglichkeit können sich kurzfristig ändern. Maßgeblich ist immer die verlinkte
 Originalquelle. Die Seite entscheidet nicht über die pädagogische, gesundheitliche
 oder aufsichtliche Eignung für einzelne Personen oder Gruppen.
