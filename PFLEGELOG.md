@@ -17,6 +17,20 @@ Zeitleiste festgehalten.
 
 ## Pflegeläufe (neueste zuerst)
 
+### 2026-08-09 · Mobil-Audit: Bedienelemente fingerfreundlich
+- **Layout war bereits mobiltauglich:** `viewport`-Meta korrekt, bei 375 px kein
+  horizontaler Überlauf, Raster fällt auf eine Spalte, das Filterpanel wird unter
+  880 px `static` (kein Eigen-Scroll, kein Klebe-Effekt), Überschrift skaliert per `clamp`.
+- **Befund:** die Bedienelemente waren zu klein fÜr den Daumen. Der Entfernungs-
+  Schieberegler maß nur 16 px Höhe, Kategorie-Chips 31 px, Voreinstellungen 33 px,
+  Kästchen und Auswahlfeld unter 40 px. Empfohlenes Mindestmaß fÜr Touch: 44 px.
+- **Behoben** ueber einen Medienblock `(pointer: coarse), (max-width: 880px)`:
+  Schieberegler 44 px (Griff 26 px), Chips und Voreinstellungen 40 px, Kästchenzeilen
+  44 px, Sortierauswahl 44 px, ZurÜcksetzen 46 px, Themenknopf 44 px.
+- **Nachgemessen:** 375 px und 768 px, jeweils kein Überlauf, kein Bedienelement mehr
+  unter 40 px, keine Konsolenfehler. Auf dem Tablet zwei Karten pro Reihe.
+- Reine Darstellungsänderung, Katalog unberÜhrt.
+
 ### 2026-08-09 · Letzter Beleg nachgezogen – 100/100 amtlich
 - **Wiedener Eck** war das einzige Ziel ohne amtliche Einzelquelle. Jetzt belegt durch die
   Attraktionsseite **Info-Pavillon am Wiedener Eck** und die Tourenseite „Vom Wiedener Eck auf
