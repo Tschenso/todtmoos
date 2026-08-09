@@ -1,6 +1,6 @@
 {
     "schema_version":  2,
-    "catalog_version":  "2026-08-09.8",
+    "catalog_version":  "2026-08-09.9",
     "note":  "Öffentlicher Katalog des Ausflugsfinders Südschwarzwald mit Basis Todtmoos, live auf tschenso.github.io/todtmoos. Redaktionell belegte Ziele von Todtmoos bis ins Dreiländereck plus ortsunabhängige Aktivitätsvorlagen. Das Feld distance_from_wuerzburg_km meint hier die Straßenkilometer ab Todtmoos (Feldname aus der Schwesterseite übernommen). Änderungen bitte per Pull-Request, siehe README.",
     "activities":  [
                        {
@@ -96,10 +96,10 @@
                            "activity_type":  "Heimatmuseum",
                            "locality":  "Todtmoos, Murgtalstraße",
                            "distance_from_wuerzburg_km":  0.5,
-                           "cost_status":  "unknown",
-                           "cost_per_person_cents":  null,
-                           "additional_costs":  "Eintrittspreise nicht online veröffentlicht – vor Ort erfragen.",
-                           "cost_valid_until":  null,
+                           "cost_status":  "known",
+                           "cost_per_person_cents":  400,
+                           "additional_costs":  "Kinder bis 2 €; mit Schwarzwald-Gästekarte jeweils halber Preis.",
+                           "cost_valid_until":  "2026-11-07",
                            "sunday_status":  "confirmed",
                            "sunday_text":  "Sonn- und Feiertage 14:30–17 Uhr (auch Mittwoch und Freitag).",
                            "environment":  "indoor",
@@ -122,6 +122,12 @@
                                            {
                                                "url":  "https://www.todtmoos.de/p/heimethus",
                                                "publisher":  "Gemeinde Todtmoos",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           },
+                                           {
+                                               "url":  "https://www.naturpark-suedschwarzwald.de/de/freizeit-sport/details.php?id=38524",
+                                               "publisher":  "Naturpark Südschwarzwald",
                                                "status":  "official",
                                                "checked_on":  "2026-08-09"
                                            }
@@ -660,10 +666,10 @@
                            "activity_type":  "Kunstmuseum",
                            "locality":  "Bernau im Schwarzwald",
                            "distance_from_wuerzburg_km":  13,
-                           "cost_status":  "unknown",
-                           "cost_per_person_cents":  null,
-                           "additional_costs":  "Eintritt nicht online veröffentlicht (vor Ort erfragen); frei u. a. mit Museums-PASS Musées.",
-                           "cost_valid_until":  null,
+                           "cost_status":  "known",
+                           "cost_per_person_cents":  500,
+                           "additional_costs":  "Schüler 6–16 J. 2 €, Gruppen ab 12 Pers. 3 €, mit Gästekarte anderer Orte 4 €; frei mit Museums-PASS Musées, DreiWelten Card oder Inklusiv-Gästekarte Bernau.",
+                           "cost_valid_until":  "2026-11-07",
                            "sunday_status":  "confirmed",
                            "sunday_text":  "Sa, So und Feiertage 11:30–17 Uhr (Mi–Fr 10:30–12 und 14–17 Uhr).",
                            "environment":  "indoor",
@@ -1599,10 +1605,10 @@
                            "activity_type":  "Brauerei-Erlebniswelt",
                            "locality":  "Grafenhausen (Rothaus)",
                            "distance_from_wuerzburg_km":  20,
-                           "cost_status":  "unknown",
-                           "cost_per_person_cents":  null,
-                           "additional_costs":  "Preise für Führungen und ZÄPFLE Heimat nicht durchgängig online – vorab prüfen. Führungen mit Alkoholausschank nur für Erwachsene.",
-                           "cost_valid_until":  null,
+                           "cost_status":  "known",
+                           "cost_per_person_cents":  1500,
+                           "additional_costs":  "Preis gilt für die rund 90-minütige Brauereiführung inkl. einem Bier und einer Brezel; Kinder 10 €. Die Ausstellung ZÄPFLE Heimat, Markt und Bar sind separat zugänglich.",
+                           "cost_valid_until":  "2026-11-07",
                            "sunday_status":  "confirmed",
                            "sunday_text":  "Führungen sonntags und feiertags 12, 14 und 16 Uhr (Mo–Fr 12 und 16 Uhr); ZÄPFLE Heimat täglich 12–18 Uhr, ZÄPFLE Markt/Bar täglich 10–18 Uhr.",
                            "environment":  "indoor",
@@ -1624,6 +1630,12 @@
                            "sources":  [
                                            {
                                                "url":  "https://www.rothaus.de/genusswelt",
+                                               "publisher":  "Staatsbrauerei Rothaus",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           },
+                                           {
+                                               "url":  "https://www.rothaus.de/genusswelt/brauereibesichtigung",
                                                "publisher":  "Staatsbrauerei Rothaus",
                                                "status":  "official",
                                                "checked_on":  "2026-08-09"
@@ -2581,10 +2593,10 @@
                            "activity_type":  "Burgruine",
                            "locality":  "Lörrach-Haagen",
                            "distance_from_wuerzburg_km":  45,
-                           "cost_status":  "unknown",
-                           "cost_per_person_cents":  null,
-                           "additional_costs":  "Unterburg laut Quellen ohne Eintritt; für Museum und Oberburg Preise vor Ort erfragen.",
-                           "cost_valid_until":  null,
+                           "cost_status":  "known",
+                           "cost_per_person_cents":  400,
+                           "additional_costs":  "Kinder 6–14 J. 2 €, unter 6 J. frei, Gruppen ab 20 Pers. 3 €, Ermäßigung 3 €; Landesfamilienpass frei. Tickets nur vor Ort an der Kasse. Unterburg frei zugänglich.",
+                           "cost_valid_until":  "2026-11-07",
                            "sunday_status":  "confirmed",
                            "sunday_text":  "Unterburg frei zugänglich (ohne Winterdienst); Oberburg täglich 10–18 Uhr, letzter Einlass 17:30.",
                            "environment":  "mixed",
@@ -2791,10 +2803,10 @@
                            "activity_type":  "Museum",
                            "locality":  "Hinterzarten",
                            "distance_from_wuerzburg_km":  42,
-                           "cost_status":  "unknown",
-                           "cost_per_person_cents":  null,
-                           "additional_costs":  "Eintrittspreise nicht online belegt – vor Ort oder telefonisch erfragen.",
-                           "cost_valid_until":  null,
+                           "cost_status":  "known",
+                           "cost_per_person_cents":  500,
+                           "additional_costs":  "Ermäßigt und Gruppen ab 10 Pers. 4 €, Kinder bis 16 J. frei; frei mit Hochschwarzwald Card und Museums-PASS. VR-Skisprung extra (5 €/3 €).",
+                           "cost_valid_until":  "2026-11-07",
                            "sunday_status":  "confirmed",
                            "sunday_text":  "Sa, So und Feiertage 12–17 Uhr (Di, Mi, Fr 14–17 Uhr); jeden 2. und 4. Samstag offene Führung um 15 Uhr.",
                            "environment":  "indoor",
@@ -2816,6 +2828,12 @@
                            "sources":  [
                                            {
                                                "url":  "https://www.schwarzwaelder-skimuseum.de/seite/291028/",
+                                               "publisher":  "Schwarzwälder Skimuseum",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           },
+                                           {
+                                               "url":  "https://www.schwarzwaelder-skimuseum.de/texte/seite.php?id=291026",
                                                "publisher":  "Schwarzwälder Skimuseum",
                                                "status":  "official",
                                                "checked_on":  "2026-08-09"
@@ -3009,7 +3027,7 @@
                            "distance_from_wuerzburg_km":  55,
                            "cost_status":  "unknown",
                            "cost_per_person_cents":  null,
-                           "additional_costs":  "Eintrittspreise nicht durchgängig online belegt – vorab auf der Betreiberseite prüfen.",
+                           "additional_costs":  "Tageskarte Erwachsene laut Drittquellen rund 14,50–15,50 € (Angaben widersprüchlich, keine offizielle Preisseite gefunden); Sauna inkl. Therme rund 22 €. Kurtaxe kommt vor Ort dazu. Vorab beim Staatsbad prüfen.",
                            "cost_valid_until":  null,
                            "sunday_status":  "confirmed",
                            "sunday_text":  "Thermalbäder täglich 9–22 Uhr, Sauna 10–22 Uhr, Römisch-Irisches Bad (textilfrei) 13–21 Uhr.",
@@ -3175,10 +3193,10 @@
                            "activity_type":  "Museum",
                            "locality":  "St. Märgen",
                            "distance_from_wuerzburg_km":  55,
-                           "cost_status":  "unknown",
-                           "cost_per_person_cents":  null,
-                           "additional_costs":  "Eintrittspreise nicht durchgängig online; Kinder bis 14 J. sowie Museumspass/Hochschwarzwald Card frei, ermäßigt ab 3 €.",
-                           "cost_valid_until":  null,
+                           "cost_status":  "known",
+                           "cost_per_person_cents":  600,
+                           "additional_costs":  "Ab 15 Jahren; Kinder bis 14 J. frei, ebenso mit Hochschwarzwald Card, Wälder Card, Museumspass oder Schwarzwald Card. Ermäßigt ab GdB 70: 3 €.",
+                           "cost_valid_until":  "2026-11-07",
                            "sunday_status":  "confirmed",
                            "sunday_text":  "Ganzjährig sonn- und feiertags 10–16 Uhr; April–15. Nov und in den BW-Schulferien zusätzlich Mi/Do 10–13 und Fr 14–17 Uhr. Geschlossen 1.1., 25.12. und Karfreitag.",
                            "environment":  "indoor",
@@ -4099,10 +4117,10 @@
                            "activity_type":  "Kunstmuseum",
                            "locality":  "Basel (Schweiz)",
                            "distance_from_wuerzburg_km":  60,
-                           "cost_status":  "unknown",
-                           "cost_per_person_cents":  null,
-                           "additional_costs":  "Eintritt in Schweizer Franken; donnerstags 18–21 Uhr freier Eintritt.",
-                           "cost_valid_until":  null,
+                           "cost_status":  "known",
+                           "cost_per_person_cents":  1800,
+                           "additional_costs":  "Preis in Schweizer Franken (CHF 18); Studierende und Lernende CHF 12, Kinder und Jugendliche unter 16 frei. Donnerstags 18–21 Uhr freier Eintritt.",
+                           "cost_valid_until":  "2026-11-07",
                            "sunday_status":  "confirmed",
                            "sunday_text":  "Di–So 11–18 Uhr, Do bis 21 Uhr; montags geschlossen.",
                            "environment":  "indoor",
@@ -4124,6 +4142,12 @@
                            "sources":  [
                                            {
                                                "url":  "https://www.tinguely.ch/de/information.html",
+                                               "publisher":  "Museum Tinguely",
+                                               "status":  "official",
+                                               "checked_on":  "2026-08-09"
+                                           },
+                                           {
+                                               "url":  "https://www.tinguely.ch/de/information/eintrittspreise.html",
                                                "publisher":  "Museum Tinguely",
                                                "status":  "official",
                                                "checked_on":  "2026-08-09"

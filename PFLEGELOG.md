@@ -17,6 +17,23 @@ Zeitleiste festgehalten.
 
 ## Pflegeläufe (neueste zuerst)
 
+### 2026-08-09 · Qualitätsrunde: Preise nachbelegt
+- **Anlass:** 38 Einträge standen auf „Vorher prüfen". Analyse der Ursachen: 30× unbelegter
+  Preis, 20× saisonale Öffnung, 9× abgeleiteter Sonntagsstatus, 7× abgeleitete Quelle.
+- **Fokus:** Nur bei **9 Einträgen** konnte ein Preisbeleg überhaupt etwas ändern (die übrigen
+  bleiben zu Recht gelb – eine saisonale Öffnung ist ein echter Prüfgrund, den kein Preis heilt).
+- **Sieben Preise offiziell nachbelegt:** Heimethüs Todtmoos 4 €, Hans-Thoma-Kunstmuseum
+  Bernau 5 €, Skimuseum Hinterzarten 5 €, Kloster Museum St. Märgen 6 €, Burg Rötteln 4 €
+  (alle → **grün**), Rothaus-Brauereiführung 15 € und Museum Tinguely CHF 18 (→ **rot**, weil
+  über dem Standardbudget von 10 €).
+- **Bewusst nicht belegt:** Cassiopeia Therme Badenweiler – die Drittquellen widersprechen sich
+  (14,50 € vs. 15,50 €) und eine offizielle Preisseite war nicht auffindbar. Bleibt „Kosten
+  unklar", die Spanne steht jetzt als Hinweis im Eintrag.
+- **Ergebnis:** unbelegte Preise 30 → 23. Ampel von 52/38/10 auf **57 Passt / 31 Vorher prüfen /
+  12 Passt nicht**. Die zwei neuen „Passt nicht" sind ein Qualitätsgewinn, kein Rückschritt:
+  ein belegter zu hoher Preis ist ehrlicher als ein unbekannter – und bei höherem Budget
+  werden beide grün.
+
 ### 2026-08-09 · DIE 100 IST VOLL
 - **Ausbau:** 70 → **100 Ziele** (Version `2026-08-09.8`), 132 Quellenbelege. Damit deckt die
   Bibliothek den Südschwarzwald, den Hochrhein und das Dreiländereck bis rund 95 km ab.
