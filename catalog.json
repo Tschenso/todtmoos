@@ -1,6 +1,6 @@
 {
     "schema_version":  2,
-    "catalog_version":  "2026-07-27.7",
+    "catalog_version":  "2026-07-27.8",
     "note":  "Öffentlicher Katalog des Ausflugsfinders Todtmoos (Südschwarzwald), live auf tschenso.github.io/todtmoos. Redaktionell belegte Ziele in und um Todtmoos plus die ortsunabhängigen Aktivitätsvorlagen. Das Feld distance_from_wuerzburg_km meint hier die Straßenkilometer ab Todtmoos (Feldname aus der Schwesterseite übernommen). Änderungen bitte per Pull-Request, siehe README.",
     "activities":  [
                        {
@@ -524,31 +524,37 @@
                            "distance_from_wuerzburg_km":  14,
                            "cost_status":  "unknown",
                            "cost_per_person_cents":  null,
-                           "additional_costs":  "Betreiberwechsel 2025/26 – aktuelle Öffnungszeiten und Preise vor dem Besuch prüfen.",
+                           "additional_costs":  "Zuletzt Tageskarte 15 € (4 Std.), ermäßigt 14 €, Sauna 21/20 €; unter neuem Betreiber vor dem Besuch bestätigen.",
                            "cost_valid_until":  null,
-                           "sunday_status":  "unknown",
-                           "sunday_text":  "Das Bad war Ende 2025 geschlossen; für 2026 ist eine Wiedereröffnung unter neuem Betreiber geplant. Aktuellen Betriebsstatus und Zeiten unbedingt vor dem Besuch prüfen.",
+                           "sunday_status":  "derived",
+                           "sunday_text":  "Von der Stadt Ende 2025 geschlossen, laut mehreren Quellen im Mai 2026 unter neuem Betreiber wieder eröffnet; zuletzt täglich 10–21 Uhr. Aktuellen Betrieb vor dem Besuch bestätigen.",
                            "environment":  "indoor",
                            "duration_min":  120,
                            "duration_max":  240,
                            "booking_required":  false,
                            "step_free":  null,
                            "accessibility_text":  "Thermalbad In der Friedrichsruhe 13; Barrierefreiheit vorab erfragen.",
-                           "preparation_text":  "Radonhaltiges Heilwasser; Badesachen mitnehmen. Nach der Schließung 2025 wechselte das Bad den Betreiber – vor der Anfahrt sicherstellen, dass es geöffnet ist.",
+                           "preparation_text":  "Radonhaltiges Heilwasser; Badesachen mitnehmen. Der Ratsbeschluss von 2025 sah die Schließung vor; nach Käuferwechsel ist die Wiedereröffnung 2026 gemeldet – vor der Anfahrt sicherstellen, dass geöffnet ist.",
                            "plan_b":  "Menzenschwander Wasserfälle bei gutem Wetter.",
                            "pre_departure_checks":  [
-                                                        "Betriebsstatus vorab prüfen (Wiedereröffnung 2026)",
+                                                        "Aktuellen Betrieb vor Anfahrt bestätigen",
                                                         "Öffnungszeiten und Preise erfragen",
                                                         "Badesachen mitnehmen"
                                                     ],
                            "source_checked_on":  "2026-07-27",
-                           "next_review_on":  "2026-09-13",
+                           "next_review_on":  "2026-11-08",
                            "booking_url":  null,
                            "sources":  [
                                            {
                                                "url":  "https://www.schwarzwald-tourismus.info/attraktionen/revitalbad-in-menzenschwand-480520a8d4",
                                                "publisher":  "Schwarzwald Tourismus",
                                                "status":  "derived",
+                                               "checked_on":  "2026-08-09"
+                                           },
+                                           {
+                                               "url":  "https://www.stblasien.de/stadt-handel/aktuelles/430/vorzeitige-schliessung-des-revital-bad-menzenschwand-zum-01112025",
+                                               "publisher":  "Stadt St. Blasien",
+                                               "status":  "official",
                                                "checked_on":  "2026-08-09"
                                            }
                                        ]
