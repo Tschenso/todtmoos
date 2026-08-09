@@ -32,6 +32,7 @@ Es wird nichts gespeichert und nichts übertragen.
 | `todtmoos-vorlagen-offline.html` | Offline-Ausgabe der Vorlagenseite |
 | `make-offline.ps1` | erzeugt beide Offline-Dateien neu aus den HTML- + JSON-Dateien |
 | `check-links.ps1` | Redaktionswerkzeug: prüft alle Quell-/Booking-URLs und listet fällige Reviews |
+| `PFLEGELOG.md` | Pflegehistorie: ein Eintrag pro Monats-Pflegelauf (Datum, `check-links`-Ergebnis, Befunde) |
 | `KANDIDATEN.md` | redaktioneller Arbeitsvorrat auf dem Weg zu ~100 Einträgen (unverifiziert) |
 | `README.md` | dieses Dokument |
 
@@ -201,8 +202,10 @@ Immer in dieser Reihenfolge – ein Durchlauf pro Monat hält den Katalog aktuel
    ```powershell
    powershell -ExecutionPolicy Bypass -File .\make-offline.ps1
    ```
-6. **Committen & pushen** – ein Commit pro Pflegelauf mit Datum im Text.
-7. **Live gegenprüfen.** Nach ein bis zwei Minuten (GitHub-Pages-Deploy) die Seite mit
+6. **Im Pflegelog eintragen.** In [`PFLEGELOG.md`](PFLEGELOG.md) einen Eintrag mit Datum,
+   `check-links`-Ergebnis und den abgearbeiteten Befunden ergänzen.
+7. **Committen & pushen** – ein Commit pro Pflegelauf mit Datum im Text.
+8. **Live gegenprüfen.** Nach ein bis zwei Minuten (GitHub-Pages-Deploy) die Seite mit
    Cache-Buster aufrufen – z. B. `https://tschenso.github.io/todtmoos/?cb=pflege` oder
    `https://tschenso.github.io/todtmoos/catalog.json?cb=pflege` – und die Katalogversion im Fußbereich
    kontrollieren. (Das GitHub-Pages-CDN cacht ein paar Minuten; ein einfaches
