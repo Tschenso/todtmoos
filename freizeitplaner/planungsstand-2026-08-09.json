@@ -1,0 +1,3105 @@
+{
+  "meta": {
+    "createdWith": "system-v1.11-print-presets",
+    "activeModule": "freizeit",
+    "role": "leitung"
+  },
+  "release": {
+    "approved": true,
+    "date": "9.8.2026",
+    "note": "Anonymer technischer Probetest – keine Durchführungsfreigabe",
+    "history": [
+      {
+        "when": "9.8.2026, 22:23:18",
+        "action": "freigegeben",
+        "note": "Anonymer technischer Probetest – keine Durchführungsfreigabe"
+      },
+      {
+        "when": "9.8.2026, 21:35:03",
+        "action": "erneut prüfen",
+        "note": "Ausflugstarife, Tag 9, Materialstatus und Druckdarstellung wurden aktualisiert"
+      },
+      {
+        "when": "9.8.2026, 21:03:13",
+        "action": "erneut prüfen",
+        "note": "Einkaufsblöcke ergeben 1.341,00 € statt 1.340,00 €"
+      },
+      {
+        "when": "9.8.2026, 21:02:52",
+        "action": "freigegeben",
+        "note": "Anonymer technischer Probetest – keine Durchführungsfreigabe"
+      },
+      {
+        "when": "9.8.2026, 21:00:54",
+        "action": "erneut prüfen",
+        "note": "Einkaufsblöcke ergeben 1.341,00 € statt 1.340,00 €"
+      },
+      {
+        "when": "9.8.2026, 21:00:54",
+        "action": "freigegeben",
+        "note": "Anonymer technischer Probetest – keine Durchführungsfreigabe"
+      },
+      {
+        "when": "9.8.2026, 20:24:49",
+        "action": "erneut prüfen",
+        "note": "Unterkunfts- und Zimmerpflichtdaten wurden strukturiert ergänzt"
+      },
+      {
+        "when": "8.8.2026, 09:53:24",
+        "action": "freigegeben",
+        "note": "Anonymer technischer Probetest – keine Durchführungsfreigabe"
+      },
+      {
+        "when": "8.8.2026, 09:49:43",
+        "action": "erneut prüfen",
+        "note": "Freigaberelevante Pflichtdaten wurden geändert"
+      },
+      {
+        "when": "5.8.2026, 21:12:26",
+        "action": "freigegeben",
+        "note": "Anonymer technischer Probetest – keine Durchführungsfreigabe"
+      }
+    ],
+    "reviewRequired": false,
+    "approvedFingerprint": "{\"destination\":{\"name\":\"Todtmoos – Silberbach (anonymer Test)\",\"region\":\"Südschwarzwald / Todtmoos\",\"arrival\":\"2 PKW · 14 Plätze · 1.570 Fahrzeug-km · ab Würzburg\"},\"group\":{\"name\":\"Anonymer Musterfall\",\"children\":7,\"staff\":3,\"age\":11},\"ageGroups\":{\"youthUnder12\":1,\"youth12to15\":5,\"youth16to17\":0,\"youth18plus\":1,\"staff18plus\":3},\"transport\":{\"vehicles\":2,\"seats\":14,\"totalVehicleKm\":1570,\"kmRate\":0.3},\"dates\":{\"start\":\"2026-08-10\",\"end\":\"2026-08-20\"},\"building\":{\"name\":\"Silberbach – Jugendhäuser Todtmoos\",\"bookingStatus\":\"confirmed\",\"priceStatus\":\"confirmed\",\"handoverStatus\":\"confirmed\",\"priceYear\":2026,\"price\":3630,\"costs\":[{\"label\":\"Übernachtungen\",\"amount\":3500,\"status\":\"confirmed\"},{\"label\":\"Endreinigung\",\"amount\":130,\"status\":\"confirmed\"}]},\"budget\":{\"maxBudget\":4000,\"fuel\":471,\"entryBudget\":613,\"extra\":500,\"mealRate\":12.2,\"mealMode\":\"plan\",\"includeLodging\":false,\"entryContingency\":27},\"days\":[{\"id\":\"d1\",\"title\":\"Anreise, Hausübernahme und Ankommen\",\"goal\":\"Orientierung, Sicherheit und Gruppenankommen\",\"planB\":\"Bei Stau: Pausen verlängern, spätes Kurzprogramm im Haus\",\"cost\":0},{\"id\":\"d2\",\"title\":\"Todtmoos-Rallye und Gruppenregeln\",\"goal\":\"Orientierung, Beteiligung und Kooperation\",\"planB\":\"Hausrallye und Gruppenvertrag im Aufenthaltsraum\",\"cost\":0},{\"id\":\"d3\",\"title\":\"Wasserfall- und Naturtag\",\"goal\":\"Naturerfahrung, Ausdauer und gegenseitige Unterstützung\",\"planB\":\"Naturwerkstatt und Quiz im Haus\",\"cost\":50},{\"id\":\"d4\",\"title\":\"Hasenhorn-Erlebnistag\",\"goal\":\"Mut, Grenzen wahrnehmen und Verantwortung\",\"planB\":\"Sportturnier und Kletter-/Kooperationsspiele im Haus\",\"cost\":138},{\"id\":\"d5\",\"title\":\"Kreativ-, Medien- und Wahlzeit\",\"goal\":\"Selbstwirksamkeit und freie Entscheidung\",\"planB\":\"gleiches Programm vollständig innen\",\"cost\":0},{\"id\":\"d6\",\"title\":\"aqua fun Schluchsee und Seeufer\",\"goal\":\"Bewegung, Gruppenverantwortung und Erholung\",\"planB\":\"Bewegungs-, Kreativ- und Gruppenprogramm im Haus; kein Wasserprogramm ohne bestätigte Aufsicht\",\"cost\":48},{\"id\":\"d7\",\"title\":\"BLACKFORESTLINE und Todtnauer Wasserfall\",\"goal\":\"Höhenwahrnehmung, Entscheidung und gegenseitige Rücksicht\",\"planB\":\"Museums-/Hausprojekt ohne Höhenexposition\",\"cost\":100},{\"id\":\"d8\",\"title\":\"Gruppen-Challenge und Freizeitfenster\",\"goal\":\"Kooperation, Konfliktlösung und Erholung\",\"planB\":\"Escape- und Teamspiele im Haus\",\"cost\":0},{\"id\":\"d9\",\"title\":\"St. Blasien: Dom und Stadtrallye\",\"goal\":\"Region kennenlernen, Orientierung üben und Perspektiven erweitern\",\"planB\":\"Regionalwerkstatt, Film und Gespräch im Haus\",\"cost\":150},{\"id\":\"d10\",\"title\":\"Wunschprogramm und Abschlussabend\",\"goal\":\"Beteiligung auswerten und gemeinsamen Abschluss gestalten\",\"planB\":\"Spieleabend, Foto-Rallye-Auswertung und Buffet im Haus\",\"cost\":100},{\"id\":\"d11\",\"title\":\"Hausabnahme und Rückreise\",\"goal\":\"Verantwortung, Abschluss und sichere Rückkehr\",\"planB\":\"Bei Verzögerung: gestaffelter Hauscheck und zusätzliche Fahrpause\",\"cost\":0}],\"meals\":{\"d1\":{\"f\":{\"gericht\":\"Frühstück vor Abfahrt / zuhause\",\"kpp\":0,\"zutaten\":[]},\"m\":{\"gericht\":\"Lunchpakete und Obst unterwegs\",\"kpp\":2,\"zutaten\":[{\"name\":\"Brötchen\",\"menge\":2,\"einheit\":\"Stück\"},{\"name\":\"Obst\",\"menge\":1,\"einheit\":\"Stück\"}]},\"a\":{\"gericht\":\"Nudeln mit Tomatensoße und Salat\",\"kpp\":6,\"zutaten\":[{\"name\":\"Nudeln\",\"menge\":0.12,\"einheit\":\"kg\"},{\"name\":\"Tomatensoße\",\"menge\":0.2,\"einheit\":\"l\"},{\"name\":\"Salat\",\"menge\":0.1,\"einheit\":\"kg\"}]}},\"d2\":{\"f\":{\"gericht\":\"Brot, Aufstrich, Müsli und Obst\",\"kpp\":2.5,\"zutaten\":[{\"name\":\"Brot\",\"menge\":0.15,\"einheit\":\"kg\"},{\"name\":\"Müsli\",\"menge\":0.08,\"einheit\":\"kg\"}]},\"m\":{\"gericht\":\"Gemüsewraps\",\"kpp\":3.5,\"zutaten\":[{\"name\":\"Wraps\",\"menge\":2,\"einheit\":\"Stück\"},{\"name\":\"Gemüse\",\"menge\":0.2,\"einheit\":\"kg\"}]},\"a\":{\"gericht\":\"Kartoffel-Gemüse-Pfanne\",\"kpp\":6,\"zutaten\":[{\"name\":\"Kartoffeln\",\"menge\":0.3,\"einheit\":\"kg\"},{\"name\":\"Gemüse\",\"menge\":0.2,\"einheit\":\"kg\"}]}},\"d3\":{\"f\":{\"gericht\":\"Brötchen, Käse, Marmelade und Obst\",\"kpp\":2.5,\"zutaten\":[{\"name\":\"Obst\",\"menge\":1,\"einheit\":\"Stück\"}]},\"m\":{\"gericht\":\"Wander-Lunchpakete\",\"kpp\":3.5,\"zutaten\":[{\"name\":\"Brot\",\"menge\":0.15,\"einheit\":\"kg\"},{\"name\":\"Müsliriegel\",\"menge\":1,\"einheit\":\"Stück\"}]},\"a\":{\"gericht\":\"Chili sin Carne mit Reis\",\"kpp\":6,\"zutaten\":[{\"name\":\"Reis\",\"menge\":0.1,\"einheit\":\"kg\"},{\"name\":\"Bohnen\",\"menge\":0.15,\"einheit\":\"kg\"}]}},\"d4\":{\"f\":{\"gericht\":\"Müsli, Joghurt und Obst\",\"kpp\":2.5,\"zutaten\":[{\"name\":\"Müsli\",\"menge\":0.08,\"einheit\":\"kg\"},{\"name\":\"Joghurt\",\"menge\":0.2,\"einheit\":\"kg\"}]},\"m\":{\"gericht\":\"Ausflugsbrote und Rohkost\",\"kpp\":4,\"zutaten\":[{\"name\":\"Brot\",\"menge\":0.15,\"einheit\":\"kg\"},{\"name\":\"Rohkost\",\"menge\":0.15,\"einheit\":\"kg\"}]},\"a\":{\"gericht\":\"Ofenkartoffeln mit Kräuterquark\",\"kpp\":6.5,\"zutaten\":[{\"name\":\"Kartoffeln\",\"menge\":0.35,\"einheit\":\"kg\"},{\"name\":\"Quark\",\"menge\":0.15,\"einheit\":\"kg\"}]}},\"d5\":{\"f\":{\"gericht\":\"Brot, Aufstrich und Obst\",\"kpp\":2.5,\"zutaten\":[{\"name\":\"Brot\",\"menge\":0.15,\"einheit\":\"kg\"},{\"name\":\"Obst\",\"menge\":1,\"einheit\":\"Stück\"}]},\"m\":{\"gericht\":\"Couscous-Salat\",\"kpp\":3.5,\"zutaten\":[{\"name\":\"Couscous\",\"menge\":0.1,\"einheit\":\"kg\"},{\"name\":\"Gemüse\",\"menge\":0.15,\"einheit\":\"kg\"}]},\"a\":{\"gericht\":\"Selbstgemachte Pizza\",\"kpp\":6,\"zutaten\":[{\"name\":\"Mehl\",\"menge\":0.15,\"einheit\":\"kg\"},{\"name\":\"Pizzabelag\",\"menge\":0.15,\"einheit\":\"kg\"}]}},\"d6\":{\"f\":{\"gericht\":\"Brötchen, Ei und Obst\",\"kpp\":2.5,\"zutaten\":[{\"name\":\"Brötchen\",\"menge\":2,\"einheit\":\"Stück\"},{\"name\":\"Eier\",\"menge\":1,\"einheit\":\"Stück\"}]},\"m\":{\"gericht\":\"Picknick am See\",\"kpp\":4.5,\"zutaten\":[{\"name\":\"Brot\",\"menge\":0.15,\"einheit\":\"kg\"},{\"name\":\"Gemüse\",\"menge\":0.15,\"einheit\":\"kg\"}]},\"a\":{\"gericht\":\"Gemüsecurry mit Reis\",\"kpp\":7,\"zutaten\":[{\"name\":\"Reis\",\"menge\":0.1,\"einheit\":\"kg\"},{\"name\":\"Gemüse\",\"menge\":0.25,\"einheit\":\"kg\"}]}},\"d7\":{\"f\":{\"gericht\":\"Müsli, Milch und Obst\",\"kpp\":2.5,\"zutaten\":[{\"name\":\"Müsli\",\"menge\":0.08,\"einheit\":\"kg\"},{\"name\":\"Milch\",\"menge\":0.25,\"einheit\":\"l\"}]},\"m\":{\"gericht\":\"Ausflugs-Lunchpakete\",\"kpp\":4.5,\"zutaten\":[{\"name\":\"Brötchen\",\"menge\":2,\"einheit\":\"Stück\"},{\"name\":\"Obst\",\"menge\":1,\"einheit\":\"Stück\"}]},\"a\":{\"gericht\":\"Tacos mit Gemüse und Bohnen\",\"kpp\":7,\"zutaten\":[{\"name\":\"Taco-Schalen\",\"menge\":3,\"einheit\":\"Stück\"},{\"name\":\"Bohnen\",\"menge\":0.15,\"einheit\":\"kg\"}]}},\"d8\":{\"f\":{\"gericht\":\"Brot, Käse und Obst\",\"kpp\":2.5,\"zutaten\":[{\"name\":\"Brot\",\"menge\":0.15,\"einheit\":\"kg\"},{\"name\":\"Obst\",\"menge\":1,\"einheit\":\"Stück\"}]},\"m\":{\"gericht\":\"Kartoffelsuppe\",\"kpp\":3.5,\"zutaten\":[{\"name\":\"Kartoffeln\",\"menge\":0.25,\"einheit\":\"kg\"},{\"name\":\"Gemüse\",\"menge\":0.15,\"einheit\":\"kg\"}]},\"a\":{\"gericht\":\"Burger-Baukasten vegetarisch\",\"kpp\":6,\"zutaten\":[{\"name\":\"Burgerbrötchen\",\"menge\":1,\"einheit\":\"Stück\"},{\"name\":\"Gemüsepatty\",\"menge\":1,\"einheit\":\"Stück\"}]}},\"d9\":{\"f\":{\"gericht\":\"Brötchen, Aufstrich und Obst\",\"kpp\":2.5,\"zutaten\":[{\"name\":\"Brötchen\",\"menge\":2,\"einheit\":\"Stück\"},{\"name\":\"Obst\",\"menge\":1,\"einheit\":\"Stück\"}]},\"m\":{\"gericht\":\"Ausflugspicknick erweitert\",\"kpp\":5,\"zutaten\":[{\"name\":\"Brot\",\"menge\":0.18,\"einheit\":\"kg\"},{\"name\":\"Rohkost\",\"menge\":0.18,\"einheit\":\"kg\"}]},\"a\":{\"gericht\":\"Lasagne vegetarisch mit Salat\",\"kpp\":7.5,\"zutaten\":[{\"name\":\"Lasagneplatten\",\"menge\":0.1,\"einheit\":\"kg\"},{\"name\":\"Salat\",\"menge\":0.1,\"einheit\":\"kg\"}]}},\"d10\":{\"f\":{\"gericht\":\"Müsli, Joghurt und Obst\",\"kpp\":2.5,\"zutaten\":[{\"name\":\"Müsli\",\"menge\":0.08,\"einheit\":\"kg\"},{\"name\":\"Joghurt\",\"menge\":0.2,\"einheit\":\"kg\"}]},\"m\":{\"gericht\":\"Wunsch-Picknick der Gruppe\",\"kpp\":4.5,\"zutaten\":[{\"name\":\"Brötchen\",\"menge\":2,\"einheit\":\"Stück\"},{\"name\":\"Obst\",\"menge\":1,\"einheit\":\"Stück\"}]},\"a\":{\"gericht\":\"Abschlussbuffet und Dessert\",\"kpp\":7,\"zutaten\":[{\"name\":\"Buffetzutaten\",\"menge\":0.35,\"einheit\":\"kg\"},{\"name\":\"Dessert\",\"menge\":1,\"einheit\":\"Portion\"}]}},\"d11\":{\"f\":{\"gericht\":\"Restefrühstück\",\"kpp\":2.5,\"zutaten\":[{\"name\":\"Brot\",\"menge\":0.12,\"einheit\":\"kg\"},{\"name\":\"Obst\",\"menge\":1,\"einheit\":\"Stück\"}]},\"m\":{\"gericht\":\"Lunchpakete für die Rückfahrt\",\"kpp\":3,\"zutaten\":[{\"name\":\"Brötchen\",\"menge\":2,\"einheit\":\"Stück\"},{\"name\":\"Müsliriegel\",\"menge\":1,\"einheit\":\"Stück\"}]},\"a\":{\"gericht\":\"Abendessen nach Rückkehr / Reserve\",\"kpp\":2.5,\"zutaten\":[{\"name\":\"Reise-Snackreserve\",\"menge\":1,\"einheit\":\"Portion\"}]}}},\"shopping\":{\"coolingStatus\":\"confirmed\",\"coolingNote\":\"Großer Kühlschrank mit kleinem Gefrierfach\",\"freshFactor\":0.9,\"costModel\":{\"meals\":1230,\"drinks\":60,\"kitchen\":50},\"blocks\":[{\"id\":\"arrival\",\"label\":\"Einkauf am Anreisetag\",\"day\":1,\"budget\":700,\"card\":500,\"cash\":200},{\"id\":\"day5\",\"label\":\"Nachkauf Tag 5\",\"day\":5,\"budget\":400,\"card\":300,\"cash\":100},{\"id\":\"day9\",\"label\":\"Nachkauf Tag 9\",\"day\":9,\"budget\":240,\"card\":140,\"cash\":100}],\"drinks\":[{\"name\":\"Mineralwasser\",\"qty\":24,\"unit\":\"l\",\"use\":\"zusätzlich zu Leitungswasser; Ausflüge und Fahrzeugreserve\",\"factor\":1,\"block\":\"arrival\"},{\"name\":\"Saft für Schorlen\",\"qty\":12,\"unit\":\"l\",\"use\":\"Mahlzeiten und Ausflugstage\",\"factor\":1,\"block\":\"arrival\"},{\"name\":\"Tee\",\"qty\":100,\"unit\":\"Beutel\",\"use\":\"Frühstück und Abend\",\"factor\":1,\"block\":\"arrival\"}],\"items\":[{\"key\":\"arrival|bohnen|kg\",\"name\":\"Bohnen\",\"unit\":\"kg\",\"block\":\"arrival\",\"fresh\":false,\"factor\":1,\"packSize\":0.5,\"plannedQty\":1.5,\"required\":true},{\"key\":\"arrival|brot|kg\",\"name\":\"Brot\",\"unit\":\"kg\",\"block\":\"arrival\",\"fresh\":true,\"factor\":0.9,\"packSize\":0.5,\"plannedQty\":4.5,\"required\":true},{\"key\":\"arrival|brötchen|stück\",\"name\":\"Brötchen\",\"unit\":\"Stück\",\"block\":\"arrival\",\"fresh\":true,\"factor\":1,\"packSize\":1,\"plannedQty\":20,\"required\":true},{\"key\":\"arrival|gemüse|kg\",\"name\":\"Gemüse\",\"unit\":\"kg\",\"block\":\"arrival\",\"fresh\":true,\"factor\":0.9,\"packSize\":0.5,\"plannedQty\":4,\"required\":true},{\"key\":\"arrival|joghurt|kg\",\"name\":\"Joghurt\",\"unit\":\"kg\",\"block\":\"arrival\",\"fresh\":true,\"factor\":0.9,\"packSize\":0.5,\"plannedQty\":2,\"required\":true},{\"key\":\"arrival|kartoffeln|kg\",\"name\":\"Kartoffeln\",\"unit\":\"kg\",\"block\":\"arrival\",\"fresh\":false,\"factor\":1,\"packSize\":0.5,\"plannedQty\":6.5,\"required\":true},{\"key\":\"arrival|müsliriegel|stück\",\"name\":\"Müsliriegel\",\"unit\":\"Stück\",\"block\":\"arrival\",\"fresh\":false,\"factor\":1,\"packSize\":1,\"plannedQty\":10,\"required\":true},{\"key\":\"arrival|müsli|kg\",\"name\":\"Müsli\",\"unit\":\"kg\",\"block\":\"arrival\",\"fresh\":false,\"factor\":1,\"packSize\":0.5,\"plannedQty\":2,\"required\":true},{\"key\":\"arrival|nudeln|kg\",\"name\":\"Nudeln\",\"unit\":\"kg\",\"block\":\"arrival\",\"fresh\":false,\"factor\":1,\"packSize\":0.5,\"plannedQty\":1.5,\"required\":true},{\"key\":\"arrival|obst|stück\",\"name\":\"Obst\",\"unit\":\"Stück\",\"block\":\"arrival\",\"fresh\":true,\"factor\":1,\"packSize\":1,\"plannedQty\":20,\"required\":true},{\"key\":\"arrival|quark|kg\",\"name\":\"Quark\",\"unit\":\"kg\",\"block\":\"arrival\",\"fresh\":true,\"factor\":0.9,\"packSize\":0.5,\"plannedQty\":1.5,\"required\":true},{\"key\":\"arrival|reis|kg\",\"name\":\"Reis\",\"unit\":\"kg\",\"block\":\"arrival\",\"fresh\":false,\"factor\":1,\"packSize\":0.5,\"plannedQty\":1,\"required\":true},{\"key\":\"arrival|rohkost|kg\",\"name\":\"Rohkost\",\"unit\":\"kg\",\"block\":\"arrival\",\"fresh\":true,\"factor\":0.9,\"packSize\":0.5,\"plannedQty\":1.5,\"required\":true},{\"key\":\"arrival|salat|kg\",\"name\":\"Salat\",\"unit\":\"kg\",\"block\":\"arrival\",\"fresh\":true,\"factor\":0.9,\"packSize\":0.5,\"plannedQty\":1,\"required\":true},{\"key\":\"arrival|tomatensoße|l\",\"name\":\"Tomatensoße\",\"unit\":\"l\",\"block\":\"arrival\",\"fresh\":false,\"factor\":1,\"packSize\":1,\"plannedQty\":2,\"required\":true},{\"key\":\"arrival|wraps|stück\",\"name\":\"Wraps\",\"unit\":\"Stück\",\"block\":\"arrival\",\"fresh\":false,\"factor\":1,\"packSize\":1,\"plannedQty\":20,\"required\":true},{\"key\":\"day5|bohnen|kg\",\"name\":\"Bohnen\",\"unit\":\"kg\",\"block\":\"day5\",\"fresh\":false,\"factor\":1,\"packSize\":0.5,\"plannedQty\":1.5,\"required\":true},{\"key\":\"day5|brot|kg\",\"name\":\"Brot\",\"unit\":\"kg\",\"block\":\"day5\",\"fresh\":true,\"factor\":0.9,\"packSize\":0.5,\"plannedQty\":4.5,\"required\":true},{\"key\":\"day5|brötchen|stück\",\"name\":\"Brötchen\",\"unit\":\"Stück\",\"block\":\"day5\",\"fresh\":true,\"factor\":1,\"packSize\":1,\"plannedQty\":40,\"required\":true},{\"key\":\"day5|burgerbrötchen|stück\",\"name\":\"Burgerbrötchen\",\"unit\":\"Stück\",\"block\":\"day5\",\"fresh\":true,\"factor\":1,\"packSize\":1,\"plannedQty\":10,\"required\":true},{\"key\":\"day5|couscous|kg\",\"name\":\"Couscous\",\"unit\":\"kg\",\"block\":\"day5\",\"fresh\":false,\"factor\":1,\"packSize\":0.5,\"plannedQty\":1,\"required\":true},{\"key\":\"day5|eier|stück\",\"name\":\"Eier\",\"unit\":\"Stück\",\"block\":\"day5\",\"fresh\":false,\"factor\":1,\"packSize\":1,\"plannedQty\":10,\"required\":true},{\"key\":\"day5|gemüsepatty|stück\",\"name\":\"Gemüsepatty\",\"unit\":\"Stück\",\"block\":\"day5\",\"fresh\":true,\"factor\":1,\"packSize\":1,\"plannedQty\":10,\"required\":true},{\"key\":\"day5|gemüse|kg\",\"name\":\"Gemüse\",\"unit\":\"kg\",\"block\":\"day5\",\"fresh\":true,\"factor\":0.9,\"packSize\":0.5,\"plannedQty\":6.5,\"required\":true},{\"key\":\"day5|kartoffeln|kg\",\"name\":\"Kartoffeln\",\"unit\":\"kg\",\"block\":\"day5\",\"fresh\":false,\"factor\":1,\"packSize\":0.5,\"plannedQty\":2.5,\"required\":true},{\"key\":\"day5|mehl|kg\",\"name\":\"Mehl\",\"unit\":\"kg\",\"block\":\"day5\",\"fresh\":false,\"factor\":1,\"packSize\":0.5,\"plannedQty\":1.5,\"required\":true},{\"key\":\"day5|milch|l\",\"name\":\"Milch\",\"unit\":\"l\",\"block\":\"day5\",\"fresh\":true,\"factor\":0.9,\"packSize\":1,\"plannedQty\":3,\"required\":true},{\"key\":\"day5|müsli|kg\",\"name\":\"Müsli\",\"unit\":\"kg\",\"block\":\"day5\",\"fresh\":false,\"factor\":1,\"packSize\":0.5,\"plannedQty\":1,\"required\":true},{\"key\":\"day5|obst|stück\",\"name\":\"Obst\",\"unit\":\"Stück\",\"block\":\"day5\",\"fresh\":true,\"factor\":1,\"packSize\":1,\"plannedQty\":30,\"required\":true},{\"key\":\"day5|pizzabelag|kg\",\"name\":\"Pizzabelag\",\"unit\":\"kg\",\"block\":\"day5\",\"fresh\":true,\"factor\":0.9,\"packSize\":0.5,\"plannedQty\":1.5,\"required\":true},{\"key\":\"day5|reis|kg\",\"name\":\"Reis\",\"unit\":\"kg\",\"block\":\"day5\",\"fresh\":false,\"factor\":1,\"packSize\":0.5,\"plannedQty\":1,\"required\":true},{\"key\":\"day5|taco-schalen|stück\",\"name\":\"Taco-Schalen\",\"unit\":\"Stück\",\"block\":\"day5\",\"fresh\":false,\"factor\":1,\"packSize\":1,\"plannedQty\":30,\"required\":true},{\"key\":\"day9|brot|kg\",\"name\":\"Brot\",\"unit\":\"kg\",\"block\":\"day9\",\"fresh\":true,\"factor\":0.9,\"packSize\":0.5,\"plannedQty\":2,\"required\":true},{\"key\":\"day9|brötchen|stück\",\"name\":\"Brötchen\",\"unit\":\"Stück\",\"block\":\"day9\",\"fresh\":true,\"factor\":1,\"packSize\":1,\"plannedQty\":60,\"required\":true},{\"key\":\"day9|buffetzutaten|kg\",\"name\":\"Buffetzutaten\",\"unit\":\"kg\",\"block\":\"day9\",\"fresh\":true,\"factor\":0.9,\"packSize\":0.5,\"plannedQty\":3.5,\"required\":true},{\"key\":\"day9|dessert|portion\",\"name\":\"Dessert\",\"unit\":\"Portion\",\"block\":\"day9\",\"fresh\":false,\"factor\":1,\"packSize\":1,\"plannedQty\":10,\"required\":true},{\"key\":\"day9|joghurt|kg\",\"name\":\"Joghurt\",\"unit\":\"kg\",\"block\":\"day9\",\"fresh\":true,\"factor\":0.9,\"packSize\":0.5,\"plannedQty\":2,\"required\":true},{\"key\":\"day9|lasagneplatten|kg\",\"name\":\"Lasagneplatten\",\"unit\":\"kg\",\"block\":\"day9\",\"fresh\":false,\"factor\":1,\"packSize\":0.5,\"plannedQty\":1,\"required\":true},{\"key\":\"day9|müsliriegel|stück\",\"name\":\"Müsliriegel\",\"unit\":\"Stück\",\"block\":\"day9\",\"fresh\":false,\"factor\":1,\"packSize\":1,\"plannedQty\":10,\"required\":true},{\"key\":\"day9|müsli|kg\",\"name\":\"Müsli\",\"unit\":\"kg\",\"block\":\"day9\",\"fresh\":false,\"factor\":1,\"packSize\":0.5,\"plannedQty\":1,\"required\":true},{\"key\":\"day9|obst|stück\",\"name\":\"Obst\",\"unit\":\"Stück\",\"block\":\"day9\",\"fresh\":true,\"factor\":1,\"packSize\":1,\"plannedQty\":20,\"required\":true},{\"key\":\"day9|reise-snackreserve|portion\",\"name\":\"Reise-Snackreserve\",\"unit\":\"Portion\",\"block\":\"day9\",\"fresh\":false,\"factor\":1,\"packSize\":1,\"plannedQty\":10,\"required\":true},{\"key\":\"day9|rohkost|kg\",\"name\":\"Rohkost\",\"unit\":\"kg\",\"block\":\"day9\",\"fresh\":true,\"factor\":0.9,\"packSize\":0.5,\"plannedQty\":2,\"required\":true},{\"key\":\"day9|salat|kg\",\"name\":\"Salat\",\"unit\":\"kg\",\"block\":\"day9\",\"fresh\":true,\"factor\":0.9,\"packSize\":0.5,\"plannedQty\":1,\"required\":true}]},\"cashPlan\":{\"handkasse\":500},\"rooms\":[{\"name\":\"Zimmer 1\",\"beds\":4,\"who\":\"JM1, JM2, JM3\",\"exclusive\":false,\"useLabel\":\"Jugendliche männlich\"},{\"name\":\"Zimmer 2\",\"beds\":4,\"who\":\"\",\"exclusive\":false,\"useLabel\":\"Reserve\"},{\"name\":\"Zimmer 3\",\"beds\":3,\"who\":\"BM1, BM2, BM3\",\"exclusive\":false,\"useLabel\":\"Betreuende männlich\"},{\"name\":\"Zimmer 4\",\"beds\":3,\"who\":\"JMI1\",\"exclusive\":true,\"useLabel\":\"Einzelzimmer JMI1\"},{\"name\":\"Zimmer 5\",\"beds\":3,\"who\":\"JMI2\",\"exclusive\":true,\"useLabel\":\"Einzelzimmer JMI2\"},{\"name\":\"Zimmer 6\",\"beds\":2,\"who\":\"JW1, JW2\",\"exclusive\":false,\"useLabel\":\"Jugendliche weiblich\"}],\"roomProfiles\":{\"youthFemale\":2,\"youthMale\":5,\"youthFemaleIndividual\":0,\"youthMaleIndividual\":2,\"staffFemale\":0,\"staffMale\":3,\"staffFemaleIndividual\":0,\"staffMaleIndividual\":1,\"staffIndividualMode\":\"shared\",\"separateYouthGender\":true,\"separateRoles\":true,\"reserveLargest\":true},\"roomProposal\":{\"status\":\"ready\",\"confirmed\":true,\"confirmedSignature\":\"{\\\"rooms\\\":[{\\\"name\\\":\\\"Zimmer 1\\\",\\\"beds\\\":4},{\\\"name\\\":\\\"Zimmer 2\\\",\\\"beds\\\":4},{\\\"name\\\":\\\"Zimmer 3\\\",\\\"beds\\\":3},{\\\"name\\\":\\\"Zimmer 4\\\",\\\"beds\\\":3},{\\\"name\\\":\\\"Zimmer 5\\\",\\\"beds\\\":3},{\\\"name\\\":\\\"Zimmer 6\\\",\\\"beds\\\":2}],\\\"profiles\\\":{\\\"youthFemale\\\":2,\\\"youthMale\\\":5,\\\"youthFemaleIndividual\\\":0,\\\"youthMaleIndividual\\\":2,\\\"staffFemale\\\":0,\\\"staffMale\\\":3,\\\"staffFemaleIndividual\\\":0,\\\"staffMaleIndividual\\\":1,\\\"staffIndividualMode\\\":\\\"shared\\\",\\\"separateYouthGender\\\":true,\\\"separateRoles\\\":true,\\\"reserveLargest\\\":true}}\"},\"materials\":[{\"title\":\"Erste-Hilfe- und Ausflugsset\",\"note\":\"anonym geprüft\",\"required\":true,\"requiredQty\":1,\"unit\":\"Set\"},{\"title\":\"Küchen- und Einkaufsmaterial\",\"note\":\"Soll vorhanden\",\"required\":true,\"requiredQty\":1,\"unit\":\"Set\"},{\"title\":\"Belegmappe und Budgetunterlagen\",\"note\":\"vorbereitet\",\"required\":true,\"requiredQty\":1,\"unit\":\"Set\"},{\"title\":\"Regen- und Sonnenschutz Gruppe\",\"note\":\"geprüft\",\"required\":true,\"requiredQty\":1,\"unit\":\"Set\"},{\"title\":\"Gruppenspiel- und Kreativmaterial\",\"note\":\"Bestand vollständig bestätigt am 09.08.2026\",\"required\":true,\"requiredQty\":1,\"unit\":\"Set\"}],\"safety\":[{\"id\":\"transport\",\"title\":\"Transport und Fahrzeuge\",\"phase\":\"outbound\",\"required\":true},{\"id\":\"weather\",\"title\":\"Wetter, Wege und Öffnungsstatus\",\"phase\":\"both\",\"required\":true},{\"id\":\"supervision\",\"title\":\"Aufsicht und Gruppeneinteilung\",\"phase\":\"both\",\"required\":true},{\"id\":\"activity\",\"title\":\"Aktivitätsspezifische Voraussetzungen\",\"phase\":\"outbound\",\"required\":true},{\"id\":\"emergency\",\"title\":\"Notfallorganisation und Erreichbarkeit\",\"phase\":\"both\",\"required\":true}],\"duties\":[{\"task\":\"Küchen- und Tischdienst\",\"who\":\"rotierende Jugendgruppe + Betreuung\",\"note\":\"Hygiene und Aufsicht\"},{\"task\":\"Wasser- und Sonnenteam\",\"who\":\"rotierende Jugendgruppe\",\"note\":\"Flaschen, Schatten, Pausen\"},{\"task\":\"Beleg- und Budgetteam\",\"who\":\"Jugendbeteiligung + Betreuung\",\"note\":\"nur anonyme Planung\"},{\"task\":\"Hauscheck\",\"who\":\"rotierende Jugendgruppe\",\"note\":\"Müll, Fenster, Fundsachen\"},{\"task\":\"Fahr- und Sicherheitsentscheidung\",\"who\":\"Betreuung\",\"note\":\"nicht delegierbar\"}],\"prep\":[{\"offset\":84,\"title\":\"Unterkunft buchen und Preis bestätigen\"},{\"offset\":56,\"title\":\"Beispielbudget und Betreuungsschlüssel klären\"},{\"offset\":28,\"title\":\"Tagesplan und Ausflugsvarianten erstellen\"},{\"offset\":14,\"title\":\"Speiseplan und Einkaufsliste erstellen\"},{\"offset\":7,\"title\":\"Zimmerplan, Fahrzeuge und Fahrende bestätigen\"},{\"offset\":2,\"title\":\"Material-Istbestand vollständig machen\"},{\"offset\":1,\"title\":\"Wetter und Plan B final entscheiden\"},{\"offset\":0,\"title\":\"Abfahrtsbereitschaft feststellen\"}],\"checklists\":{\"woche\":[{\"text\":\"Wetter- und Plan-B-Verfahren festgelegt\"},{\"text\":\"Speiseplan und Großeinkauf vorbereitet\"},{\"text\":\"Zwei Fahrende, 14 Sitzplätze und Pannenlösung bestätigt\"},{\"text\":\"Anonyme Sicherheitsstatus vollständig geprüft\"}],\"vortag\":[{\"text\":\"Material-Istbestand schließen und Fehlteile beschaffen\"},{\"text\":\"Fahrzeuge betanken und Route final prüfen\"},{\"text\":\"Wetterentscheidung und Tagesabfahrten bestätigen\"}],\"abreise\":[{\"text\":\"Vollzähligkeits- und Gepäckcheck\"},{\"text\":\"Hausübergabe und Schlüsselcheck\"},{\"text\":\"Pünktliche Abfahrt dokumentieren\"}]},\"expenses\":[]}",
+    "outboundReady": true,
+    "outboundReadyDate": "9.8.2026",
+    "outboundReadyNote": "",
+    "outboundReadyHistory": [
+      {
+        "when": "9.8.2026, 22:29:34",
+        "action": "bestätigt",
+        "note": ""
+      }
+    ],
+    "returnReady": false,
+    "returnReadyDate": "",
+    "returnReadyNote": "",
+    "returnReadyHistory": [],
+    "ready": false,
+    "readyDate": "",
+    "readyNote": "Anonymer Teststatus – Material und operative Checklisten noch offen",
+    "readyHistory": []
+  },
+  "team": {
+    "folderName": "",
+    "auto": false,
+    "lastSync": ""
+  },
+  "freizeit": {
+    "destination": {
+      "name": "Todtmoos – Silberbach (anonymer Test)",
+      "region": "Südschwarzwald / Todtmoos",
+      "arrival": "2 PKW · 14 Plätze · 1.570 Fahrzeug-km · ab Würzburg",
+      "terrain": "Mittelgebirge, Waldwege, Ortsbereich, wetterabhängige Ausflüge",
+      "period": "10.–20.08.2026 · 11 Tage / 10 Nächte",
+      "notes": "Unterkunft gebucht und Übergabe bestätigt. Zwei Fahrende, Pannenlösung und anonymer Sicherheitsstatus bestätigt. Material-Ist vollständig. Altersspanne 11–19."
+    },
+    "group": {
+      "name": "Anonymer Musterfall",
+      "children": 7,
+      "staff": 3,
+      "age": 11
+    },
+    "ageGroups": {
+      "youthUnder12": 1,
+      "youth12to15": 5,
+      "youth16to17": 0,
+      "youth18plus": 1,
+      "staff18plus": 3
+    },
+    "transport": {
+      "vehicles": 2,
+      "seats": 14,
+      "driversConfirmed": 2,
+      "totalVehicleKm": 1570,
+      "kmRate": 0.3,
+      "breakdownStatus": "confirmed",
+      "pauseStatus": "confirmed",
+      "outboundRouteStatus": "confirmed",
+      "returnRouteStatus": "confirmed"
+    },
+    "safetyChecks": [
+      {
+        "id": "transport",
+        "title": "Transport und Fahrzeuge",
+        "phase": "outbound",
+        "required": true,
+        "status": "confirmed",
+        "note": "anonym geprüft"
+      },
+      {
+        "id": "weather",
+        "title": "Wetter, Wege und Öffnungsstatus",
+        "phase": "both",
+        "required": true,
+        "status": "confirmed",
+        "note": "anonym geprüft; Tagesentscheidung bleibt operativ"
+      },
+      {
+        "id": "supervision",
+        "title": "Aufsicht und Gruppeneinteilung",
+        "phase": "both",
+        "required": true,
+        "status": "confirmed",
+        "note": "anonym geprüft"
+      },
+      {
+        "id": "activity",
+        "title": "Aktivitätsspezifische Voraussetzungen",
+        "phase": "outbound",
+        "required": true,
+        "status": "confirmed",
+        "note": "anonym geprüft"
+      },
+      {
+        "id": "emergency",
+        "title": "Notfallorganisation und Erreichbarkeit",
+        "phase": "both",
+        "required": true,
+        "status": "confirmed",
+        "note": "anonym geprüft"
+      }
+    ],
+    "buildings": [
+      {
+        "name": "Silberbach – Jugendhäuser Todtmoos",
+        "type": "Selbstversorgerhaus",
+        "capMin": 1,
+        "capMax": 19,
+        "price": 3630,
+        "distance": "vor Ort",
+        "features": "19 Betten, 6 Zimmer, Küche, Aufenthaltsraum, Sanitär",
+        "notes": "Gebucht; Preis und Übergabe bestätigt. Unterkunft ist im Beispielbudget von 4.000 € ausdrücklich ausgeklammert.",
+        "bookingStatus": "confirmed",
+        "priceStatus": "confirmed",
+        "handoverStatus": "confirmed",
+        "priceYear": 2026,
+        "costs": [
+          {
+            "label": "Übernachtungen",
+            "amount": 3500,
+            "status": "confirmed"
+          },
+          {
+            "label": "Endreinigung",
+            "amount": 130,
+            "status": "confirmed"
+          }
+        ]
+      }
+    ],
+    "chosenBuilding": 0,
+    "budget": {
+      "maxBudget": 4000,
+      "fuel": 471,
+      "entryBudget": 613,
+      "extra": 500,
+      "mealRate": 12.2,
+      "mealMode": "plan",
+      "includeLodging": false,
+      "entryContingency": 27
+    },
+    "meals": {
+      "d1": {
+        "f": {
+          "gericht": "Frühstück vor Abfahrt / zuhause",
+          "kpp": 0,
+          "zutaten": []
+        },
+        "m": {
+          "gericht": "Lunchpakete und Obst unterwegs",
+          "kpp": 2,
+          "zutaten": [
+            {
+              "name": "Brötchen",
+              "menge": 2,
+              "einheit": "Stück"
+            },
+            {
+              "name": "Obst",
+              "menge": 1,
+              "einheit": "Stück"
+            }
+          ]
+        },
+        "a": {
+          "gericht": "Nudeln mit Tomatensoße und Salat",
+          "kpp": 6,
+          "zutaten": [
+            {
+              "name": "Nudeln",
+              "menge": 0.12,
+              "einheit": "kg"
+            },
+            {
+              "name": "Tomatensoße",
+              "menge": 0.2,
+              "einheit": "l"
+            },
+            {
+              "name": "Salat",
+              "menge": 0.1,
+              "einheit": "kg"
+            }
+          ]
+        }
+      },
+      "d2": {
+        "f": {
+          "gericht": "Brot, Aufstrich, Müsli und Obst",
+          "kpp": 2.5,
+          "zutaten": [
+            {
+              "name": "Brot",
+              "menge": 0.15,
+              "einheit": "kg"
+            },
+            {
+              "name": "Müsli",
+              "menge": 0.08,
+              "einheit": "kg"
+            }
+          ]
+        },
+        "m": {
+          "gericht": "Gemüsewraps",
+          "kpp": 3.5,
+          "zutaten": [
+            {
+              "name": "Wraps",
+              "menge": 2,
+              "einheit": "Stück"
+            },
+            {
+              "name": "Gemüse",
+              "menge": 0.2,
+              "einheit": "kg"
+            }
+          ]
+        },
+        "a": {
+          "gericht": "Kartoffel-Gemüse-Pfanne",
+          "kpp": 6,
+          "zutaten": [
+            {
+              "name": "Kartoffeln",
+              "menge": 0.3,
+              "einheit": "kg"
+            },
+            {
+              "name": "Gemüse",
+              "menge": 0.2,
+              "einheit": "kg"
+            }
+          ]
+        }
+      },
+      "d3": {
+        "f": {
+          "gericht": "Brötchen, Käse, Marmelade und Obst",
+          "kpp": 2.5,
+          "zutaten": [
+            {
+              "name": "Obst",
+              "menge": 1,
+              "einheit": "Stück"
+            }
+          ]
+        },
+        "m": {
+          "gericht": "Wander-Lunchpakete",
+          "kpp": 3.5,
+          "zutaten": [
+            {
+              "name": "Brot",
+              "menge": 0.15,
+              "einheit": "kg"
+            },
+            {
+              "name": "Müsliriegel",
+              "menge": 1,
+              "einheit": "Stück"
+            }
+          ]
+        },
+        "a": {
+          "gericht": "Chili sin Carne mit Reis",
+          "kpp": 6,
+          "zutaten": [
+            {
+              "name": "Reis",
+              "menge": 0.1,
+              "einheit": "kg"
+            },
+            {
+              "name": "Bohnen",
+              "menge": 0.15,
+              "einheit": "kg"
+            }
+          ]
+        }
+      },
+      "d4": {
+        "f": {
+          "gericht": "Müsli, Joghurt und Obst",
+          "kpp": 2.5,
+          "zutaten": [
+            {
+              "name": "Müsli",
+              "menge": 0.08,
+              "einheit": "kg"
+            },
+            {
+              "name": "Joghurt",
+              "menge": 0.2,
+              "einheit": "kg"
+            }
+          ]
+        },
+        "m": {
+          "gericht": "Ausflugsbrote und Rohkost",
+          "kpp": 4,
+          "zutaten": [
+            {
+              "name": "Brot",
+              "menge": 0.15,
+              "einheit": "kg"
+            },
+            {
+              "name": "Rohkost",
+              "menge": 0.15,
+              "einheit": "kg"
+            }
+          ]
+        },
+        "a": {
+          "gericht": "Ofenkartoffeln mit Kräuterquark",
+          "kpp": 6.5,
+          "zutaten": [
+            {
+              "name": "Kartoffeln",
+              "menge": 0.35,
+              "einheit": "kg"
+            },
+            {
+              "name": "Quark",
+              "menge": 0.15,
+              "einheit": "kg"
+            }
+          ]
+        }
+      },
+      "d5": {
+        "f": {
+          "gericht": "Brot, Aufstrich und Obst",
+          "kpp": 2.5,
+          "zutaten": [
+            {
+              "name": "Brot",
+              "menge": 0.15,
+              "einheit": "kg"
+            },
+            {
+              "name": "Obst",
+              "menge": 1,
+              "einheit": "Stück"
+            }
+          ]
+        },
+        "m": {
+          "gericht": "Couscous-Salat",
+          "kpp": 3.5,
+          "zutaten": [
+            {
+              "name": "Couscous",
+              "menge": 0.1,
+              "einheit": "kg"
+            },
+            {
+              "name": "Gemüse",
+              "menge": 0.15,
+              "einheit": "kg"
+            }
+          ]
+        },
+        "a": {
+          "gericht": "Selbstgemachte Pizza",
+          "kpp": 6,
+          "zutaten": [
+            {
+              "name": "Mehl",
+              "menge": 0.15,
+              "einheit": "kg"
+            },
+            {
+              "name": "Pizzabelag",
+              "menge": 0.15,
+              "einheit": "kg"
+            }
+          ]
+        }
+      },
+      "d6": {
+        "f": {
+          "gericht": "Brötchen, Ei und Obst",
+          "kpp": 2.5,
+          "zutaten": [
+            {
+              "name": "Brötchen",
+              "menge": 2,
+              "einheit": "Stück"
+            },
+            {
+              "name": "Eier",
+              "menge": 1,
+              "einheit": "Stück"
+            }
+          ]
+        },
+        "m": {
+          "gericht": "Picknick am See",
+          "kpp": 4.5,
+          "zutaten": [
+            {
+              "name": "Brot",
+              "menge": 0.15,
+              "einheit": "kg"
+            },
+            {
+              "name": "Gemüse",
+              "menge": 0.15,
+              "einheit": "kg"
+            }
+          ]
+        },
+        "a": {
+          "gericht": "Gemüsecurry mit Reis",
+          "kpp": 7,
+          "zutaten": [
+            {
+              "name": "Reis",
+              "menge": 0.1,
+              "einheit": "kg"
+            },
+            {
+              "name": "Gemüse",
+              "menge": 0.25,
+              "einheit": "kg"
+            }
+          ]
+        }
+      },
+      "d7": {
+        "f": {
+          "gericht": "Müsli, Milch und Obst",
+          "kpp": 2.5,
+          "zutaten": [
+            {
+              "name": "Müsli",
+              "menge": 0.08,
+              "einheit": "kg"
+            },
+            {
+              "name": "Milch",
+              "menge": 0.25,
+              "einheit": "l"
+            }
+          ]
+        },
+        "m": {
+          "gericht": "Ausflugs-Lunchpakete",
+          "kpp": 4.5,
+          "zutaten": [
+            {
+              "name": "Brötchen",
+              "menge": 2,
+              "einheit": "Stück"
+            },
+            {
+              "name": "Obst",
+              "menge": 1,
+              "einheit": "Stück"
+            }
+          ]
+        },
+        "a": {
+          "gericht": "Tacos mit Gemüse und Bohnen",
+          "kpp": 7,
+          "zutaten": [
+            {
+              "name": "Taco-Schalen",
+              "menge": 3,
+              "einheit": "Stück"
+            },
+            {
+              "name": "Bohnen",
+              "menge": 0.15,
+              "einheit": "kg"
+            }
+          ]
+        }
+      },
+      "d8": {
+        "f": {
+          "gericht": "Brot, Käse und Obst",
+          "kpp": 2.5,
+          "zutaten": [
+            {
+              "name": "Brot",
+              "menge": 0.15,
+              "einheit": "kg"
+            },
+            {
+              "name": "Obst",
+              "menge": 1,
+              "einheit": "Stück"
+            }
+          ]
+        },
+        "m": {
+          "gericht": "Kartoffelsuppe",
+          "kpp": 3.5,
+          "zutaten": [
+            {
+              "name": "Kartoffeln",
+              "menge": 0.25,
+              "einheit": "kg"
+            },
+            {
+              "name": "Gemüse",
+              "menge": 0.15,
+              "einheit": "kg"
+            }
+          ]
+        },
+        "a": {
+          "gericht": "Burger-Baukasten vegetarisch",
+          "kpp": 6,
+          "zutaten": [
+            {
+              "name": "Burgerbrötchen",
+              "menge": 1,
+              "einheit": "Stück"
+            },
+            {
+              "name": "Gemüsepatty",
+              "menge": 1,
+              "einheit": "Stück"
+            }
+          ]
+        }
+      },
+      "d9": {
+        "f": {
+          "gericht": "Brötchen, Aufstrich und Obst",
+          "kpp": 2.5,
+          "zutaten": [
+            {
+              "name": "Brötchen",
+              "menge": 2,
+              "einheit": "Stück"
+            },
+            {
+              "name": "Obst",
+              "menge": 1,
+              "einheit": "Stück"
+            }
+          ]
+        },
+        "m": {
+          "gericht": "Ausflugspicknick erweitert",
+          "kpp": 5,
+          "zutaten": [
+            {
+              "name": "Brot",
+              "menge": 0.18,
+              "einheit": "kg"
+            },
+            {
+              "name": "Rohkost",
+              "menge": 0.18,
+              "einheit": "kg"
+            }
+          ]
+        },
+        "a": {
+          "gericht": "Lasagne vegetarisch mit Salat",
+          "kpp": 7.5,
+          "zutaten": [
+            {
+              "name": "Lasagneplatten",
+              "menge": 0.1,
+              "einheit": "kg"
+            },
+            {
+              "name": "Salat",
+              "menge": 0.1,
+              "einheit": "kg"
+            }
+          ]
+        }
+      },
+      "d10": {
+        "f": {
+          "gericht": "Müsli, Joghurt und Obst",
+          "kpp": 2.5,
+          "zutaten": [
+            {
+              "name": "Müsli",
+              "menge": 0.08,
+              "einheit": "kg"
+            },
+            {
+              "name": "Joghurt",
+              "menge": 0.2,
+              "einheit": "kg"
+            }
+          ]
+        },
+        "m": {
+          "gericht": "Wunsch-Picknick der Gruppe",
+          "kpp": 4.5,
+          "zutaten": [
+            {
+              "name": "Brötchen",
+              "menge": 2,
+              "einheit": "Stück"
+            },
+            {
+              "name": "Obst",
+              "menge": 1,
+              "einheit": "Stück"
+            }
+          ]
+        },
+        "a": {
+          "gericht": "Abschlussbuffet und Dessert",
+          "kpp": 7,
+          "zutaten": [
+            {
+              "name": "Buffetzutaten",
+              "menge": 0.35,
+              "einheit": "kg"
+            },
+            {
+              "name": "Dessert",
+              "menge": 1,
+              "einheit": "Portion"
+            }
+          ]
+        }
+      },
+      "d11": {
+        "f": {
+          "gericht": "Restefrühstück",
+          "kpp": 2.5,
+          "zutaten": [
+            {
+              "name": "Brot",
+              "menge": 0.12,
+              "einheit": "kg"
+            },
+            {
+              "name": "Obst",
+              "menge": 1,
+              "einheit": "Stück"
+            }
+          ]
+        },
+        "m": {
+          "gericht": "Lunchpakete für die Rückfahrt",
+          "kpp": 3,
+          "zutaten": [
+            {
+              "name": "Brötchen",
+              "menge": 2,
+              "einheit": "Stück"
+            },
+            {
+              "name": "Müsliriegel",
+              "menge": 1,
+              "einheit": "Stück"
+            }
+          ]
+        },
+        "a": {
+          "gericht": "Abendessen nach Rückkehr / Reserve",
+          "kpp": 2.5,
+          "zutaten": [
+            {
+              "name": "Reise-Snackreserve",
+              "menge": 1,
+              "einheit": "Portion"
+            }
+          ]
+        }
+      }
+    },
+    "participation": {
+      "polls": [
+        {
+          "id": "poll-todtmoos-1",
+          "question": "Welcher ruhige Abschluss passt für die Gruppe?",
+          "open": false,
+          "options": [
+            {
+              "text": "Grillabend",
+              "votes": 4
+            },
+            {
+              "text": "Spieleabend",
+              "votes": 2
+            },
+            {
+              "text": "Nachtwanderung",
+              "votes": 1
+            }
+          ]
+        }
+      ],
+      "ideas": [
+        {
+          "id": "idea-1",
+          "text": "Eigene Foto-Rallye ohne Personenfotos",
+          "votes": 3,
+          "taken": true
+        }
+      ]
+    },
+    "shopping": {
+      "coolingStatus": "confirmed",
+      "coolingNote": "Großer Kühlschrank mit kleinem Gefrierfach",
+      "freshFactor": 0.9,
+      "costModel": {
+        "meals": 1230,
+        "drinks": 60,
+        "kitchen": 50
+      },
+      "blocks": [
+        {
+          "id": "arrival",
+          "label": "Einkauf am Anreisetag",
+          "day": 1,
+          "budget": 700,
+          "card": 500,
+          "cash": 200,
+          "status": "planned"
+        },
+        {
+          "id": "day5",
+          "label": "Nachkauf Tag 5",
+          "day": 5,
+          "budget": 400,
+          "card": 300,
+          "cash": 100,
+          "status": "planned"
+        },
+        {
+          "id": "day9",
+          "label": "Nachkauf Tag 9",
+          "day": 9,
+          "budget": 240,
+          "card": 140,
+          "cash": 100,
+          "status": "planned"
+        }
+      ],
+      "drinks": [
+        {
+          "name": "Mineralwasser",
+          "qty": 24,
+          "unit": "l",
+          "use": "zusätzlich zu Leitungswasser; Ausflüge und Fahrzeugreserve",
+          "factor": 1,
+          "block": "arrival"
+        },
+        {
+          "name": "Saft für Schorlen",
+          "qty": 12,
+          "unit": "l",
+          "use": "Mahlzeiten und Ausflugstage",
+          "factor": 1,
+          "block": "arrival"
+        },
+        {
+          "name": "Tee",
+          "qty": 100,
+          "unit": "Beutel",
+          "use": "Frühstück und Abend",
+          "factor": 1,
+          "block": "arrival"
+        }
+      ],
+      "items": [
+        {
+          "key": "arrival|bohnen|kg",
+          "name": "Bohnen",
+          "unit": "kg",
+          "block": "arrival",
+          "baseQty": 1.5,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 1.5,
+          "packSize": 0.5,
+          "plannedQty": 1.5,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "arrival|brot|kg",
+          "name": "Brot",
+          "unit": "kg",
+          "block": "arrival",
+          "baseQty": 4.5,
+          "sources": 3,
+          "fresh": true,
+          "reducible": true,
+          "factor": 0.9,
+          "startQty": 4.05,
+          "packSize": 0.5,
+          "plannedQty": 4.5,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "arrival|brötchen|stück",
+          "name": "Brötchen",
+          "unit": "Stück",
+          "block": "arrival",
+          "baseQty": 20,
+          "sources": 1,
+          "fresh": true,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 20,
+          "packSize": 1,
+          "plannedQty": 20,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "arrival|gemüse|kg",
+          "name": "Gemüse",
+          "unit": "kg",
+          "block": "arrival",
+          "baseQty": 4,
+          "sources": 2,
+          "fresh": true,
+          "reducible": true,
+          "factor": 0.9,
+          "startQty": 3.6,
+          "packSize": 0.5,
+          "plannedQty": 4,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "arrival|joghurt|kg",
+          "name": "Joghurt",
+          "unit": "kg",
+          "block": "arrival",
+          "baseQty": 2,
+          "sources": 1,
+          "fresh": true,
+          "reducible": true,
+          "factor": 0.9,
+          "startQty": 1.8,
+          "packSize": 0.5,
+          "plannedQty": 2,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "arrival|kartoffeln|kg",
+          "name": "Kartoffeln",
+          "unit": "kg",
+          "block": "arrival",
+          "baseQty": 6.5,
+          "sources": 2,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 6.5,
+          "packSize": 0.5,
+          "plannedQty": 6.5,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "arrival|müsliriegel|stück",
+          "name": "Müsliriegel",
+          "unit": "Stück",
+          "block": "arrival",
+          "baseQty": 10,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 10,
+          "packSize": 1,
+          "plannedQty": 10,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "arrival|müsli|kg",
+          "name": "Müsli",
+          "unit": "kg",
+          "block": "arrival",
+          "baseQty": 1.6,
+          "sources": 2,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 1.6,
+          "packSize": 0.5,
+          "plannedQty": 2,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "arrival|nudeln|kg",
+          "name": "Nudeln",
+          "unit": "kg",
+          "block": "arrival",
+          "baseQty": 1.2,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 1.2,
+          "packSize": 0.5,
+          "plannedQty": 1.5,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "arrival|obst|stück",
+          "name": "Obst",
+          "unit": "Stück",
+          "block": "arrival",
+          "baseQty": 20,
+          "sources": 2,
+          "fresh": true,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 20,
+          "packSize": 1,
+          "plannedQty": 20,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "arrival|quark|kg",
+          "name": "Quark",
+          "unit": "kg",
+          "block": "arrival",
+          "baseQty": 1.5,
+          "sources": 1,
+          "fresh": true,
+          "reducible": true,
+          "factor": 0.9,
+          "startQty": 1.35,
+          "packSize": 0.5,
+          "plannedQty": 1.5,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "arrival|reis|kg",
+          "name": "Reis",
+          "unit": "kg",
+          "block": "arrival",
+          "baseQty": 1,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 1,
+          "packSize": 0.5,
+          "plannedQty": 1,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "arrival|rohkost|kg",
+          "name": "Rohkost",
+          "unit": "kg",
+          "block": "arrival",
+          "baseQty": 1.5,
+          "sources": 1,
+          "fresh": true,
+          "reducible": true,
+          "factor": 0.9,
+          "startQty": 1.35,
+          "packSize": 0.5,
+          "plannedQty": 1.5,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "arrival|salat|kg",
+          "name": "Salat",
+          "unit": "kg",
+          "block": "arrival",
+          "baseQty": 1,
+          "sources": 1,
+          "fresh": true,
+          "reducible": true,
+          "factor": 0.9,
+          "startQty": 0.9,
+          "packSize": 0.5,
+          "plannedQty": 1,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "arrival|tomatensoße|l",
+          "name": "Tomatensoße",
+          "unit": "l",
+          "block": "arrival",
+          "baseQty": 2,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 2,
+          "packSize": 1,
+          "plannedQty": 2,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "arrival|wraps|stück",
+          "name": "Wraps",
+          "unit": "Stück",
+          "block": "arrival",
+          "baseQty": 20,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 20,
+          "packSize": 1,
+          "plannedQty": 20,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day5|bohnen|kg",
+          "name": "Bohnen",
+          "unit": "kg",
+          "block": "day5",
+          "baseQty": 1.5,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 1.5,
+          "packSize": 0.5,
+          "plannedQty": 1.5,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day5|brot|kg",
+          "name": "Brot",
+          "unit": "kg",
+          "block": "day5",
+          "baseQty": 4.5,
+          "sources": 3,
+          "fresh": true,
+          "reducible": true,
+          "factor": 0.9,
+          "startQty": 4.05,
+          "packSize": 0.5,
+          "plannedQty": 4.5,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day5|brötchen|stück",
+          "name": "Brötchen",
+          "unit": "Stück",
+          "block": "day5",
+          "baseQty": 40,
+          "sources": 2,
+          "fresh": true,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 40,
+          "packSize": 1,
+          "plannedQty": 40,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day5|burgerbrötchen|stück",
+          "name": "Burgerbrötchen",
+          "unit": "Stück",
+          "block": "day5",
+          "baseQty": 10,
+          "sources": 1,
+          "fresh": true,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 10,
+          "packSize": 1,
+          "plannedQty": 10,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day5|couscous|kg",
+          "name": "Couscous",
+          "unit": "kg",
+          "block": "day5",
+          "baseQty": 1,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 1,
+          "packSize": 0.5,
+          "plannedQty": 1,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day5|eier|stück",
+          "name": "Eier",
+          "unit": "Stück",
+          "block": "day5",
+          "baseQty": 10,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 10,
+          "packSize": 1,
+          "plannedQty": 10,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day5|gemüsepatty|stück",
+          "name": "Gemüsepatty",
+          "unit": "Stück",
+          "block": "day5",
+          "baseQty": 10,
+          "sources": 1,
+          "fresh": true,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 10,
+          "packSize": 1,
+          "plannedQty": 10,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day5|gemüse|kg",
+          "name": "Gemüse",
+          "unit": "kg",
+          "block": "day5",
+          "baseQty": 7,
+          "sources": 4,
+          "fresh": true,
+          "reducible": true,
+          "factor": 0.9,
+          "startQty": 6.3,
+          "packSize": 0.5,
+          "plannedQty": 6.5,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day5|kartoffeln|kg",
+          "name": "Kartoffeln",
+          "unit": "kg",
+          "block": "day5",
+          "baseQty": 2.5,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 2.5,
+          "packSize": 0.5,
+          "plannedQty": 2.5,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day5|mehl|kg",
+          "name": "Mehl",
+          "unit": "kg",
+          "block": "day5",
+          "baseQty": 1.5,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 1.5,
+          "packSize": 0.5,
+          "plannedQty": 1.5,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day5|milch|l",
+          "name": "Milch",
+          "unit": "l",
+          "block": "day5",
+          "baseQty": 2.5,
+          "sources": 1,
+          "fresh": true,
+          "reducible": true,
+          "factor": 0.9,
+          "startQty": 2.25,
+          "packSize": 1,
+          "plannedQty": 3,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day5|müsli|kg",
+          "name": "Müsli",
+          "unit": "kg",
+          "block": "day5",
+          "baseQty": 0.8,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 0.8,
+          "packSize": 0.5,
+          "plannedQty": 1,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day5|obst|stück",
+          "name": "Obst",
+          "unit": "Stück",
+          "block": "day5",
+          "baseQty": 30,
+          "sources": 3,
+          "fresh": true,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 30,
+          "packSize": 1,
+          "plannedQty": 30,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day5|pizzabelag|kg",
+          "name": "Pizzabelag",
+          "unit": "kg",
+          "block": "day5",
+          "baseQty": 1.5,
+          "sources": 1,
+          "fresh": true,
+          "reducible": true,
+          "factor": 0.9,
+          "startQty": 1.35,
+          "packSize": 0.5,
+          "plannedQty": 1.5,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day5|reis|kg",
+          "name": "Reis",
+          "unit": "kg",
+          "block": "day5",
+          "baseQty": 1,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 1,
+          "packSize": 0.5,
+          "plannedQty": 1,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day5|taco-schalen|stück",
+          "name": "Taco-Schalen",
+          "unit": "Stück",
+          "block": "day5",
+          "baseQty": 30,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 30,
+          "packSize": 1,
+          "plannedQty": 30,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day9|brot|kg",
+          "name": "Brot",
+          "unit": "kg",
+          "block": "day9",
+          "baseQty": 1.7999999999999998,
+          "sources": 1,
+          "fresh": true,
+          "reducible": true,
+          "factor": 0.9,
+          "startQty": 1.6199999999999999,
+          "packSize": 0.5,
+          "plannedQty": 2,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day9|brötchen|stück",
+          "name": "Brötchen",
+          "unit": "Stück",
+          "block": "day9",
+          "baseQty": 60,
+          "sources": 3,
+          "fresh": true,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 60,
+          "packSize": 1,
+          "plannedQty": 60,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day9|buffetzutaten|kg",
+          "name": "Buffetzutaten",
+          "unit": "kg",
+          "block": "day9",
+          "baseQty": 3.5,
+          "sources": 1,
+          "fresh": true,
+          "reducible": true,
+          "factor": 0.9,
+          "startQty": 3.15,
+          "packSize": 0.5,
+          "plannedQty": 3.5,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day9|dessert|portion",
+          "name": "Dessert",
+          "unit": "Portion",
+          "block": "day9",
+          "baseQty": 10,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 10,
+          "packSize": 1,
+          "plannedQty": 10,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day9|joghurt|kg",
+          "name": "Joghurt",
+          "unit": "kg",
+          "block": "day9",
+          "baseQty": 2,
+          "sources": 1,
+          "fresh": true,
+          "reducible": true,
+          "factor": 0.9,
+          "startQty": 1.8,
+          "packSize": 0.5,
+          "plannedQty": 2,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day9|lasagneplatten|kg",
+          "name": "Lasagneplatten",
+          "unit": "kg",
+          "block": "day9",
+          "baseQty": 1,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 1,
+          "packSize": 0.5,
+          "plannedQty": 1,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day9|müsliriegel|stück",
+          "name": "Müsliriegel",
+          "unit": "Stück",
+          "block": "day9",
+          "baseQty": 10,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 10,
+          "packSize": 1,
+          "plannedQty": 10,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day9|müsli|kg",
+          "name": "Müsli",
+          "unit": "kg",
+          "block": "day9",
+          "baseQty": 0.8,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 0.8,
+          "packSize": 0.5,
+          "plannedQty": 1,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day9|obst|stück",
+          "name": "Obst",
+          "unit": "Stück",
+          "block": "day9",
+          "baseQty": 20,
+          "sources": 2,
+          "fresh": true,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 20,
+          "packSize": 1,
+          "plannedQty": 20,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day9|reise-snackreserve|portion",
+          "name": "Reise-Snackreserve",
+          "unit": "Portion",
+          "block": "day9",
+          "baseQty": 10,
+          "sources": 1,
+          "fresh": false,
+          "reducible": false,
+          "factor": 1,
+          "startQty": 10,
+          "packSize": 1,
+          "plannedQty": 10,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day9|rohkost|kg",
+          "name": "Rohkost",
+          "unit": "kg",
+          "block": "day9",
+          "baseQty": 1.7999999999999998,
+          "sources": 1,
+          "fresh": true,
+          "reducible": true,
+          "factor": 0.9,
+          "startQty": 1.6199999999999999,
+          "packSize": 0.5,
+          "plannedQty": 2,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        },
+        {
+          "key": "day9|salat|kg",
+          "name": "Salat",
+          "unit": "kg",
+          "block": "day9",
+          "baseQty": 1,
+          "sources": 1,
+          "fresh": true,
+          "reducible": true,
+          "factor": 0.9,
+          "startQty": 0.9,
+          "packSize": 0.5,
+          "plannedQty": 1,
+          "actualQty": 0,
+          "actualRecorded": false,
+          "required": true,
+          "note": ""
+        }
+      ],
+      "deposit": {
+        "openAmount": 0,
+        "returnedAmount": 0,
+        "note": "Beim Einkauf separat erfassen; Rückgabe gleicht den Pfandbetrag aus."
+      }
+    },
+    "kasse": {
+      "handkasse": 500,
+      "entries": [],
+      "draft": null
+    },
+    "kidpack": [
+      {
+        "name": "T-Shirts",
+        "perDay": 1,
+        "plus": 0
+      },
+      {
+        "name": "Unterwäsche",
+        "perDay": 1,
+        "plus": 2
+      },
+      {
+        "name": "Socken (Paar)",
+        "perDay": 1,
+        "plus": 2
+      },
+      {
+        "name": "Lange Hosen",
+        "perDay": 0,
+        "plus": 3
+      },
+      {
+        "name": "Kurze Hosen",
+        "perDay": 0,
+        "plus": 3
+      },
+      {
+        "name": "Warme Pullover / Jacken",
+        "perDay": 0,
+        "plus": 2
+      },
+      {
+        "name": "Regenjacke",
+        "perDay": 0,
+        "plus": 1
+      },
+      {
+        "name": "Schlafanzug",
+        "perDay": 0,
+        "plus": 2
+      },
+      {
+        "name": "Badesachen und Badetuch",
+        "perDay": 0,
+        "plus": 1
+      },
+      {
+        "name": "Feste Schuhe",
+        "perDay": 0,
+        "plus": 1
+      },
+      {
+        "name": "Turnschuhe / Sandalen",
+        "perDay": 0,
+        "plus": 1
+      },
+      {
+        "name": "Sonnenhut / Kappe",
+        "perDay": 0,
+        "plus": 1
+      },
+      {
+        "name": "Waschzeug",
+        "perDay": 0,
+        "plus": 1
+      },
+      {
+        "name": "Handtücher",
+        "perDay": 0,
+        "plus": 2
+      },
+      {
+        "name": "Trinkflasche",
+        "perDay": 0,
+        "plus": 1
+      },
+      {
+        "name": "Tagesrucksack",
+        "perDay": 0,
+        "plus": 1
+      },
+      {
+        "name": "Taschenlampe",
+        "perDay": 0,
+        "plus": 1
+      }
+    ],
+    "checklists": {
+      "woche": [
+        {
+          "done": true,
+          "text": "Wetter- und Plan-B-Verfahren festgelegt"
+        },
+        {
+          "done": true,
+          "text": "Speiseplan und Großeinkauf vorbereitet"
+        },
+        {
+          "done": true,
+          "text": "Zwei Fahrende, 14 Sitzplätze und Pannenlösung bestätigt"
+        },
+        {
+          "done": true,
+          "text": "Anonyme Sicherheitsstatus vollständig geprüft"
+        }
+      ],
+      "vortag": [
+        {
+          "done": true,
+          "text": "Material-Istbestand schließen und Fehlteile beschaffen"
+        },
+        {
+          "done": true,
+          "text": "Fahrzeuge betanken und Route final prüfen"
+        },
+        {
+          "done": true,
+          "text": "Wetterentscheidung und Tagesabfahrten bestätigen"
+        }
+      ],
+      "abreise": [
+        {
+          "done": false,
+          "text": "Vollzähligkeits- und Gepäckcheck"
+        },
+        {
+          "done": false,
+          "text": "Hausübergabe und Schlüsselcheck"
+        },
+        {
+          "done": false,
+          "text": "Pünktliche Abfahrt dokumentieren"
+        }
+      ]
+    },
+    "prep": {
+      "startDate": "2026-08-10",
+      "endDate": "2026-08-20",
+      "departure": "2026-08-20",
+      "items": [
+        {
+          "done": true,
+          "offset": 84,
+          "title": "Unterkunft buchen und Preis bestätigen"
+        },
+        {
+          "done": true,
+          "offset": 56,
+          "title": "Beispielbudget und Betreuungsschlüssel klären"
+        },
+        {
+          "done": true,
+          "offset": 28,
+          "title": "Tagesplan und Ausflugsvarianten erstellen"
+        },
+        {
+          "done": true,
+          "offset": 14,
+          "title": "Speiseplan und Einkaufsliste erstellen"
+        },
+        {
+          "done": true,
+          "offset": 7,
+          "title": "Zimmerplan, Fahrzeuge und Fahrende bestätigen"
+        },
+        {
+          "done": true,
+          "offset": 2,
+          "title": "Material-Istbestand vollständig machen"
+        },
+        {
+          "done": true,
+          "offset": 1,
+          "title": "Wetter und Plan B final entscheiden"
+        },
+        {
+          "done": false,
+          "offset": 0,
+          "title": "Abfahrtsbereitschaft feststellen"
+        }
+      ]
+    },
+    "rooms": [
+      {
+        "name": "Zimmer 1",
+        "beds": 4,
+        "who": "JM1, JM2, JM3",
+        "exclusive": false,
+        "useLabel": "Jugendliche männlich"
+      },
+      {
+        "name": "Zimmer 2",
+        "beds": 4,
+        "who": "",
+        "exclusive": false,
+        "useLabel": "Reserve"
+      },
+      {
+        "name": "Zimmer 3",
+        "beds": 3,
+        "who": "BM1, BM2, BM3",
+        "exclusive": false,
+        "useLabel": "Betreuende männlich"
+      },
+      {
+        "name": "Zimmer 4",
+        "beds": 3,
+        "who": "JMI1",
+        "exclusive": true,
+        "useLabel": "Einzelzimmer JMI1"
+      },
+      {
+        "name": "Zimmer 5",
+        "beds": 3,
+        "who": "JMI2",
+        "exclusive": true,
+        "useLabel": "Einzelzimmer JMI2"
+      },
+      {
+        "name": "Zimmer 6",
+        "beds": 2,
+        "who": "JW1, JW2",
+        "exclusive": false,
+        "useLabel": "Jugendliche weiblich"
+      }
+    ],
+    "roomProfiles": {
+      "youthFemale": 2,
+      "youthMale": 5,
+      "youthFemaleIndividual": 0,
+      "youthMaleIndividual": 2,
+      "staffFemale": 0,
+      "staffMale": 3,
+      "staffFemaleIndividual": 0,
+      "staffMaleIndividual": 1,
+      "staffIndividualMode": "shared",
+      "separateYouthGender": true,
+      "separateRoles": true,
+      "reserveLargest": true
+    },
+    "roomProposal": {
+      "status": "ready",
+      "message": "Lösbarer Vorschlag erzeugt und für den anonymisierten Musterfall bestätigt.",
+      "assignments": [
+        {
+          "roomIndex": 0,
+          "label": "Jugendliche männlich",
+          "codes": [
+            "JM1",
+            "JM2",
+            "JM3"
+          ],
+          "exclusive": false,
+          "role": "youth",
+          "gender": "male"
+        },
+        {
+          "roomIndex": 5,
+          "label": "Jugendliche weiblich",
+          "codes": [
+            "JW1",
+            "JW2"
+          ],
+          "exclusive": false,
+          "role": "youth",
+          "gender": "female"
+        },
+        {
+          "roomIndex": 2,
+          "label": "Betreuende männlich",
+          "codes": [
+            "BM1",
+            "BM2",
+            "BM3"
+          ],
+          "exclusive": false,
+          "role": "staff",
+          "gender": "male"
+        },
+        {
+          "roomIndex": 3,
+          "label": "Einzelzimmer JMI1",
+          "codes": [
+            "JMI1"
+          ],
+          "exclusive": true,
+          "role": "youth",
+          "gender": "male"
+        },
+        {
+          "roomIndex": 4,
+          "label": "Einzelzimmer JMI2",
+          "codes": [
+            "JMI2"
+          ],
+          "exclusive": true,
+          "role": "youth",
+          "gender": "male"
+        }
+      ],
+      "confirmed": true,
+      "confirmedSignature": "{\"rooms\":[{\"name\":\"Zimmer 1\",\"beds\":4},{\"name\":\"Zimmer 2\",\"beds\":4},{\"name\":\"Zimmer 3\",\"beds\":3},{\"name\":\"Zimmer 4\",\"beds\":3},{\"name\":\"Zimmer 5\",\"beds\":3},{\"name\":\"Zimmer 6\",\"beds\":2}],\"profiles\":{\"youthFemale\":2,\"youthMale\":5,\"youthFemaleIndividual\":0,\"youthMaleIndividual\":2,\"staffFemale\":0,\"staffMale\":3,\"staffFemaleIndividual\":0,\"staffMaleIndividual\":1,\"staffIndividualMode\":\"shared\",\"separateYouthGender\":true,\"separateRoles\":true,\"reserveLargest\":true}}",
+      "confirmedAt": "09.08.2026"
+    },
+    "materials": [
+      {
+        "done": true,
+        "title": "Erste-Hilfe- und Ausflugsset",
+        "note": "anonym geprüft",
+        "required": true,
+        "requiredQty": 1,
+        "actualQty": 1,
+        "unit": "Set"
+      },
+      {
+        "done": true,
+        "title": "Küchen- und Einkaufsmaterial",
+        "note": "Soll vorhanden",
+        "required": true,
+        "requiredQty": 1,
+        "actualQty": 1,
+        "unit": "Set"
+      },
+      {
+        "done": true,
+        "title": "Belegmappe und Budgetunterlagen",
+        "note": "vorbereitet",
+        "required": true,
+        "requiredQty": 1,
+        "actualQty": 1,
+        "unit": "Set"
+      },
+      {
+        "done": true,
+        "title": "Regen- und Sonnenschutz Gruppe",
+        "note": "geprüft",
+        "required": true,
+        "requiredQty": 1,
+        "actualQty": 1,
+        "unit": "Set"
+      },
+      {
+        "done": true,
+        "title": "Gruppenspiel- und Kreativmaterial",
+        "note": "Bestand vollständig bestätigt am 09.08.2026",
+        "required": true,
+        "requiredQty": 1,
+        "actualQty": 1,
+        "unit": "Set"
+      }
+    ],
+    "expenses": [],
+    "roles": [
+      {
+        "done": false,
+        "task": "Küchen- und Tischdienst",
+        "who": "rotierende Jugendgruppe + Betreuung",
+        "note": "Hygiene und Aufsicht"
+      },
+      {
+        "done": false,
+        "task": "Wasser- und Sonnenteam",
+        "who": "rotierende Jugendgruppe",
+        "note": "Flaschen, Schatten, Pausen"
+      },
+      {
+        "done": false,
+        "task": "Beleg- und Budgetteam",
+        "who": "Jugendbeteiligung + Betreuung",
+        "note": "nur anonyme Planung"
+      },
+      {
+        "done": false,
+        "task": "Hauscheck",
+        "who": "rotierende Jugendgruppe",
+        "note": "Müll, Fenster, Fundsachen"
+      },
+      {
+        "done": false,
+        "task": "Fahr- und Sicherheitsentscheidung",
+        "who": "Betreuung",
+        "note": "nicht delegierbar"
+      }
+    ],
+    "days": [
+      {
+        "id": "d1",
+        "date": "10.08.2026",
+        "title": "Anreise, Hausübernahme und Ankommen",
+        "place": "Würzburg → Silberbach",
+        "cost": 0,
+        "goal": "Orientierung, Sicherheit und Gruppenankommen",
+        "planB": "Bei Stau: Pausen verlängern, spätes Kurzprogramm im Haus"
+      },
+      {
+        "id": "d2",
+        "date": "11.08.2026",
+        "title": "Todtmoos-Rallye und Gruppenregeln",
+        "place": "Todtmoos / Silberbach",
+        "cost": 0,
+        "goal": "Orientierung, Beteiligung und Kooperation",
+        "planB": "Hausrallye und Gruppenvertrag im Aufenthaltsraum"
+      },
+      {
+        "id": "d3",
+        "date": "12.08.2026",
+        "title": "Wasserfall- und Naturtag",
+        "place": "Todtmooser Wasserfälle / Umgebung",
+        "cost": 50,
+        "goal": "Naturerfahrung, Ausdauer und gegenseitige Unterstützung",
+        "planB": "Naturwerkstatt und Quiz im Haus"
+      },
+      {
+        "id": "d4",
+        "date": "13.08.2026",
+        "title": "Hasenhorn-Erlebnistag",
+        "place": "Hasenhorn Coaster, Todtnau",
+        "cost": 138,
+        "goal": "Mut, Grenzen wahrnehmen und Verantwortung",
+        "planB": "Sportturnier und Kletter-/Kooperationsspiele im Haus"
+      },
+      {
+        "id": "d5",
+        "date": "14.08.2026",
+        "title": "Kreativ-, Medien- und Wahlzeit",
+        "place": "Silberbach",
+        "cost": 0,
+        "goal": "Selbstwirksamkeit und freie Entscheidung",
+        "planB": "gleiches Programm vollständig innen"
+      },
+      {
+        "id": "d6",
+        "date": "15.08.2026",
+        "title": "aqua fun Schluchsee und Seeufer",
+        "place": "aqua fun Schluchsee",
+        "cost": 48,
+        "goal": "Bewegung, Gruppenverantwortung und Erholung",
+        "planB": "Bewegungs-, Kreativ- und Gruppenprogramm im Haus; kein Wasserprogramm ohne bestätigte Aufsicht"
+      },
+      {
+        "id": "d7",
+        "date": "16.08.2026",
+        "title": "BLACKFORESTLINE und Todtnauer Wasserfall",
+        "place": "Parkplatz Todtnauer Wasserfall / BLACKFORESTLINE",
+        "cost": 100,
+        "goal": "Höhenwahrnehmung, Entscheidung und gegenseitige Rücksicht",
+        "planB": "Museums-/Hausprojekt ohne Höhenexposition"
+      },
+      {
+        "id": "d8",
+        "date": "17.08.2026",
+        "title": "Gruppen-Challenge und Freizeitfenster",
+        "place": "Silberbach / Todtmoos",
+        "cost": 0,
+        "goal": "Kooperation, Konfliktlösung und Erholung",
+        "planB": "Escape- und Teamspiele im Haus"
+      },
+      {
+        "id": "d9",
+        "date": "18.08.2026",
+        "title": "St. Blasien: Dom und Stadtrallye",
+        "place": "St. Blasien",
+        "cost": 150,
+        "goal": "Region kennenlernen, Orientierung üben und Perspektiven erweitern",
+        "planB": "Regionalwerkstatt, Film und Gespräch im Haus"
+      },
+      {
+        "id": "d10",
+        "date": "19.08.2026",
+        "title": "Wunschprogramm und Abschlussabend",
+        "place": "Todtmoos / Silberbach",
+        "cost": 100,
+        "goal": "Beteiligung auswerten und gemeinsamen Abschluss gestalten",
+        "planB": "Spieleabend, Foto-Rallye-Auswertung und Buffet im Haus"
+      },
+      {
+        "id": "d11",
+        "date": "20.08.2026",
+        "title": "Hausabnahme und Rückreise",
+        "place": "Silberbach → Würzburg",
+        "cost": 0,
+        "goal": "Verantwortung, Abschluss und sichere Rückkehr",
+        "planB": "Bei Verzögerung: gestaffelter Hauscheck und zusätzliche Fahrpause"
+      }
+    ],
+    "presentationTariffDeltaVersion": 2
+  },
+  "ablauf": {
+    "activeDay": "d11",
+    "blocks": {
+      "d1": [
+        {
+          "start": "08:00",
+          "duration": "ca. 5 h inkl. Pausen",
+          "title": "Anreise mit zwei PKW",
+          "kind": "Fahrt",
+          "place": "Würzburg → Todtmoos",
+          "note": "mindestens zwei Pausen; Verkehrspuffer"
+        },
+        {
+          "start": "15:00",
+          "duration": "120 Min",
+          "title": "Hausübernahme, Zimmer und Sicherheitsrunde",
+          "kind": "Ankommen",
+          "place": "Silberbach",
+          "note": "anonymisierte Zimmerkürzel"
+        },
+        {
+          "start": "19:30",
+          "duration": "30 Min",
+          "title": "Abendrunde",
+          "kind": "Reflexion",
+          "place": "Haus",
+          "note": ""
+        }
+      ],
+      "d2": [
+        {
+          "start": "09:30",
+          "duration": "30 Min",
+          "title": "Morgenkreis und Wettercheck",
+          "kind": "Check-in",
+          "place": "Haus",
+          "note": ""
+        },
+        {
+          "start": "10:30",
+          "duration": "180 Min",
+          "title": "Todtmoos-Rallye",
+          "kind": "Programm",
+          "place": "Todtmoos",
+          "note": "Kleingruppen mit Aufsicht"
+        },
+        {
+          "start": "19:30",
+          "duration": "30 Min",
+          "title": "Gruppenregeln und Reflexion",
+          "kind": "Reflexion",
+          "place": "Haus",
+          "note": ""
+        }
+      ],
+      "d3": [
+        {
+          "start": "09:00",
+          "duration": "30 Min",
+          "title": "Wetter- und Wegeentscheidung",
+          "kind": "Sicherheit",
+          "place": "Haus",
+          "note": "Plan B verbindlich entscheiden"
+        },
+        {
+          "start": "10:00",
+          "duration": "240 Min",
+          "title": "Wasserfall- und Naturtour",
+          "kind": "Ausflug",
+          "place": "Todtmoos",
+          "note": "Pausen und Trinkcheck"
+        },
+        {
+          "start": "19:30",
+          "duration": "30 Min",
+          "title": "Abendrunde",
+          "kind": "Reflexion",
+          "place": "Haus",
+          "note": ""
+        }
+      ],
+      "d4": [
+        {
+          "start": "07:30",
+          "duration": "15 Min",
+          "title": "Wetter-, Betriebs- und Aufsichtsentscheidung",
+          "kind": "Sicherheit",
+          "place": "Haus",
+          "note": "Wind/Gewitter, Größenregeln und anonyme Fahrfreigabe prüfen; sonst Plan B"
+        },
+        {
+          "start": "08:15",
+          "duration": "ca. 25 Min",
+          "title": "Abfahrt zum Hasenhorn",
+          "kind": "Fahrt",
+          "place": "Todtnau",
+          "note": "16,8 km einfach; zwei PKW; Parktarif vor Ort noch offen"
+        },
+        {
+          "start": "09:00",
+          "duration": "4 Std",
+          "title": "Hasenhorn-Erlebnistag",
+          "kind": "Ausflug",
+          "place": "Hasenhorn Coaster",
+          "note": "Kassenöffnung 09:00; 136–150 € Eintritt, zuzüglich 20 € Parkreserve"
+        },
+        {
+          "start": "13:30",
+          "duration": "ca. 30 Min",
+          "title": "Rückfahrt",
+          "kind": "Fahrt",
+          "place": "Silberbach",
+          "note": "Verkehrspuffer enthalten"
+        },
+        {
+          "start": "19:30",
+          "duration": "30 Min",
+          "title": "Abendrunde",
+          "kind": "Reflexion",
+          "place": "Haus",
+          "note": ""
+        }
+      ],
+      "d5": [
+        {
+          "start": "09:30",
+          "duration": "30 Min",
+          "title": "Morgenkreis",
+          "kind": "Check-in",
+          "place": "Haus",
+          "note": ""
+        },
+        {
+          "start": "10:30",
+          "duration": "150 Min",
+          "title": "Kreativ- und Medienwerkstatt",
+          "kind": "Programm",
+          "place": "Haus",
+          "note": "keine Personenfotos"
+        },
+        {
+          "start": "15:00",
+          "duration": "120 Min",
+          "title": "Freie Wahlzeit",
+          "kind": "Wahlzeit",
+          "place": "Hausgelände",
+          "note": ""
+        }
+      ],
+      "d6": [
+        {
+          "start": "18:00",
+          "duration": "15 Min am Vorabend",
+          "title": "Vorentscheidung Badewetter",
+          "kind": "Sicherheit",
+          "place": "Haus",
+          "note": "Wetterlage und Wasseraufsicht vorprüfen"
+        },
+        {
+          "start": "07:30",
+          "duration": "15 Min",
+          "title": "Wetter-, Bade- und Aufsichtsentscheidung",
+          "kind": "Sicherheit",
+          "place": "Haus",
+          "note": "anonymen Schwimm-/Aufsichtsstatus bestätigen; sonst Plan B"
+        },
+        {
+          "start": "08:15",
+          "duration": "ca. 35 Min",
+          "title": "Abfahrt zum Schluchsee",
+          "kind": "Fahrt",
+          "place": "aqua fun Schluchsee",
+          "note": "29,0 km einfach; zwei PKW; Parkplatz laut Quelle kostenlos"
+        },
+        {
+          "start": "09:00",
+          "duration": "6,5 Std",
+          "title": "aqua fun und Seeufer",
+          "kind": "Ausflug",
+          "place": "Schluchsee",
+          "note": "Öffnung wetterabhängig; Standardtarif 46–60 €, KONUS-Rabatt nicht eingerechnet"
+        },
+        {
+          "start": "16:00",
+          "duration": "ca. 35 Min",
+          "title": "Rückfahrt",
+          "kind": "Fahrt",
+          "place": "Silberbach",
+          "note": "Verkehrspuffer enthalten"
+        },
+        {
+          "start": "19:30",
+          "duration": "30 Min",
+          "title": "Abendrunde",
+          "kind": "Reflexion",
+          "place": "Haus",
+          "note": ""
+        }
+      ],
+      "d7": [
+        {
+          "start": "07:30",
+          "duration": "15 Min",
+          "title": "Wetter-, Öffnungs- und Höhenentscheidung",
+          "kind": "Sicherheit",
+          "place": "Haus",
+          "note": "Wind/Gewitter und anonymen Höhenstatus prüfen; sonst Plan B"
+        },
+        {
+          "start": "09:00",
+          "duration": "ca. 35 Min",
+          "title": "Abfahrt zur BLACKFORESTLINE",
+          "kind": "Fahrt",
+          "place": "Todtnau",
+          "note": "22,0 km einfach; zwei PKW; Parkscheibe erforderlich"
+        },
+        {
+          "start": "10:00",
+          "duration": "2 Std",
+          "title": "BLACKFORESTLINE und kurzer Naturpfad",
+          "kind": "Ausflug",
+          "place": "Todtnauer Wasserfall",
+          "note": "Zwei-Stunden-Parklimit einhalten; 99–120 € Einzeltickets, Gruppenticket 100 € nur nach Voranmeldung"
+        },
+        {
+          "start": "12:30",
+          "duration": "ca. 30 Min",
+          "title": "Rückfahrt",
+          "kind": "Fahrt",
+          "place": "Silberbach",
+          "note": "Verkehrspuffer enthalten"
+        },
+        {
+          "start": "19:30",
+          "duration": "30 Min",
+          "title": "Abendrunde",
+          "kind": "Reflexion",
+          "place": "Haus",
+          "note": ""
+        }
+      ],
+      "d8": [
+        {
+          "start": "09:30",
+          "duration": "30 Min",
+          "title": "Morgenkreis",
+          "kind": "Check-in",
+          "place": "Haus",
+          "note": ""
+        },
+        {
+          "start": "10:30",
+          "duration": "180 Min",
+          "title": "Gruppen-Challenge",
+          "kind": "Programm",
+          "place": "Silberbach",
+          "note": ""
+        },
+        {
+          "start": "15:00",
+          "duration": "120 Min",
+          "title": "Freizeitfenster",
+          "kind": "Wahlzeit",
+          "place": "Haus",
+          "note": ""
+        }
+      ],
+      "d9": [
+        {
+          "start": "08:45",
+          "duration": "30 Min",
+          "title": "Wetter- und Öffnungsentscheidung",
+          "kind": "Sicherheit",
+          "place": "Haus",
+          "note": "Öffnung, Wetter und Parkstatus am Vortag prüfen"
+        },
+        {
+          "start": "09:30",
+          "duration": "Halbtag",
+          "title": "St. Blasien: Dom und Stadtrallye",
+          "kind": "Ausflug",
+          "place": "St. Blasien",
+          "note": "Fahrt, Parken und mögliche Spende im Tagesrahmen"
+        },
+        {
+          "start": "19:30",
+          "duration": "30 Min",
+          "title": "Abendrunde",
+          "kind": "Reflexion",
+          "place": "Haus",
+          "note": ""
+        }
+      ],
+      "d10": [
+        {
+          "start": "09:30",
+          "duration": "30 Min",
+          "title": "Beteiligungsentscheidung",
+          "kind": "Check-in",
+          "place": "Haus",
+          "note": "Ergebnis der anonymen Abstimmung"
+        },
+        {
+          "start": "10:30",
+          "duration": "180 Min",
+          "title": "Wunschprogramm",
+          "kind": "Programm",
+          "place": "Todtmoos / Haus",
+          "note": "100-€-Kostenobergrenze"
+        },
+        {
+          "start": "18:30",
+          "duration": "180 Min",
+          "title": "Abschlussbuffet und Auswertung",
+          "kind": "Abschluss",
+          "place": "Haus",
+          "note": ""
+        }
+      ],
+      "d11": [
+        {
+          "start": "07:30",
+          "duration": "90 Min",
+          "title": "Frühstück, Packen und Zimmercheck",
+          "kind": "Abreise",
+          "place": "Haus",
+          "note": ""
+        },
+        {
+          "start": "09:30",
+          "duration": "60 Min",
+          "title": "Hausabnahme und Vollzähligkeit",
+          "kind": "Sicherheit",
+          "place": "Silberbach",
+          "note": "Übergabe bestätigt"
+        },
+        {
+          "start": "10:30",
+          "duration": "ca. 5 h inkl. Pausen",
+          "title": "Rückreise mit zwei PKW",
+          "kind": "Fahrt",
+          "place": "Todtmoos → Würzburg",
+          "note": "mindestens zwei Pausen; Verkehrspuffer"
+        }
+      ]
+    }
+  },
+  "archiv": [],
+  "pool": {
+    "items": [],
+    "loans": []
+  },
+  "orte": [
+    {
+      "id": "todtmoos-haus",
+      "name": "Haus- und Geländetag Silberbach",
+      "type": "sonstiges",
+      "region": "Todtmoos",
+      "distance": "vor Ort",
+      "tier": "frei",
+      "cost": 0,
+      "summary": "Gruppenprogramm, Kreativangebote und Rückzug vor Ort.",
+      "goodFor": "Plan B / Ruhetag",
+      "notes": "Aufsicht und Hausregeln",
+      "suggestion": false,
+      "distanceKm": null,
+      "priceInfo": "",
+      "groupEstimate": "",
+      "priceStatus": "",
+      "checkedAt": "",
+      "sourceLabel": "",
+      "sourceUrl": "",
+      "parkingSourceUrl": "",
+      "safetyNote": "",
+      "selection": "",
+      "selectionOrder": 0,
+      "visitDay": "",
+      "dayId": "",
+      "tariff": null,
+      "routeKm": null,
+      "routeMinutes": null,
+      "vehicleKm": null,
+      "departure": "",
+      "openingInfo": "",
+      "parkingInfo": "",
+      "budgetMin": null,
+      "budgetMax": null,
+      "planningStatus": "",
+      "weatherDecision": "",
+      "supervisionCheck": "",
+      "routeSourceUrl": "",
+      "visits": []
+    },
+    {
+      "id": "todtmoos-wasserfall",
+      "name": "Todtmooser Wasserfälle und Naturwege",
+      "type": "natur",
+      "region": "Todtmoos",
+      "distance": "ca. 4–10 km",
+      "tier": "frei",
+      "cost": 0,
+      "summary": "Kostenloser Wander- und Naturtag im Ortsumfeld mit Picknick und Naturaufträgen.",
+      "goodFor": "trockenes Wetter / kurzer Ausflug",
+      "notes": "Wege- und Wetterstatus prüfen",
+      "suggestion": true,
+      "distanceKm": 10,
+      "priceInfo": "ohne Eintritt; Parken oder Verpflegung nicht enthalten",
+      "groupEstimate": "0 € Eintritt",
+      "priceStatus": "kostenloser Naturvorschlag; Wegeprüfung offen",
+      "checkedAt": "04.08.2026",
+      "sourceLabel": "Naturhighlights Hochschwarzwald",
+      "sourceUrl": "https://www.hochschwarzwald.de/erleben/ausflugsziele/natur-highlights",
+      "parkingSourceUrl": "",
+      "safetyNote": "Wetter, Wegzustand, Schuhwerk und Treffpunkte bestätigen",
+      "selection": "",
+      "selectionOrder": 0,
+      "visitDay": "",
+      "dayId": "",
+      "tariff": null,
+      "routeKm": null,
+      "routeMinutes": null,
+      "vehicleKm": null,
+      "departure": "",
+      "openingInfo": "",
+      "parkingInfo": "",
+      "budgetMin": null,
+      "budgetMax": null,
+      "planningStatus": "",
+      "weatherDecision": "",
+      "supervisionCheck": "",
+      "routeSourceUrl": "",
+      "visits": []
+    },
+    {
+      "id": "st-blasien",
+      "name": "St. Blasien: Dom und Stadtrallye",
+      "type": "kultur",
+      "region": "St. Blasien",
+      "distance": "ca. 24 km",
+      "tier": "frei",
+      "cost": 0,
+      "summary": "Kultur- und Orientierungstag mit Domumfeld, Kleingruppenaufgaben und Picknick.",
+      "goodFor": "wechselhaftes Wetter / halbtags",
+      "notes": "Öffnung, mögliche Spende und Parkkosten vorab prüfen",
+      "suggestion": true,
+      "distanceKm": 24,
+      "priceInfo": "Grundprogramm ohne kalkulierten Eintritt",
+      "groupEstimate": "0 € Eintritt; Spende/Parken offen",
+      "priceStatus": "Preisstatus noch zu bestätigen",
+      "checkedAt": "04.08.2026",
+      "sourceLabel": "Hochschwarzwald – Urlaubstag St. Blasien",
+      "sourceUrl": "https://www.hochschwarzwald.de/planen-buchen/urlaub-in-der-region/familien-urlaub/perfekter-urlaubstag/der-perfekte-urlaubstag-in-st-blasien",
+      "parkingSourceUrl": "",
+      "safetyNote": "Öffnung, Parken, Straßenverkehr und Treffpunkte bestätigen",
+      "selection": "",
+      "selectionOrder": 0,
+      "visitDay": "",
+      "dayId": "",
+      "tariff": null,
+      "routeKm": null,
+      "routeMinutes": null,
+      "vehicleKm": null,
+      "departure": "",
+      "openingInfo": "",
+      "parkingInfo": "",
+      "budgetMin": null,
+      "budgetMax": null,
+      "planningStatus": "",
+      "weatherDecision": "",
+      "supervisionCheck": "",
+      "routeSourceUrl": "",
+      "visits": []
+    },
+    {
+      "id": "todtnauer-wasserfall",
+      "name": "Todtnauer Wasserfall ohne Hängebrücke",
+      "type": "natur",
+      "region": "Todtnau",
+      "distance": "ca. 22 km / 26 Min",
+      "tier": "guenstig",
+      "cost": 2.5,
+      "summary": "Günstige Naturvariante am Wasserfall ohne die kostenintensivere Hängebrücke.",
+      "goodFor": "stabiles Wetter / halbtags",
+      "notes": "Nicht mit dem BLACKFORESTLINE-Kombiticket doppelt kalkulieren",
+      "suggestion": true,
+      "distanceKm": 22,
+      "priceInfo": "Wasserfallticket: Erwachsene 2,50 €, Kinder 1,50 €",
+      "groupEstimate": "ca. 18–25 € je nach Altersgrenzen",
+      "priceStatus": "offizieller Tarif geprüft",
+      "checkedAt": "04.08.2026",
+      "sourceLabel": "BLACKFORESTLINE Eintrittspreise",
+      "sourceUrl": "https://blackforestline.de/en/about-the-bridge/entrance-fees/",
+      "parkingSourceUrl": "",
+      "safetyNote": "Wetter, rutschige Wege und Altersgrenzen der Kindertickets prüfen",
+      "selection": "",
+      "selectionOrder": 0,
+      "visitDay": "",
+      "dayId": "",
+      "tariff": null,
+      "routeKm": null,
+      "routeMinutes": null,
+      "vehicleKm": null,
+      "departure": "",
+      "openingInfo": "",
+      "parkingInfo": "",
+      "budgetMin": null,
+      "budgetMax": null,
+      "planningStatus": "",
+      "weatherDecision": "",
+      "supervisionCheck": "",
+      "routeSourceUrl": "",
+      "visits": []
+    },
+    {
+      "id": "schluchsee",
+      "name": "aqua fun Schluchsee und Seeufer",
+      "type": "natur",
+      "region": "Schluchsee",
+      "distance": "29,0 km / 30 Min",
+      "tier": "guenstig",
+      "cost": 6,
+      "summary": "Wasser- und Bewegungstag mit dem wetterabhängigen Freibad als Hauptbaustein.",
+      "goodFor": "warmes Wetter / ganztags",
+      "notes": "Der KONUS-Rabatt ist nicht eingerechnet; die Tarifgrenze bei 16 Jahren wird konservativ als Erwachsenentarif behandelt.",
+      "suggestion": true,
+      "distanceKm": 29,
+      "priceInfo": "6–15 Jahre 4 €, ab 16 Jahre 6 €",
+      "groupEstimate": "46–60 € für 10 Personen; exakter Wert hängt von der Anzahl ab 16 Jahren ab",
+      "priceStatus": "Tarif und aktueller Öffnungsrahmen geprüft; Besuchswetter bleibt offen",
+      "checkedAt": "08.08.2026",
+      "sourceLabel": "Hochschwarzwald – aqua fun",
+      "sourceUrl": "https://www.hochschwarzwald.de/attraktionen/aqua-fun-in-schluchsee-cd1cd216e1",
+      "parkingSourceUrl": "",
+      "safetyNote": "Schwimm-/Wasserstatus, Aufsicht, Schatten, Wetter und Rückzug verbindlich bestätigen",
+      "selection": "hauptziel",
+      "selectionOrder": 3,
+      "visitDay": "Sa, 15.08.2026",
+      "dayId": "d6",
+      "tariff": {
+        "bands": [
+          {
+            "min": 0,
+            "max": 5,
+            "price": 0
+          },
+          {
+            "min": 6,
+            "max": 15,
+            "price": 4
+          },
+          {
+            "min": 16,
+            "max": null,
+            "price": 6
+          }
+        ],
+        "extraCost": 0,
+        "sourceDate": "08.08.2026"
+      },
+      "routeKm": 29,
+      "routeMinutes": 30,
+      "vehicleKm": 116,
+      "departure": "08:15",
+      "openingInfo": "am Besuchstag laut aktuellem Eintrag 09:00–19:00; wetterabhängig",
+      "parkingInfo": "Parkplatz aqua fun laut offizieller Toureninformation kostenlos",
+      "budgetMin": 46,
+      "budgetMax": 60,
+      "planningStatus": "in Tag 6 übernommen; Durchführung nur nach Wasser-, Wetter- und Aufsichtsfreigabe",
+      "weatherDecision": "Vorprüfung am Vorabend 18:00, endgültig 07:30",
+      "supervisionCheck": "anonymer Schwimm-/Wasserstatus und konkrete Wasseraufsicht müssen bestätigt sein",
+      "routeSourceUrl": "https://www.google.com/maps/dir/Kirchbergh%C3%BCtte,+Am+Skilift+3,+79682+Todtmoos-Strick/aqua+fun,+Freiburger+Stra%C3%9Fe+16,+79859+Schluchsee",
+      "visits": []
+    },
+    {
+      "id": "haus-der-natur",
+      "name": "Haus der Natur Feldberg",
+      "type": "kultur",
+      "region": "Feldberg",
+      "distance": "28,4 km / 35 Min bis Parkhaus",
+      "tier": "guenstig",
+      "cost": 5,
+      "summary": "Wetterrobuste Naturausstellung als Reserve; vom öffentlichen Parkhaus etwa 150 m Fußweg.",
+      "goodFor": "Regen / wechselhaft / halbtags",
+      "notes": "Nur als Reserve; keine Tagesübernahme. Ausschließlich im Parkhaus parken.",
+      "suggestion": true,
+      "distanceKm": 28.4,
+      "priceInfo": "Erwachsene 5 €, ermäßigt 4 €, Schulkinder 3 €",
+      "groupEstimate": "36–50 € Eintritt plus etwa 20 € Parken",
+      "priceStatus": "Tarif, tägliche Öffnung und Parktarif geprüft",
+      "checkedAt": "05.08.2026",
+      "sourceLabel": "Feldberg-Erlebnis – Haus der Natur",
+      "sourceUrl": "https://www.feldberg-erlebnis.de/attraktion/haus-der-natur-5406846204",
+      "parkingSourceUrl": "",
+      "safetyNote": "Parkhauszufahrt, Fußweg, Treffpunkt und Außenwetter bei Aktivierung bestätigen",
+      "selection": "reserve",
+      "selectionOrder": 1,
+      "visitDay": "Reserve ohne feste Tagesübernahme",
+      "dayId": "",
+      "tariff": null,
+      "routeKm": 28.4,
+      "routeMinutes": 35,
+      "vehicleKm": 113.6,
+      "departure": "bei Einsatz 09:00",
+      "openingInfo": "täglich 10:00–17:00",
+      "parkingInfo": "Parkhaus: erste Stunde 3 €, jede weitere 2 €; Planwert 20 € für zwei PKW",
+      "budgetMin": 56,
+      "budgetMax": 70,
+      "planningStatus": "Reserve; Route bis öffentlichem Parkhaus geprüft, keine Buchung erforderlich",
+      "weatherDecision": "für Ausstellung wetterrobust; Außenrunde separat nach Wetter entscheiden",
+      "supervisionCheck": "Treffpunkt, 150-m-Fußweg und kurze Außenroute vor Ort prüfen",
+      "routeSourceUrl": "https://www.google.com/maps/dir/Kirchbergh%C3%BCtte,+Am+Skilift+3,+79682+Todtmoos-Strick/Saba+Parkhaus+Am+Feldberg,+Dr.-Pilet-Spur+2,+79868+Feldberg",
+      "visits": []
+    },
+    {
+      "id": "freiburg-museum",
+      "name": "Freiburg: Museum Natur und Mensch",
+      "type": "kultur",
+      "region": "Freiburg",
+      "distance": "47,5 km / 57 Min bis Schlossberggarage",
+      "tier": "guenstig",
+      "cost": 5,
+      "summary": "Regenfester Bildungstag; Personen unter 27 Jahren haben nach aktuellem Tarif freien Eintritt.",
+      "goodFor": "Regen / reizärmer / halbtags",
+      "notes": "Nur als Reserve; keine Tagesübernahme. Gruppen sollen vorab angemeldet werden, daher aktuell bedingt.",
+      "suggestion": true,
+      "distanceKm": 47.5,
+      "priceInfo": "unter 27 Jahren frei; regulär 5 €, ermäßigt 3 €",
+      "groupEstimate": "0–15 € Eintritt plus etwa 25 € Parken",
+      "priceStatus": "Tarif, Öffnung und Parktarif geprüft; Gruppenanmeldung nicht erfolgt",
+      "checkedAt": "05.08.2026",
+      "sourceLabel": "Museen Freiburg – Museum Natur und Mensch",
+      "sourceUrl": "https://museen.freiburg.de/museen/mnm-en",
+      "parkingSourceUrl": "",
+      "safetyNote": "Gruppenanmeldung, Stadtverkehr, Parken, Laufweg und Treffpunkte vor Aktivierung bestätigen",
+      "selection": "reserve",
+      "selectionOrder": 2,
+      "visitDay": "Reserve ohne feste Tagesübernahme",
+      "dayId": "",
+      "tariff": null,
+      "routeKm": 47.5,
+      "routeMinutes": 57,
+      "vehicleKm": 190,
+      "departure": "bei Einsatz 08:30",
+      "openingInfo": "Dienstag 10:00–19:00; Mittwoch–Sonntag 10:00–17:00",
+      "parkingInfo": "Schlossberggarage Di–Fr/So 2,50 € je angefangene Stunde; Planwert 25 € für zwei PKW und fünf Stunden",
+      "budgetMin": 25,
+      "budgetMax": 40,
+      "planningStatus": "Reserve; wegen gewünschter Gruppenanmeldung und offener Alterszahl der Betreuenden noch nicht tagesreif",
+      "weatherDecision": "innen wetterrobust; Straßen-/Verkehrslage vor Abfahrt prüfen",
+      "supervisionCheck": "Stadtverkehr, feste Treffpunkte und Verantwortlichkeit der Gruppenleitung bestätigen",
+      "routeSourceUrl": "https://www.google.com/maps/dir/Kirchbergh%C3%BCtte,+Am+Skilift+3,+79682+Todtmoos-Strick/Schlossberggarage,+Schlossbergring+14,+79098+Freiburg",
+      "visits": []
+    },
+    {
+      "id": "freiburg-planetarium",
+      "name": "Planetarium Freiburg",
+      "type": "kultur",
+      "region": "Freiburg",
+      "distance": "ca. 58 km",
+      "tier": "guenstig",
+      "cost": 9,
+      "summary": "Wetterunabhängiges 360°-Kosmoskino mit altersgerechter Programmauswahl.",
+      "goodFor": "Regen / wechselhaft / halbtags",
+      "notes": "Preis und Termin hängen vom gewählten Programm ab; keine Veranstaltung ohne aktuelle Prüfung einplanen",
+      "suggestion": true,
+      "distanceKm": 58,
+      "priceInfo": "aktuell gefundener Programmpreis: regulär 9 €, ermäßigt 6 €",
+      "groupEstimate": "Beispielwert ca. 69 €",
+      "priceStatus": "Beispielpreis geprüft; konkretes Augustprogramm offen",
+      "checkedAt": "04.08.2026",
+      "sourceLabel": "Stadt Freiburg – Planetarium",
+      "sourceUrl": "https://www.freiburg.de/pb/231047.html",
+      "parkingSourceUrl": "",
+      "safetyNote": "Konkreten Termin, Altersfreigabe, Reservierung und Anreise bestätigen",
+      "selection": "",
+      "selectionOrder": 0,
+      "visitDay": "",
+      "dayId": "",
+      "tariff": null,
+      "routeKm": null,
+      "routeMinutes": null,
+      "vehicleKm": null,
+      "departure": "",
+      "openingInfo": "",
+      "parkingInfo": "",
+      "budgetMin": null,
+      "budgetMax": null,
+      "planningStatus": "",
+      "weatherDecision": "",
+      "supervisionCheck": "",
+      "routeSourceUrl": "",
+      "visits": []
+    },
+    {
+      "id": "blackforestline",
+      "name": "BLACKFORESTLINE mit Todtnauer Wasserfall",
+      "type": "ausflug",
+      "region": "Todtnau",
+      "distance": "22,0 km / 27 Min",
+      "tier": "teurer",
+      "cost": 12,
+      "summary": "Hängebrücke als Highlight mit Höhenexposition; Wasserfall ist im Brückenticket enthalten.",
+      "goodFor": "stabiles Wetter / passende Gruppensituation",
+      "notes": "Für die Gruppe mit genau 10 Personen wird das veröffentlichte 10er-Gruppenticket verwendet.",
+      "suggestion": true,
+      "distanceKm": 22,
+      "priceInfo": "6–14 Jahre 9 €, ab 15 Jahre 12 €; veröffentlichter 10er-Gruppenpreis 100 €",
+      "groupEstimate": "100,00 € veröffentlichtes Gruppenticket für genau 10 Personen",
+      "priceStatus": "Tarif geprüft; 10er-Gruppenticket anwendbar; Vorbestellung laut Quelle erst ab 21 Personen",
+      "checkedAt": "09.08.2026",
+      "sourceLabel": "BLACKFORESTLINE – Eintrittspreise",
+      "sourceUrl": "https://blackforestline.de/ueber-die-bruecke/eintrittspreise-und-tickets/",
+      "parkingSourceUrl": "",
+      "safetyNote": "Wind/Gewitter, Höhenstatus, Aufsicht, rutschige Wege und Zwei-Stunden-Parklimit bestätigen",
+      "selection": "hauptziel",
+      "selectionOrder": 2,
+      "visitDay": "So, 16.08.2026",
+      "dayId": "d7",
+      "tariff": {
+        "bands": [
+          {
+            "min": 0,
+            "max": 5,
+            "price": 0
+          },
+          {
+            "min": 6,
+            "max": 14,
+            "price": 9
+          },
+          {
+            "min": 15,
+            "max": null,
+            "price": 12
+          }
+        ],
+        "groupSize": 10,
+        "groupPrice": 100,
+        "extraCost": 0,
+        "sourceDate": "09.08.2026",
+        "useGroupPrice": true
+      },
+      "routeKm": 22,
+      "routeMinutes": 27,
+      "vehicleKm": 88,
+      "departure": "09:00",
+      "openingInfo": "Mai–August 08:00–20:30, letzter Einlass 20:00; Besucherzentrum 10:00–16:00",
+      "parkingInfo": "P1/P2 kostenlos, Parkscheibe und maximal zwei Stunden; Tagesablauf darauf begrenzt",
+      "budgetMin": 100,
+      "budgetMax": 100,
+      "planningStatus": "in Tag 7 übernommen; 10er-Gruppentarif wird für die Kostenplanung verwendet",
+      "weatherDecision": "am Besuchstag 07:30; Sturm/Gewitter schließen die Durchführung aus",
+      "supervisionCheck": "anonymer Höhen-/Angststatus, Buddy-System und feste Treffpunkte müssen bestätigt sein",
+      "routeSourceUrl": "https://www.google.com/maps/dir/Kirchbergh%C3%BCtte,+Am+Skilift+3,+79682+Todtmoos-Strick/Parkplatz+Todtnauer+Wasserfall,+Au%C3%9Fer+Ort+38,+79674+Todtnau",
+      "visits": []
+    },
+    {
+      "id": "hasenhorn",
+      "name": "Hasenhorn Coaster Todtnau",
+      "type": "ausflug",
+      "region": "Todtnau",
+      "distance": "16,8 km / 22 Min",
+      "tier": "teurer",
+      "cost": 15,
+      "summary": "Erlebnisausflug mit Bergfahrt und Coaster; Alters- und Größenregeln sind relevant.",
+      "goodFor": "stabiles Wetter / halbtags",
+      "notes": "Alters- und Größenregeln anonym prüfen; Parkplatz an der Talstation ist kostenfrei.",
+      "suggestion": true,
+      "distanceKm": 16.8,
+      "priceInfo": "Kombiticket Bergfahrt + Coaster: 4–15 Jahre 13 €, ab 16 Jahre 15 €",
+      "groupEstimate": "138,00 € Eintritt für 10 Personen; Parkplatz kostenfrei",
+      "priceStatus": "Sommerpreise 2026 und kostenfreier Parkplatz geprüft",
+      "checkedAt": "09.08.2026",
+      "sourceLabel": "Hasenhorn – Sommerpreise 2026",
+      "sourceUrl": "https://www.hasenhorn-rodelbahn.de/preise/",
+      "parkingSourceUrl": "https://www.hochschwarzwald.de/attraktionen/parkplatz-talstation-hasenhorn-65e546a654",
+      "safetyNote": "Größe, Fahrregeln, freiwillige Teilnahme, Wetter, Betrieb und Aufsicht anonym prüfen",
+      "selection": "hauptziel",
+      "selectionOrder": 1,
+      "visitDay": "Do, 13.08.2026",
+      "dayId": "d4",
+      "tariff": {
+        "bands": [
+          {
+            "min": 0,
+            "max": 3,
+            "price": 0
+          },
+          {
+            "min": 4,
+            "max": 15,
+            "price": 13
+          },
+          {
+            "min": 16,
+            "max": null,
+            "price": 15
+          }
+        ],
+        "extraCost": 0,
+        "extraLabel": "Parkplatz kostenfrei",
+        "sourceDate": "09.08.2026",
+        "useGroupPrice": false
+      },
+      "routeKm": 16.8,
+      "routeMinutes": 22,
+      "vehicleKm": 67.2,
+      "departure": "08:15",
+      "openingInfo": "täglich 09:00–16:30; wetter- und betriebsabhängig",
+      "parkingInfo": "Parkplatz Talstation Hasenhorn, Brandenbergstraße 14: kostenfrei (geprüfter Stand 09.08.2026)",
+      "budgetMin": 138,
+      "budgetMax": 138,
+      "planningStatus": "in Tag 4 übernommen; Durchführung bleibt wetter- und personenabhängig",
+      "weatherDecision": "am Besuchstag 07:30; Starkwind/Gewitter/Frost schließen den Betrieb aus",
+      "supervisionCheck": "anonyme Größen-/Fahrfreigabe, Begleitfahrten und freiwillige Teilnahme müssen bestätigt sein",
+      "routeSourceUrl": "https://www.google.com/maps/dir/Kirchbergh%C3%BCtte,+Am+Skilift+3,+79682+Todtmoos-Strick/Hasenhorn+Coaster,+Lindenstra%C3%9Fe+9,+79674+Todtnau",
+      "visits": []
+    },
+    {
+      "id": "steinwasen",
+      "name": "Steinwasen Park",
+      "type": "ausflug",
+      "region": "Oberried",
+      "distance": "ca. 47 km",
+      "tier": "teurer",
+      "cost": 29,
+      "summary": "Tier- und Freizeitpark als ganztägiger Highlight-Ausflug.",
+      "goodFor": "trocken / ganztags",
+      "notes": "Der Preis springt bereits ab 12 Jahren auf den Erwachsenentarif",
+      "suggestion": true,
+      "distanceKm": 47,
+      "priceInfo": "4–11 Jahre 25 €, ab 12 Jahren 29 €",
+      "groupEstimate": "ca. 286–290 €",
+      "priceStatus": "offizieller Tarif und tägliche Öffnung 10–18 Uhr im Reisezeitraum geprüft",
+      "checkedAt": "04.08.2026",
+      "sourceLabel": "Steinwasen Park – Tickets",
+      "sourceUrl": "https://www.steinwasen-park.de/steinwasen-tickets.html",
+      "parkingSourceUrl": "",
+      "safetyNote": "Öffnung, Fahrgeschäfte, Treffpunkte, Reizniveau und Wetter bestätigen",
+      "selection": "",
+      "selectionOrder": 0,
+      "visitDay": "",
+      "dayId": "",
+      "tariff": null,
+      "routeKm": null,
+      "routeMinutes": null,
+      "vehicleKm": null,
+      "departure": "",
+      "openingInfo": "",
+      "parkingInfo": "",
+      "budgetMin": null,
+      "budgetMax": null,
+      "planningStatus": "",
+      "weatherDecision": "",
+      "supervisionCheck": "",
+      "routeSourceUrl": "",
+      "visits": []
+    },
+    {
+      "id": "badeparadies",
+      "name": "Badeparadies Schwarzwald – Galaxy",
+      "type": "ausflug",
+      "region": "Titisee-Neustadt",
+      "distance": "ca. 54 km",
+      "tier": "teurer",
+      "cost": 32,
+      "summary": "Wetterunabhängiges Erlebnisbad; ausschließlich Galaxy als altersgeeigneten Bereich kalkuliert.",
+      "goodFor": "Regen / heiß / ganztags",
+      "notes": "Galaxy ohne Liege; andere Bereiche haben abweichende Altersregeln",
+      "suggestion": true,
+      "distanceKm": 54,
+      "priceInfo": "Jugendliche/Kinder 30 €, Erwachsene 32 €",
+      "groupEstimate": "ca. 306 €",
+      "priceStatus": "Gutscheinpreise und Sommerferienöffnung 09–22 Uhr geprüft",
+      "checkedAt": "04.08.2026",
+      "sourceLabel": "Badeparadies – Öffnungszeiten und Tarife",
+      "sourceUrl": "https://www.badeparadies-schwarzwald.de/de/informationen/oeffnungszeiten-tarife.php",
+      "parkingSourceUrl": "",
+      "safetyNote": "Schwimmstatus, Aufsichtsschlüssel, Scham-/Umkleideschutz, Reservierung und Heimfahrt bestätigen",
+      "selection": "",
+      "selectionOrder": 0,
+      "visitDay": "",
+      "dayId": "",
+      "tariff": null,
+      "routeKm": null,
+      "routeMinutes": null,
+      "vehicleKm": null,
+      "departure": "",
+      "openingInfo": "",
+      "parkingInfo": "",
+      "budgetMin": null,
+      "budgetMax": null,
+      "planningStatus": "",
+      "weatherDecision": "",
+      "supervisionCheck": "",
+      "routeSourceUrl": "",
+      "visits": []
+    },
+    {
+      "id": "rulantica",
+      "name": "Rulantica Wasserwelt",
+      "type": "ausflug",
+      "region": "Rust",
+      "distance": "ca. 105 km",
+      "tier": "teurer",
+      "cost": 54,
+      "summary": "Sehr teurer Ganztagesausflug mit langer Fahrt und hoher Aufsichtsanforderung.",
+      "goodFor": "Highlight / ganztags",
+      "notes": "Dynamische Tagespreise; Verpflegung und Parken nicht enthalten",
+      "suggestion": true,
+      "distanceKm": 105,
+      "priceInfo": "Online-Tagesticket: 4–11 Jahre 38–51 €, ab 12 Jahren 41–54 €",
+      "groupEstimate": "ca. 389–540 €",
+      "priceStatus": "offizielle Preisspannen 2026 geprüft; Besuchstagspreis offen",
+      "checkedAt": "04.08.2026",
+      "sourceLabel": "Rulantica Tickets 2026",
+      "sourceUrl": "https://www.europapark.de/de/rulantica/tickets-angebote/tickets-angebote",
+      "parkingSourceUrl": "",
+      "safetyNote": "Schwimmstatus, Aufsicht, lange Fahrt, Pausen, Buchung und Rückkehrzeit bestätigen",
+      "selection": "",
+      "selectionOrder": 0,
+      "visitDay": "",
+      "dayId": "",
+      "tariff": null,
+      "routeKm": null,
+      "routeMinutes": null,
+      "vehicleKm": null,
+      "departure": "",
+      "openingInfo": "",
+      "parkingInfo": "",
+      "budgetMin": null,
+      "budgetMax": null,
+      "planningStatus": "",
+      "weatherDecision": "",
+      "supervisionCheck": "",
+      "routeSourceUrl": "",
+      "visits": []
+    },
+    {
+      "id": "europa-park",
+      "name": "Europa-Park Rust",
+      "type": "ausflug",
+      "region": "Rust",
+      "distance": "ca. 105 km",
+      "tier": "teurer",
+      "cost": 76,
+      "summary": "Teuerster Highlight-Tag im Suchradius; lange Anreise und dynamische Preise.",
+      "goodFor": "Highlight / ganztags / stabile Gruppe",
+      "notes": "Onlinepreise variieren je Besuchstag; Parken und Verpflegung nicht enthalten",
+      "suggestion": true,
+      "distanceKm": 105,
+      "priceInfo": "Online: 4–11 Jahre 56,50–65 €, ab 12 Jahren 67–76 €",
+      "groupEstimate": "ca. 596,50–760 €",
+      "priceStatus": "offizielle Preisspannen 2026 geprüft; Besuchstagspreis offen",
+      "checkedAt": "04.08.2026",
+      "sourceLabel": "Europa-Park Tickets 2026",
+      "sourceUrl": "https://www.europapark.de/de/freizeitpark/europa-park-tickets-angebote",
+      "parkingSourceUrl": "",
+      "safetyNote": "Buchung, Treffpunkte, Reizniveau, Fahrregeln, lange Fahrt und Rückkehrzeit bestätigen",
+      "selection": "",
+      "selectionOrder": 0,
+      "visitDay": "",
+      "dayId": "",
+      "tariff": null,
+      "routeKm": null,
+      "routeMinutes": null,
+      "vehicleKm": null,
+      "departure": "",
+      "openingInfo": "",
+      "parkingInfo": "",
+      "budgetMin": null,
+      "budgetMax": null,
+      "planningStatus": "",
+      "weatherDecision": "",
+      "supervisionCheck": "",
+      "routeSourceUrl": "",
+      "visits": []
+    }
+  ]
+}
