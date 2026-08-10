@@ -17,19 +17,103 @@ Zeitleiste festgehalten.
 
 ## Pflegeläufe (neueste zuerst)
 
+### 2026-08-10 · Preisrunde über die 21 unbelegten Ziele · Katalog `2026-08-10.1`
+Ziel des Laufs: für jedes Ziel mit `cost_status: unknown` eine offizielle Preisseite
+finden. Ergebnis: **8 von 21 belegt, 13 bleiben bewusst gelb.**
+
+**Neu belegt (7× `known`, 1× `free`):**
+
+| Ziel | Preis | Beleg |
+|---|---|---|
+| Erdmannshöhle Hasel | 7,00 € Erw. / 5,00 € Kind / 22,00 € Familie | Gemeinde Hasel |
+| Besuchsbergwerk Teufelsgrund | 8,00 € / 5,50 € / 25,00 € Familie | Betreiberseite |
+| Heimatmuseum Resenhof Bernau | 6,00 € / 2,00 € Kind | Museumsseite |
+| Steinwasen-Park Oberried | 29,00 € / 25,00 € Kind | Ticketseite |
+| Hasenhorn Coaster Todtnau | 7,00 € nur Coaster, 15,00 € mit Bergbahn | Preisseite |
+| Kandertalbahn | 18,00 € hin und zurück, **Kind 1,00 €** | Zweckverband |
+| Cassiopeia Therme Badenweiler | 16,00 € für 2 Std., 24,00 € Tageskarte | Staatsbad |
+| Stadtmuseum Wehr | **kostenlos** | Förderkreis, wörtlich |
+
+- **Stadtmuseum Wehr** wechselte damit von gelb auf grün, weil der Förderkreis den
+  freien Eintritt wörtlich ausschreibt – das ist der einzige Ampelwechsel nach grün,
+  der nicht auf einer Zahl beruht.
+- **Kandertalbahn**: Der Erwachsenenpreis von 18,00 € sieht teuer aus, begleitete
+  Kinder zahlen aber 1,00 € je Richtung. Für Gruppen mit Kindern ist das eines der
+  günstigsten Ziele überhaupt – deshalb steht das ausdrücklich im Kostenvermerk.
+- **Hasenhorn Coaster**: eingetragen ist der günstigste Weg (7,00 €, Aufstieg zu Fuß),
+  nicht der bequeme (15,00 € mit Bergbahn). Beides steht im Vermerk.
+
+**13 bleiben gelb – mit Begründung statt Leerstelle.** Jeder dieser Einträge hat jetzt
+einen datierten Vermerk, warum kein Preis dasteht, und wo er zu erfragen ist:
+- *Betreiber nennt online keine Preise*: Hoffnungsstollen, Minigolf Todtmoos,
+  Hotzenwald-Alpaka, Schloss Bonndorf, Klettgau-Museum Tiengen, Segerhof Wembach,
+  Schlossberg Hornberg, Loipen Todtmoos.
+- *Preis bewusst nicht fest*: Skigebiet Feldberg – dynamische Tagespreise, nur im
+  Shop tagesaktuell; fest steht nur die Jahreskarte (480,00 €).
+- *Technisch nicht auslesbar*: Schwarzwaldzoo Waldkirch (Preisliste nur als Bild),
+  Vogtsbauernhof Gutach (Preistabelle wird per Skript nachgeladen, war weder im
+  Seitentext noch im Browser sichtbar). Beim Vogtsbauernhof nennen Drittportale
+  13,00 € – **bewusst nicht als belegt eingetragen**, nach der Lehre aus dem
+  Wiedener-Eck-Fehler: keine Quelle als offiziell führen, die nicht selbst gelesen wurde.
+- *Geparkt*: Radon Revital Bad Menzenschwand, geschlossen, Wiedervorlage 2026-11-08.
+- **Teilbefund Wintersportplatz Todtmoos:** Die Gemeinde belegt „Schlittenfahrt am
+  Rodelhang ist kostenlos", nennt für die Lifte aber nur „Preise auf Anfrage". Der
+  Eintrag bleibt gelb, weist den Rodelhang jetzt aber als planbar kostenfreien Teil aus.
+
+**Bilanz der 100 Ziele:** 50 kostenlos, 37 mit belegtem Preis, 13 offen
+(vorher 49 / 30 / 21). Quellen: 129 eindeutige URLs.
+
+**Linkcheck (130 URLs, 122 erreichbar):**
+- **Echter Fehler gefunden und behoben:** Vita Classica Bad Krozingen – die
+  hinterlegte URL enthielt ein „Ö" im Pfad und lief auf 404. Der Betreiber nutzt
+  `Oeffnungszeiten` in ASCII-Schreibweise; korrigiert und gegengeprüft.
+- Die übrigen 7 sind die bekannten Bot-Sperren (hochschwarzwald.de, basel.com),
+  die im echten Browser einwandfrei laden. Keine fälligen Reviews.
+
+---
+
+### 2026-08-10 · Mobil-Nachbesserung: Ergebnisse kommen zuerst
+Nachmessung nach dem Bedienelement-Lauf vom Vortag brachte zwei echte Ärgernisse ans Licht:
+
+- **Man sah auf dem Handy kein einziges Ziel, ohne zu scrollen.** Gemessen bei 375 ×
+  812 px lag die erste Karte bei **1247 px**. Aufteilung: Filterpanel 694 px,
+  Ampel-Erklärung 359 px, Neuigkeiten 158 px, dazu Kopf und Hero.
+- **Das Sortierfeld hatte 13,6 px Schriftgröße.** Unter 16 px zoomt iOS beim Antippen
+  in die Seite hinein und kommt nicht von selbst zurück.
+
+**Behoben:**
+- Filterpanel startet unter 880 px eingeklappt, hinter einem 48 px hohen Knopf.
+  Der Knopf zeigt einen Zähler, wenn Filter gesetzt sind – ein zugeklappter,
+  unbemerkt aktiver Filter wäre die schlechtere Falle als der lange Scrollweg.
+- Neuigkeiten und Ampel-Erklärung rutschen unter 880 px per `order` unter die
+  Ergebnisse. Beide bleiben erhalten, stehen aber nicht mehr im Weg.
+- Alle Eingabe- und Auswahlfelder auf 16 px, damit iOS nicht hineinzoomt.
+- Der Touch-Medienblock stand zu früh im Stylesheet und wurde von den allgemeinen
+  Chip- und Feldregeln überschrieben; er steht jetzt am Ende.
+
+**Nachgemessen:** erste Karte bei **692 px** statt 1247 px, eine Karte ohne Scrollen
+sichtbar, kein Überlauf, keine Konsolenfehler. Umschalter, Zähler und Zurücksetzen
+geprüft: Voreinstellung „Regentag" → Zähler 1, 33 Treffer; Zurücksetzen → Zähler aus,
+100 Treffer. Auf dem Desktop unverändert: Knopf versteckt, Filter klebend, normale
+Reihenfolge. Der Zustandswechsel schaltet nur bei echtem Wechsel zwischen schmal und
+breit um – auf dem Handy löst schon die eingeblendete Tastatur ein Resize aus, das
+darf den Filter nicht unter den Fingern zuklappen.
+
+---
+
 ### 2026-08-09 · Mobil-Audit: Bedienelemente fingerfreundlich
 - **Layout war bereits mobiltauglich:** `viewport`-Meta korrekt, bei 375 px kein
   horizontaler Überlauf, Raster fällt auf eine Spalte, das Filterpanel wird unter
   880 px `static` (kein Eigen-Scroll, kein Klebe-Effekt), Überschrift skaliert per `clamp`.
-- **Befund:** die Bedienelemente waren zu klein fÜr den Daumen. Der Entfernungs-
+- **Befund:** die Bedienelemente waren zu klein für den Daumen. Der Entfernungs-
   Schieberegler maß nur 16 px Höhe, Kategorie-Chips 31 px, Voreinstellungen 33 px,
-  Kästchen und Auswahlfeld unter 40 px. Empfohlenes Mindestmaß fÜr Touch: 44 px.
-- **Behoben** ueber einen Medienblock `(pointer: coarse), (max-width: 880px)`:
+  Kästchen und Auswahlfeld unter 40 px. Empfohlenes Mindestmaß für Touch: 44 px.
+- **Behoben** über einen Medienblock `(pointer: coarse), (max-width: 880px)`:
   Schieberegler 44 px (Griff 26 px), Chips und Voreinstellungen 40 px, Kästchenzeilen
-  44 px, Sortierauswahl 44 px, ZurÜcksetzen 46 px, Themenknopf 44 px.
+  44 px, Sortierauswahl 44 px, Zurücksetzen 46 px, Themenknopf 44 px.
 - **Nachgemessen:** 375 px und 768 px, jeweils kein Überlauf, kein Bedienelement mehr
   unter 40 px, keine Konsolenfehler. Auf dem Tablet zwei Karten pro Reihe.
-- Reine Darstellungsänderung, Katalog unberÜhrt.
+- Reine Darstellungsänderung, Katalog unberührt.
 
 ### 2026-08-09 · Letzter Beleg nachgezogen – 100/100 amtlich
 - **Wiedener Eck** war das einzige Ziel ohne amtliche Einzelquelle. Jetzt belegt durch die
