@@ -1,4 +1,4 @@
-# Redaktionswerkzeug: prueft alle Quell-, Booking- und Event-URLs des Katalogs
+﻿# Redaktionswerkzeug: prueft alle Quell-, Booking- und Event-URLs des Katalogs
 # auf Erreichbarkeit und listet faellige redaktionelle Reviews.
 #
 #   powershell -ExecutionPolicy Bypass -File .\check-links.ps1
